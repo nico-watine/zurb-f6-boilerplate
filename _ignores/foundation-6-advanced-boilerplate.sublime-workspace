@@ -1,0 +1,1851 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ext",
+				"_extras.scss"
+			],
+			[
+				"extr",
+				"extras/"
+			],
+			[
+				"vert",
+				"vertical-center"
+			],
+			[
+				"tour",
+				"_tournament-hero.scss"
+			],
+			[
+				"mixin",
+				"mixin	@mixin"
+			],
+			[
+				"mixi",
+				"_mixins.scss"
+			],
+			[
+				"index",
+				"index/"
+			],
+			[
+				"extra",
+				"_extras.scss"
+			],
+			[
+				"font",
+				"_fonts.scss"
+			],
+			[
+				"med",
+				"mediaq	@media"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"ind",
+				"_index.2.scss"
+			],
+			[
+				"zoom",
+				"_zoomOut.scss"
+			],
+			[
+				"zoo",
+				"zooming_exits/"
+			],
+			[
+				"inde",
+				"_index.scss"
+			],
+			[
+				"me",
+				"_menu.scss"
+			],
+			[
+				"sli",
+				"_slick-theme.scss"
+			],
+			[
+				"men",
+				"_menu2.scss"
+			],
+			[
+				"in",
+				"_index.scss"
+			],
+			[
+				"comp",
+				"components/"
+			],
+			[
+				"b",
+				"bower_components/"
+			],
+			[
+				"menu",
+				"menu-m.html"
+			],
+			[
+				"lo",
+				"_location.scss"
+			],
+			[
+				"g",
+				"_gmap.scss"
+			],
+			[
+				"jq",
+				"_jquery.fancybox-buttons.scss"
+			],
+			[
+				"fan",
+				"_jquery.fancybox.scss"
+			],
+			[
+				"n",
+				"normalize.scss"
+			],
+			[
+				"fon",
+				"_fonts.sass"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"tha",
+				"_thanks.scss"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"ab",
+				"_about.scss"
+			],
+			[
+				"bor",
+				"border-box"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"include",
+				"include	@include"
+			],
+			[
+				"f",
+				"fastclick-load.js"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"st",
+				"style.css"
+			],
+			[
+				"c",
+				"contact-template/"
+			],
+			[
+				"p",
+				"twitter.png	w:70 h:70"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"borr",
+				"border-right"
+			],
+			[
+				"ba",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/src/assets/scss/_settings.scss",
+			"settings":
+			{
+				"buffer_size": 14552,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/src/assets/scss/app.scss",
+			"settings":
+			{
+				"buffer_size": 1438,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/config.yml",
+			"settings":
+			{
+				"buffer_size": 2638,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/gulpfile.babel.js",
+			"settings":
+			{
+				"buffer_size": 4141,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "original-gulpfile.babel.js",
+			"settings":
+			{
+				"buffer_size": 3983,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"last_filter": "html",
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			],
+			[
+				"fetc",
+				"Fetch: Manage"
+			],
+			[
+				"fe",
+				"Fetch: File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"copy",
+				"File: Copy as Tag style"
+			],
+			[
+				"browser",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"proj",
+				"Project: Save As"
+			],
+			[
+				"project",
+				"Project: Refresh Folders"
+			],
+			[
+				"bro",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"brow",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"bros",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static",
+		"/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/dist",
+		"/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/dist/assets",
+		"/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/dist/assets/css",
+		"/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/src",
+		"/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/src/assets",
+		"/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/src/assets/css",
+		"/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/src/assets/scss"
+	],
+	"file_history":
+	[
+		"/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/src/assets/css/app.css",
+		"/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/dist/assets/css/app.css",
+		"/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/_ignores/original-gulpfile.babel.js",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/img/assets/bg/bg.png",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/index.php",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/blocks/_footer.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/_ignores/footer.html",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/cabc-sports.php",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/style.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/components/extras/_sticky-footer.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/cabc-golf-tournament-2016.php",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/sitemap.xml",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/css/style.css",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/bower_components/foundation-sites/scss/components/_visibility.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/_ignores/cdn-url.html",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/js/src/base.js",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/blocks/_body.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/js/app-min.js",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/js/app.js",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/js/src/what-input.js",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/bower_components/foundation-sites/js/foundation.util.keyboard.js",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/js/src/tournament-tabs.js",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/_settings.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/components/_fonts.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/pages/golf-tournament/main/_tournament-hero.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/_ignores/cdn-url.txt",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/app.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/pages/golf-tournament/main/_tournament-deets.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/pages/golf-tournament/main/_signup-contact.scss",
+		"/Users/nico/Library/Caches/com.apple.Safari/fsCachedData/D669493E-D51C-4719-9D8D-91E592CCA748",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/blocks/_nav.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/components/_utility-classes.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/blocks/_header.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/pages/index/_golf-tournament.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/pages/golf-tournament/main/_tournament-tag.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/pages/golf-tournament/main/_testimonial.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/_mixins.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/components/_typography.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/dev/_grid.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/pages/index/_index.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/pages/golf-tournament/main/_sponsorships.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/components/_buttons.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/pages/golf-tournament/_golf-tournament.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/pages/golf-tournament/main/_main.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/scss/pages/golf-tournament/_main.scss",
+		"/Users/nico/SNC Projects/CABC/Project Resources/Graphic Assets/Vector Elements/Golf-tournament-badge/13248-NOWILW.svg",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/_ignores/google-tracking-id.html",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/bower_components/motion-ui/src/util/_keyframe.scss",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/_ignores/facebook-script.html",
+		"/Users/nico/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/_ignores/reference-welcome-text.txt",
+		"/Users/nico/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/nico/Web Development/Foundation/Foundation 6/foundation-6.static/dev/index.html",
+		"/Users/nico/Web Development/Foundation/Foundation 6/foundation-6.static/scss/components/_fonts.scss",
+		"/Users/nico/Web Development/Foundation/Foundation 6/foundation-6.static/humans.txt",
+		"/Users/nico/Web Development/Foundation/Foundation 5/foundation-5.static/scss/components/_extras.scss",
+		"/Users/nico/Web Development/Foundation/Foundation 5/foundation-5.static/scss/app.scss",
+		"/Users/nico/Web Development/Foundation/Foundation 5/foundation-5.static/css/app.css",
+		"/Users/nico/Web Development/Foundation/Foundation 5/foundation-5.static/scss/components/extras/_code-blocks.scss",
+		"/Users/nico/Web Development/Foundation/Foundation 5/foundation-5.static/bower_components/foundation/scss/foundation/components/_grid.scss",
+		"/Users/nico/Web Development/Foundation/Foundation 5/foundation-5.static/_ignores/foundation-5-boilerplate.sublime-project",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/wedding-details/ceremony.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/wedding-details.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_includes/components/scripts/jquery.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/pages/proposal-story/_lock-bridge.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_config.yml",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/settings/_settings.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/pages/proposal-story/_sacre-coeur.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/proposal-story/lockbridge-notredame-louvre-sacrecoeur.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/components/_typography.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/pages/proposal-story/_proposal-opportunity-section.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/pages/proposal-story/_proposal-story.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/wedding-details/ceremony-reception-rsvp-registry.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/proposal-story.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/wedding-details/ceremony-reception-rsvp-registry-thanks-modal.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/pages/proposal-story/_louvre-gardens.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/pages/proposal-story/_notre-dame.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/pages/wedding-details/_main.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/wedding-details/reception.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_ignores/short-urls.txt",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/components/_fonts.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_includes/components/head.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/proposal-story/lockbridge-notredame-louvre.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/fonts/font.css",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/pages/wedding-details/_wedding-details.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/pages/proposal-story/_sacre-coeur-dark.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/css/style.css",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/assets/neat/settings/_grid.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_ignores/to-do.txt",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/proposal-story/lockbridge-notredame-louvre-sacrecoeur-dark.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/proposal-story/gyfcat-lockbridge-notredame-louvre.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/pages/proposal-story/_gfycat.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/style.scss",
+		"/Users/nico/Desktop/beta.html",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/pages/proposal-story/_parallax-ring.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/assets/neat/_grid-settings.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/js/src/proposal-story.js",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/pages/proposal-story/_videos.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/blocks/_nav.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/js/src/details.js",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/proposal-story/final-proposal.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/proposal-story/3-opportunities.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/js/src/scripts.js",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_includes/components/scripts/google-tracking.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/blocks/_header.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/index.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/index/index.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/php/submit-rsvp.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/index/bootstrap-thank-you.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/-wedding-details/index.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/-wedding-details/thank-you.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/thank-you.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/wedding-details/ceremony-reception-rsvp-registry-thanks.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_ignores/bootstrap-modal-url.txt",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/assets/bower_components/boostrap-sass/assets/javascripts/bootstrap/tab.js",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_includes/components/scripts/scripts.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/index/magnific-thank-you.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/assets/bower_components/magnific-popup/README.md",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/pages/wedding-details/_body.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/index/thank-you.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_site/wedding-details.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/wedding-details/registry.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/pages/wedding-details/_tabs.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/pages/wedding-details/_registry.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_ignores/honeyfund.txt",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_layouts/wedding-details/ceremony-reception-rsvp.php",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/pages/wedding-details/_rsvp.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/scss/components/_buttons.scss",
+		"/Users/nico/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/assets/neat/settings/_visual-grid.scss"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"666666",
+			"77479",
+			"Blvd",
+			"Royale",
+			"Palm",
+			"4400",
+			"\"/img",
+			" aria-selected=\"true\"",
+			"motiodn",
+			"one_third",
+			"export-cabc",
+			"medium",
+			"480",
+			"none",
+			"</h3>",
+			"title\"",
+			"title",
+			"h3",
+			"href",
+			"tabs-title",
+			"title-",
+			" is-active",
+			"when",
+			"fonts",
+			"/fonts",
+			"cabc",
+			"wrapper",
+			"content-box",
+			"medium",
+			"</span>",
+			"<span>",
+			"h4",
+			"line-hei",
+			"image",
+			"HAVES",
+			"lineh",
+			"line",
+			"height",
+			"line-h",
+			"width",
+			"bower_components",
+			"medium-6",
+			"large-16",
+			"body ",
+			"img",
+			"canvas ",
+			"video",
+			" video ",
+			"video ",
+			"vertical-align: mi",
+			"textarea",
+			"primary-color",
+			"spacing",
+			"optim",
+			"line-height",
+			"body-font-family",
+			"33",
+			"one-third",
+			"large-12",
+			"1000",
+			"12",
+			"column",
+			"gutt",
+			"img-",
+			"Cœur",
+			"Sacré",
+			"h1",
+			"100",
+			"last",
+			"/img",
+			"avenir",
+			"proposal-story/notre-dame/notre-dame.jpg",
+			"disk1s2",
+			"diskutil unmount /dev/disk1",
+			"-facade",
+			"corinne",
+			"selfie",
+			"top",
+			"21.875em",
+			"750",
+			"thanks",
+			"thank-you",
+			"thank",
+			"thanks",
+			"myModal",
+			"data-toggle=\"tab\" ",
+			"index",
+			" style=\"text-align: left;\"",
+			"teamwatine",
+			"h4",
+			"center",
+			"njwatine@gmail.com",
+			"18",
+			"30",
+			"530",
+			"900",
+			"<br>",
+			"attending",
+			"attendance",
+			"span",
+			"site",
+			"0px",
+			"[fontawesome",
+			"em",
+			"h3",
+			"650",
+			"400",
+			"530",
+			"400",
+			"530",
+			"location-box",
+			"container-tit",
+			"content-container",
+			"/img",
+			"h2",
+			"0px",
+			"3px",
+			"text-shadow",
+			"tab-button ",
+			"text-shadow ",
+			"white ",
+			"max",
+			"888",
+			"div",
+			"max-400",
+			"800",
+			"420",
+			"400"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"http://cdn.studionclient.rocks/project/cabc/img",
+			"large-12",
+			"#{$url}/img",
+			"<ul class=\"footer-menu\">",
+			"header",
+			"thedeckonfountainview",
+			"posts/video-bg/",
+			"",
+			"url('../img/fancybox/",
+			"url('/img/fancybox/",
+			"",
+			"http://img.studioncreations.com/js/",
+			"http://img.studioncreations.com/img/portfolio",
+			"/contact",
+			"/contact.html",
+			"",
+			"<br>",
+			"",
+			".",
+			"#dmesa-hover",
+			"max-device-width",
+			"min-device-width",
+			"services-header",
+			"page-header",
+			"css"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/src/assets/scss/_settings.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base-16.ocean-dark(custom).tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/src/assets/scss/app.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								328,
+								328
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base-16.ocean-dark(custom).tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2638,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								239,
+								239
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base-16.ocean-dark(custom).tmTheme",
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/gulpfile.babel.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3908,
+								3908
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base-16.ocean-dark(custom).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2104.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "original-gulpfile.babel.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3983,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base-16.ocean-dark(custom).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "foundation-6-advanced-boilerplate.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sett",
+				"src/assets/scss/_settings.scss"
+			],
+			[
+				"set",
+				"scss/_settings.scss"
+			],
+			[
+				"bods",
+				"scss/blocks/_body.scss"
+			],
+			[
+				"20",
+				"cabc-golf-tournament-2016.php"
+			],
+			[
+				"ca",
+				"cabc-sports.php"
+			],
+			[
+				"in",
+				"index.php"
+			],
+			[
+				"ro",
+				"robots.txt"
+			],
+			[
+				"foos",
+				"scss/blocks/_footer.scss"
+			],
+			[
+				"sit",
+				"sitemap.xml"
+			],
+			[
+				"sti",
+				"scss/components/extras/_sticky-footer.scss"
+			],
+			[
+				"sts",
+				"scss/style.scss"
+			],
+			[
+				"foo",
+				"_ignores/footer.html"
+			],
+			[
+				"stcs",
+				"css/style.css"
+			],
+			[
+				"fouvisi",
+				"bower_components/foundation-sites/scss/components/_visibility.scss"
+			],
+			[
+				"st",
+				"css/style.css"
+			],
+			[
+				"stc",
+				"css/style.css"
+			],
+			[
+				"cd",
+				"_ignores/cdn-url.html"
+			],
+			[
+				"bod",
+				"scss/blocks/_body.scss"
+			],
+			[
+				"tour",
+				"js/src/tournament-tabs.js"
+			],
+			[
+				"appj",
+				"js/app.js"
+			],
+			[
+				"foukey",
+				"bower_components/foundation-sites/js/foundation.util.keyboard.js"
+			],
+			[
+				"cab",
+				"cabc-sports.php"
+			],
+			[
+				"font",
+				"scss/components/_fonts.scss"
+			],
+			[
+				"inhero",
+				"scss/pages/golf-tournament/main/_tournament-hero.scss"
+			],
+			[
+				"golp",
+				"cabc-golf-tournament-2016.php"
+			],
+			[
+				"sig",
+				"scss/pages/golf-tournament/main/_signup-contact.scss"
+			],
+			[
+				"dee",
+				"scss/pages/golf-tournament/main/_tournament-deets.scss"
+			],
+			[
+				"ap",
+				"scss/app.scss"
+			],
+			[
+				"hea",
+				"scss/blocks/_header.scss"
+			],
+			[
+				"test",
+				"scss/pages/golf-tournament/main/_testimonial.scss"
+			],
+			[
+				"deet",
+				"scss/pages/golf-tournament/main/_tournament-deets.scss"
+			],
+			[
+				"tag",
+				"scss/pages/golf-tournament/main/_tournament-tag.scss"
+			],
+			[
+				"na",
+				"scss/blocks/_nav.scss"
+			],
+			[
+				"201",
+				"cabc-golf-tournament-2016.php"
+			],
+			[
+				"nav",
+				"scss/blocks/_nav.scss"
+			],
+			[
+				"tou",
+				"scss/pages/index/_golf-tournament.scss"
+			],
+			[
+				"golfher",
+				"scss/pages/golf-tournament/main/_tournament-hero.scss"
+			],
+			[
+				"ut",
+				"scss/components/_utility-classes.scss"
+			],
+			[
+				"cabcsp",
+				"cabc-sports.php"
+			],
+			[
+				"aps",
+				"scss/app.scss"
+			],
+			[
+				"main",
+				"scss/pages/golf-tournament/main/_main.scss"
+			],
+			[
+				"mains",
+				"scss/pages/golf-tournament/main/_main.scss"
+			],
+			[
+				"c",
+				"cabc-golf-tournament-2016.php"
+			],
+			[
+				"golf",
+				"scss/pages/golf-tournament/_main.scss"
+			],
+			[
+				"golfsc",
+				"scss/pages/golf-tournament/_main.scss"
+			],
+			[
+				"fonts",
+				"scss/components/_fonts.scss"
+			],
+			[
+				"uti",
+				"scss/components/_utility-classes.scss"
+			],
+			[
+				"app",
+				"scss/app.scss"
+			],
+			[
+				"typo",
+				"scss/components/_typography.scss"
+			],
+			[
+				"gol",
+				"scss/pages/index/_golf-tournament.scss"
+			],
+			[
+				"typ",
+				"scss/components/_typography.scss"
+			],
+			[
+				"ins",
+				"scss/pages/index/_index.scss"
+			],
+			[
+				"insc",
+				"scss/pages/index/_index.scss"
+			],
+			[
+				"git",
+				"_ignores/google-tracking-id.html"
+			],
+			[
+				"dev",
+				"scss/dev/_grid.scss"
+			],
+			[
+				"mixi",
+				"scss/_mixins.scss"
+			],
+			[
+				"sk",
+				"bower_components/motion-ui/src/util/_keyframe.scss"
+			],
+			[
+				"apps",
+				"scss/app.scss"
+			],
+			[
+				"ty",
+				"scss/components/_typography.scss"
+			],
+			[
+				"grip",
+				"dev/grid.php"
+			],
+			[
+				"devsc",
+				"scss/dev/_grid.scss"
+			],
+			[
+				"hu",
+				"humans.txt"
+			],
+			[
+				"a",
+				"scss/app.scss"
+			],
+			[
+				"appcs",
+				"css/app.css"
+			],
+			[
+				"appc",
+				"css/app.css"
+			],
+			[
+				"code",
+				"scss/components/extras/_code-blocks.scss"
+			],
+			[
+				"gridscs",
+				"bower_components/foundation/scss/foundation/components/_grid.scss"
+			],
+			[
+				"gris",
+				"scss/dev/_grid.scss"
+			],
+			[
+				"conf",
+				"_config.yml"
+			],
+			[
+				"thankmo",
+				"_layouts/wedding-details/ceremony-reception-rsvp-registry-thanks-modal.php"
+			],
+			[
+				"wedp",
+				"wedding-details.php"
+			],
+			[
+				"wedbo",
+				"scss/pages/wedding-details/_body.scss"
+			],
+			[
+				"rece",
+				"_layouts/wedding-details/reception.php"
+			],
+			[
+				"wed",
+				"wedding-details.php"
+			],
+			[
+				"grise",
+				"assets/neat/_grid-settings.scss"
+			],
+			[
+				"wedmai",
+				"scss/pages/wedding-details/_main.scss"
+			],
+			[
+				"detsbo",
+				"scss/pages/wedding-details/_body.scss"
+			],
+			[
+				"detasc",
+				"scss/pages/wedding-details/_wedding-details.scss"
+			],
+			[
+				"recepsc",
+				"scss/pages/wedding-details/_reception.scss"
+			],
+			[
+				"wedd",
+				"wedding-details.php"
+			],
+			[
+				"sac",
+				"scss/pages/proposal-story/_sacre-coeur.scss"
+			],
+			[
+				"pro",
+				"proposal-story.php"
+			],
+			[
+				"proj",
+				"js/src/proposal-story.js"
+			],
+			[
+				"headp",
+				"_includes/components/head.php"
+			],
+			[
+				"jque",
+				"_includes/components/scripts/jquery.php"
+			],
+			[
+				"jq",
+				"_includes/components/scripts/jquery.php"
+			],
+			[
+				"para",
+				"scss/pages/proposal-story/_parallax-ring.scss"
+			],
+			[
+				"propojs",
+				"js/src/proposal-story.js"
+			],
+			[
+				"vid",
+				"scss/pages/proposal-story/_videos.scss"
+			],
+			[
+				"vide",
+				"scss/pages/proposal-story/_videos.scss"
+			],
+			[
+				"gfys",
+				"scss/pages/proposal-story/_gfycat.scss"
+			],
+			[
+				"thank",
+				"_layouts/wedding-details/ceremony-reception-rsvp-registry-thanks-modal.php"
+			],
+			[
+				"cere",
+				"_layouts/wedding-details/ceremony-reception-rsvp-registry.php"
+			],
+			[
+				"proscs",
+				"scss/pages/proposal-story/_proposal-story.scss"
+			],
+			[
+				"sacr",
+				"scss/pages/proposal-story/_sacre-coeur.scss"
+			],
+			[
+				"laypo",
+				"_layouts/proposal-story/lockbridge-notredame-louvre-sacrecoeur.php"
+			],
+			[
+				"prosc",
+				"scss/pages/proposal-story/_proposal-story.scss"
+			],
+			[
+				"lockscs",
+				"scss/pages/proposal-story/_lock-bridge.scss"
+			],
+			[
+				"notr",
+				"scss/pages/proposal-story/_notre-dame.scss"
+			],
+			[
+				"louv",
+				"scss/pages/proposal-story/_louvre-gardens.scss"
+			],
+			[
+				"fon",
+				"scss/components/_fonts.scss"
+			],
+			[
+				"detascs",
+				"scss/pages/wedding-details/_wedding-details.scss"
+			],
+			[
+				"fontscss",
+				"fonts/font.css"
+			],
+			[
+				"proploc",
+				"_layouts/proposal-story/lockbridge-notredame-louvre.php"
+			],
+			[
+				"lco",
+				"_layouts/proposal-story/lockbridge-notredame-louvre.php"
+			],
+			[
+				"pr",
+				"proposal-story.php"
+			],
+			[
+				"wedsc",
+				"scss/pages/wedding-details/_wedding-details.scss"
+			],
+			[
+				"laycere",
+				"_layouts/wedding-details/ceremony.php"
+			],
+			[
+				"lock",
+				"_layouts/proposal-story/lockbridge-notredame-louvre.php"
+			],
+			[
+				"grid",
+				"assets/neat/settings/_grid.scss"
+			],
+			[
+				"ringsc",
+				"scss/pages/proposal-story/_parallax-ring.scss"
+			],
+			[
+				"laylo",
+				"_layouts/proposal-story/lockbridge-notredame-louvre.php"
+			],
+			[
+				"dark",
+				"_layouts/proposal-story/lockbridge-notredame-louvre-sacrecoeur-dark.php"
+			],
+			[
+				"gfy",
+				"_layouts/proposal-story/gyfcat-lockbridge-notredame-louvre.php"
+			],
+			[
+				"rings",
+				"scss/pages/proposal-story/_parallax-ring.scss"
+			],
+			[
+				"",
+				"_config.yml"
+			],
+			[
+				"con",
+				"_config.yml"
+			],
+			[
+				"url",
+				"_ignores/short-urls.txt"
+			],
+			[
+				"griset",
+				"assets/neat/_grid-settings.scss"
+			],
+			[
+				"scr",
+				"js/src/scripts.js"
+			],
+			[
+				"projs",
+				"js/src/proposal-story.js"
+			],
+			[
+				"dejs",
+				"js/src/details.js"
+			],
+			[
+				"dej",
+				"js/src/details.js"
+			],
+			[
+				"det",
+				"js/src/details.js"
+			],
+			[
+				"laywedd",
+				"_layouts/wedding-details/ceremony-reception-rsvp-registry-thanks-modal.php"
+			],
+			[
+				"scrij",
+				"js/src/scripts.js"
+			],
+			[
+				"layprop",
+				"_layouts/proposal-story/final-proposal.php"
+			],
+			[
+				"go",
+				"_includes/components/scripts/google-tracking.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "ca",
+		"selected_items":
+		[
+			[
+				"ca",
+				"~/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/_ignores/cabc.sublime-project"
+			],
+			[
+				"h",
+				"~/SNC Projects/Heights of Health/Site Folder/heightsofhealth.com/_ignores/heights-of-health.sublime-project"
+			],
+			[
+				"de",
+				"~/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/_ignores/deck.sublime-project"
+			],
+			[
+				"bl",
+				"~/SNC Projects/Studio N Creations/Site Folder/blog.studioncreations.com/_ignores/blog-snc-jekyll.sublime-project"
+			],
+			[
+				"s",
+				"~/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/_ignores/snc.sublime-project"
+			],
+			[
+				"he",
+				"~/SNC Projects/Heights of Health/Site Folder/heightsofhealth.com/_ignores/heights-of-health.sublime-project"
+			],
+			[
+				"sn",
+				"~/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/_ignores/snc.sublime-project"
+			],
+			[
+				"e",
+				"~/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_ignores/engaged.sublime-project"
+			],
+			[
+				"z",
+				"~/SNC Projects/Zaraza Design/Site Folder/zarazadesign.com/htdocs/_ignores/zaraza-design.sublime-project"
+			],
+			[
+				"N",
+				"~/SNC Projects/nicowatine.me/Site Folder/nicowatine.me/_ignores/nico.jekyll.sublime-project"
+			],
+			[
+				"new",
+				"~/Web Development/New Project/Site Folder/new-project.com/_ignores/newproject.sublime-project"
+			],
+			[
+				"ne",
+				"~/Web Development/New Project/Site Folder/new-project.com/_ignores/newproject.sublime-project"
+			],
+			[
+				"f",
+				"~/Web Development/Foundation/Foundation 6/foundation-6.static/_ignores/foundation-6-boilerplate.sublime-workspace"
+			],
+			[
+				"dr",
+				"~/SNC Projects/Cross Eye Centers/Site Folder/drcross.com/_ignores/drcross.sublime-project"
+			],
+			[
+				"c",
+				"~/SNC Projects/CABC/Site Folder/clementsathleticboosterclub.org/_ignores/cabc.sublime-project"
+			],
+			[
+				"lp",
+				"~/SNC Projects/Lemon Peel Facial/Site Folder/lpf.static/_ignores/lpf.static.sublime-project"
+			],
+			[
+				"ni",
+				"~/SNC Projects/nicowatine.me/Site Folder/nicowatine.me/_ignores/nico.static.sublime-project"
+			],
+			[
+				"b",
+				"~/SNC Projects/Studio N Creations/Site Folder/blog.studioncreations.com/_ignores/blog-snc-static.sublime-project"
+			],
+			[
+				"j",
+				"~/SNC Projects/Jardin de France/Site Folder/jardindefrancetx.com/_ignores/jdftx.sublime-project"
+			],
+			[
+				"d",
+				"~/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/_ignores/deck.sublime-project"
+			],
+			[
+				"n",
+				"~/SNC Projects/nicowatine.me/Site Folder/nicowatine.me/_ignores/nico.static.sublime-project"
+			],
+			[
+				"cl",
+				"~/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/_ignores/client-snc-static.sublime-project"
+			],
+			[
+				"h5",
+				"~/Web Development/HTML5 Boiler Plate/html5-boilerplate/dist/h5bp.sublime-project"
+			],
+			[
+				"en",
+				"~/SNC Projects/WeGotEngagedIn.Paris/Site Folder/wegotengagedin.paris/_ignores/engaged.sublime-project"
+			],
+			[
+				"jd",
+				"~/SNC Projects/Jardin de France/Site Folder/jardindefrancetx.com/_ignores/jdftx.sublime-project"
+			],
+			[
+				"jdf",
+				"~/SNC Projects/Jardin de France/Site Folder/jardindefrancetx.com/_ignores/jdftx.sublime-project"
+			],
+			[
+				"liwp",
+				"~/SNC Projects/Lisa Esposito/Site Folder/lisa.wp/_ignores/lisa.wp.sublime-project"
+			],
+			[
+				"g",
+				"~/SNC Projects/GreencareTX/Site Folder/greencaretx.com/_ignores/gctx.sublime-project"
+			],
+			[
+				"",
+				"~/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/_ignores/deck.sublime-project"
+			],
+			[
+				"snb",
+				"~/SNC Projects/Studio N Creations/Site Folder/beta.snc.com/_ignores/snc-beta.sublime-project"
+			],
+			[
+				"l",
+				"~/SNC Projects/Lisa Esposito/Site Folder/lisaesposito.com/_ignores/lisa.sublime-project"
+			],
+			[
+				"snc",
+				"~/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/_ignores/snc.sublime-project"
+			],
+			[
+				"gc",
+				"~/SNC Projects/GreencareTX/Site Folder/gctx2/_ignores/gctx2.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
