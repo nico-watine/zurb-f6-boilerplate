@@ -1,19 +1,34 @@
 {{!-- This is the base layout for your project, and will be used on every page. --}}
 
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
-    <link rel="stylesheet" href="{{root}}/css/app.css">
-  </head>
-  <body>
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" class="no-js" lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Page Title | Foundation for Sites ADVANCED</title>
+	<meta name="description" content="Page description for search results &amp; social shares goes here.">
+	<link rel="canonical" href="http://foundation-6-advanced.static" />
+	<link rel="author" href="/humans.txt">
 
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-    {{> body}}
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	<link rel="icon" href="/android-chrome-192x192.png" sizes="192x192">
 
-    <script src="{{root}}/js/app-min.js"></script>
-  </body>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Page Title" />
+	<meta property="og:description" content="Page description for search results &amp; social shares goes here." />
+	<meta property="og:url" content="http://foundation-6-advanced.static" />
+	<meta property="og:site_name" content="Foundation for Sites ADVANCED" />
+	<meta property="og:image" content="http://foundation-6-advanced.static/img" />
+
+	<link rel="stylesheet" href="{{root}}/css/app.css">
+</head>
+<body>
+
+{{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+{{> body}}
+
+	<script src="{{root}}/js/app-min.js"></script>
+</body>
 </html>
