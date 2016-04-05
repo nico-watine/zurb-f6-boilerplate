@@ -68,9 +68,9 @@ function resetPages(done) {
 
 // Generate a style guide from the Markdown content and HTML template in styleguide/
 function styleGuide(done) {
-  sherpa('/src/styleguide/index.md', {
+  sherpa('src/styleguide/index.md', {
     output: PATHS.dist + '/styleguide.html',
-    template: '/src/styleguide/template.html'
+    template: 'src/styleguide/template.html'
   }, done);
 }
 
@@ -138,12 +138,12 @@ function server(done) {
 // [ IMAGES STILL TO BE ADJUSTED ]
 function watch() {
   gulp.watch(PATHS.assets, copy);
-  gulp.watch('/src/pages/**/*.html', gulp.series(pages, browser.reload));
-  gulp.watch('/src/{layouts,partials}/**/*.html', gulp.series(resetPages, pages, browser.reload));
+  gulp.watch('src/pages/**/*.html', gulp.series(pages, browser.reload));
+  gulp.watch('src/{layouts,partials}/**/*.html', gulp.series(resetPages, pages, browser.reload));
   // gulp.watch('/src/scss/**/*.scss', sass);
-  gulp.watch('/scss/**/*.scss', sass);
-  gulp.watch('/js/**/*.js', gulp.series(javascript, browser.reload));
+  gulp.watch('scss/**/*.scss', sass);
+  gulp.watch('js/**/*.js', gulp.series(javascript, browser.reload));
   // gulp.watch('/src/js/**/*.js', gulp.series(javascript, browser.reload));
-  gulp.watch('/src/assets/img/**/*', gulp.series(images, browser.reload));
-  gulp.watch('/src/styleguide/**', gulp.series(styleGuide, browser.reload));
+  gulp.watch('src/img/**/*', gulp.series(images, browser.reload));
+  gulp.watch('src/styleguide/**', gulp.series(styleGuide, browser.reload));
 }
