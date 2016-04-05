@@ -78,21 +78,37 @@ function styleGuide(done) {
 
 // Compile Sass into CSS
 // In production, the CSS is compressed
+function sass() {
+  return gulp.src('src/css/app.css')
+    // .pipe($.sourcemaps.init())
+    // .pipe($.sass({
+    //   includePaths: PATHS.sass
+    // })
+    //   .on('error', $.sass.logError))
+    // .pipe($.autoprefixer({
+    //   browsers: COMPATIBILITY
+    // }))
+    // .pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
+    // .pipe($.if(PRODUCTION, $.cssnano()))
+    // .pipe($.if(!PRODUCTION, $.sourcemaps.write()))
+    .pipe(gulp.dest(PATHS.dist + '/css'))
+    .pipe(browser.reload({ stream: true }));
+}
 // function sass() {
-//   return gulp.src('src/assets/scss/app.scss')
-//     .pipe($.sourcemaps.init())
-//     .pipe($.sass({
-//       includePaths: PATHS.sass
-//     })
-//       .on('error', $.sass.logError))
-//     .pipe($.autoprefixer({
-//       browsers: COMPATIBILITY
-//     }))
-//     .pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
-//     .pipe($.if(PRODUCTION, $.cssnano()))
-//     .pipe($.if(!PRODUCTION, $.sourcemaps.write()))
-//     .pipe(gulp.dest(PATHS.dist + '/assets/css'))
-//     .pipe(browser.reload({ stream: true }));
+  // return gulp.src('src/scss/app.scss')
+    // .pipe($.sourcemaps.init())
+    // .pipe($.sass({
+    //   includePaths: PATHS.sass
+    // })
+    //   .on('error', $.sass.logError))
+    // .pipe($.autoprefixer({
+    //   browsers: COMPATIBILITY
+    // }))
+    // .pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
+    // .pipe($.if(PRODUCTION, $.cssnano()))
+    // .pipe($.if(!PRODUCTION, $.sourcemaps.write()))
+    // .pipe(gulp.dest(PATHS.dist + '/css'))
+    // .pipe(browser.reload({ stream: true }));
 // }
 
 // Combine JavaScript into one file
@@ -132,6 +148,7 @@ function watch() {
   gulp.watch(PATHS.assets, copy);
   gulp.watch('src/pages/**/*.html', gulp.series(pages, browser.reload));
   gulp.watch('src/{layouts,partials}/**/*.html', gulp.series(resetPages, pages, browser.reload));
+  gulp.watch('src/scss/**/*.scss', sass);
   // gulp.watch('src/assets/scss/**/*.scss', sass);
   gulp.watch('src/js/**/*.js', gulp.series(javascript, browser.reload));
   gulp.watch('src/assets/img/**/*', gulp.series(images, browser.reload));
