@@ -1,0 +1,39 @@
+FOUNDATION 6 ADVANCED TEMPLATE COMPILING OPTIONS
+
+
+
+REGULAR DEVELOPMENT CODING SESSION::
+For regular development mode (like a normal coding session) ::
+cd terminal
+foundation watch
+
+This builds /dist & watches it for changes
+
+When you want to make a change to the compiling options via 
+config.yml
+gulpfile.babel.js
+	You MUST restart 'foundation watch' for it to recognize this change
+
+FOR EXAMPLE ::
+You want to include/exclude certain Foundation JS imports as specified within config.yml, you must restart 'foundation watch' for them to take effect
+
+CODEKIT SETTINGS
+Codekit does not process any JS files by default
+It causes problems when 'foundation watch' then goes to process app.js with its own imports via config.yml
+
+TIME TO BUILD PRODUCTION SITE::
+cd terminal
+npm run build
+
+-This compiles/combines/compresses/minifies all possible files within /src. Once complete, it is DONE
+Does not watch for more changes
+So basically only do this when you're ready to upload
+
+THEREFORE
+When coding a vanilla dev session :
+cd terminal
+foundation watch
+
+When ready to create production /dist folder for upload :
+cd terminal
+npm run build

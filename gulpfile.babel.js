@@ -17,7 +17,7 @@ const $ = plugins();
 const PRODUCTION = !!(yargs.argv.production);
 
 // Load settings from settings.yml
-const { COMPATIBILITY, PORT, PATHS } = loadConfig();
+const { COMPATIBILITY, PORT, UNCSS_OPTIONS, PATHS } = loadConfig();
 // const { COMPATIBILITY, PORT, UNCSS_OPTIONS, PATHS } = loadConfig();
 
 function loadConfig() {
@@ -27,7 +27,7 @@ function loadConfig() {
 
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
- gulp.series(clean, gulp.parallel(pages, javascript, images, copy), styleGuide));
+ gulp.series(clean, gulp.parallel(pages, sass, javascript, images, copy), styleGuide));
 // gulp.task('build',
 //  gulp.series(clean, gulp.parallel(pages, sass, javascript, images, copy), styleGuide));
 
@@ -85,12 +85,13 @@ function sass() {
     //   includePaths: PATHS.sass
     // })
     //   .on('error', $.sass.logError))
-    // .pipe($.autoprefixer({
-    //   browsers: COMPATIBILITY
-    // }))
-    // .pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
-    // .pipe($.if(PRODUCTION, $.cssnano()))
+    .pipe($.autoprefixer({
+      browsers: COMPATIBILITY
+    }))
+    .pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
+    .pipe($.if(PRODUCTION, $.cssnano()))
     // .pipe($.if(!PRODUCTION, $.sourcemaps.write()))
+    // .pipe($.if(PRODUCTION, gulp.dest(PATHS.dist + '/css')))
     .pipe(gulp.dest(PATHS.dist + '/css'))
     .pipe(browser.reload({ stream: true }));
 }
@@ -115,13 +116,13 @@ function sass() {
 // In production, the file is minified
 function javascript() {
   return gulp.src(PATHS.javascript)
-    .pipe($.sourcemaps.init())
+    // .pipe($.sourcemaps.init())
     .pipe($.babel())
     .pipe($.concat('app-min.js'))
     .pipe($.if(PRODUCTION, $.uglify()
       .on('error', e => { console.log(e); })
     ))
-    .pipe($.if(!PRODUCTION, $.sourcemaps.write()))
+    // .pipe($.if(!PRODUCTION, $.sourcemaps.write()))
     .pipe(gulp.dest(PATHS.dist + '/js'));
 }
 
