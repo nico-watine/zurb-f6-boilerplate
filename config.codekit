@@ -3736,17 +3736,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/dist\/img\/banditos.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.59495e+06,
-		"inputAbbreviatedPath": "\/dist\/img\/banditos.jpg",
-		"outputAbbreviatedPath": "\/dist\/img\/banditos.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/dist\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3798,10 +3787,21 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/js\/src\/app.js": {
+	"\/js\/app-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/app-min.js",
+		"outputAbbreviatedPath": "\/app-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
+		},
+	"\/js\/src\/app.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/js\/src\/app.js",
 		"outputAbbreviatedPath": "\/js\/app-min.js",
 		"outputPathIsOutsideProject": 0,
