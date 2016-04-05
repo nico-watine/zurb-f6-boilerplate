@@ -6,7 +6,6 @@
 
 @include foundation-global-styles;
 @include foundation-grid;
-// @include foundation-flex-grid;
 @include foundation-typography;
 @include foundation-button;
 @include foundation-forms;
@@ -46,6 +45,15 @@
 @include foundation-float-classes;
 @include foundation-flex-classes;
 
+// THESE ARE MOTION CSS STYLES... DO NOT IMPORT WITHOUT
+// USING MOTION BC OF LARGE FILE SIZES
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+// TYPICALLY NEVER IMPORTED::
+// @include foundation-flex-grid;
+
+
+
+
 
