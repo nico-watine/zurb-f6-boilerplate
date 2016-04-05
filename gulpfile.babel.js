@@ -129,11 +129,13 @@ function javascript() {
 // Copy images to the "dist" folder
 // In production, the images are compressed
 function images() {
-  return gulp.src('src/assets/img/**/*')
-    .pipe($.if(PRODUCTION, $.imagemin({
-      progressive: true
-    })))
-    .pipe(gulp.dest(PATHS.dist + '/assets/img'));
+  // return gulp.src('src/assets/img/**/*')
+  return gulp.src('src/img/**/*')
+    // .pipe($.if(PRODUCTION, $.imagemin({
+    //   progressive: true
+    // })))
+    .pipe(gulp.dest(PATHS.dist + '/img'));
+    // .pipe(gulp.dest(PATHS.dist + '/assets/img'));
 }
 
 // Start a server with BrowserSync to preview the site in

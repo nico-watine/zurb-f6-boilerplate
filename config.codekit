@@ -3716,6 +3716,50 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/dist\/img\/banditos.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.59495e+06,
+		"inputAbbreviatedPath": "\/dist\/img\/banditos.JPG",
+		"outputAbbreviatedPath": "\/dist\/img\/banditos.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/img\/codekit.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.4377e+06,
+		"inputAbbreviatedPath": "\/dist\/img\/codekit.JPG",
+		"outputAbbreviatedPath": "\/dist\/img\/codekit.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/img\/lossy.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 609824,
+		"inputAbbreviatedPath": "\/dist\/img\/lossy.JPG",
+		"outputAbbreviatedPath": "\/dist\/img\/lossy.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/img\/no-lossy.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.15e+06,
+		"inputAbbreviatedPath": "\/dist\/img\/no-lossy.JPG",
+		"outputAbbreviatedPath": "\/dist\/img\/no-lossy.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
