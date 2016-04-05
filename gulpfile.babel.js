@@ -78,7 +78,7 @@ function styleGuide(done) {
 // In production, the CSS is compressed
 // [ REMOVED SOURCE-MAPPING/ERROR-LOGGING FUNCTION]
 function sass() {
-  return gulp.src('src/css/app.css')
+  return gulp.src('/css/app.css')
     .pipe($.autoprefixer({
       browsers: COMPATIBILITY
     }))
@@ -87,6 +87,16 @@ function sass() {
     .pipe(gulp.dest(PATHS.dist + '/css'))
     .pipe(browser.reload({ stream: true }));
 }
+// function sass() {
+//   return gulp.src('src/css/app.css')
+//     .pipe($.autoprefixer({
+//       browsers: COMPATIBILITY
+//     }))
+//     .pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
+//     .pipe($.if(PRODUCTION, $.cssnano()))
+//     .pipe(gulp.dest(PATHS.dist + '/css'))
+//     .pipe(browser.reload({ stream: true }));
+// }
 
 // Combine JavaScript into one file
 // In production, the file is minified
@@ -107,9 +117,13 @@ function javascript() {
 // [ THIS MAKES IT EASIER TO RIGHTCLICK->COPY PATH WHILE CODING]
 // [ ALSO REMOVED THE 'IMAGEMIN' FUNCTION PER PERSONAL PREFERENCE OF GRAPHICS EDITING FLOW ]
 function images() {
-  return gulp.src('src/img/**/*')
+  return gulp.src('/img/**/*')
     .pipe(gulp.dest(PATHS.dist + '/img'));
 }
+// function images() {
+//   return gulp.src('src/img/**/*')
+//     .pipe(gulp.dest(PATHS.dist + '/img'));
+// }
 
 // Start a server with BrowserSync to preview the site in
 function server(done) {
@@ -126,8 +140,10 @@ function watch() {
   gulp.watch(PATHS.assets, copy);
   gulp.watch('src/pages/**/*.html', gulp.series(pages, browser.reload));
   gulp.watch('src/{layouts,partials}/**/*.html', gulp.series(resetPages, pages, browser.reload));
-  gulp.watch('src/scss/**/*.scss', sass);
-  gulp.watch('src/js/**/*.js', gulp.series(javascript, browser.reload));
+  // gulp.watch('src/scss/**/*.scss', sass);
+  gulp.watch('/scss/**/*.scss', sass);
+  gulp.watch('/js/**/*.js', gulp.series(javascript, browser.reload));
+  // gulp.watch('src/js/**/*.js', gulp.series(javascript, browser.reload));
   gulp.watch('src/assets/img/**/*', gulp.series(images, browser.reload));
   gulp.watch('src/styleguide/**', gulp.series(styleGuide, browser.reload));
 }
