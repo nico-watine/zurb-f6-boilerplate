@@ -18,7 +18,6 @@ const PRODUCTION = !!(yargs.argv.production);
 
 // Load settings from settings.yml
 const { COMPATIBILITY, PORT, UNCSS_OPTIONS, PATHS } = loadConfig();
-// const { COMPATIBILITY, PORT, UNCSS_OPTIONS, PATHS } = loadConfig();
 
 function loadConfig() {
   let ymlFile = fs.readFileSync('config.yml', 'utf8');
@@ -28,8 +27,6 @@ function loadConfig() {
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
  gulp.series(clean, gulp.parallel(pages, sass, javascript, images, copy), styleGuide));
-// gulp.task('build',
-//  gulp.series(clean, gulp.parallel(pages, sass, javascript, images, copy), styleGuide));
 
 // Build the site, run the server, and watch for file changes
 gulp.task('default',
@@ -43,10 +40,11 @@ function clean(done) {
 
 // Copy files out of the assets folder
 // This task skips over the "img", "js", and "scss" folders, which are parsed separately
+// [ DEFAULT FOLDER CHANGED FROM '/ASSETS' TO '/' ]
+// [ THIS MAKES IT EASIER TO RIGHTCLICK->COPY PATH WHILE CODING]
 function copy() {
   return gulp.src(PATHS.assets)
     .pipe(gulp.dest(PATHS.dist + '/'));
-    // .pipe(gulp.dest(PATHS.dist + '/assets'));
 }
 
 // Copy page templates into finished HTML files
@@ -78,64 +76,39 @@ function styleGuide(done) {
 
 // Compile Sass into CSS
 // In production, the CSS is compressed
+// [ REMOVED SOURCE-MAPPING/ERROR-LOGGING FUNCTION]
 function sass() {
   return gulp.src('src/css/app.css')
-    // .pipe($.sourcemaps.init())
-    // .pipe($.sass({
-    //   includePaths: PATHS.sass
-    // })
-    //   .on('error', $.sass.logError))
     .pipe($.autoprefixer({
       browsers: COMPATIBILITY
     }))
     .pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
     .pipe($.if(PRODUCTION, $.cssnano()))
-    // .pipe($.if(!PRODUCTION, $.sourcemaps.write()))
-    // .pipe($.if(PRODUCTION, gulp.dest(PATHS.dist + '/css')))
     .pipe(gulp.dest(PATHS.dist + '/css'))
     .pipe(browser.reload({ stream: true }));
 }
-// function sass() {
-  // return gulp.src('src/scss/app.scss')
-    // .pipe($.sourcemaps.init())
-    // .pipe($.sass({
-    //   includePaths: PATHS.sass
-    // })
-    //   .on('error', $.sass.logError))
-    // .pipe($.autoprefixer({
-    //   browsers: COMPATIBILITY
-    // }))
-    // .pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
-    // .pipe($.if(PRODUCTION, $.cssnano()))
-    // .pipe($.if(!PRODUCTION, $.sourcemaps.write()))
-    // .pipe(gulp.dest(PATHS.dist + '/css'))
-    // .pipe(browser.reload({ stream: true }));
-// }
 
 // Combine JavaScript into one file
 // In production, the file is minified
+// [REMOVED SOURCE-MAPPING FUNCTION]
 function javascript() {
   return gulp.src(PATHS.javascript)
-    // .pipe($.sourcemaps.init())
     .pipe($.babel())
     .pipe($.concat('app-min.js'))
     .pipe($.if(PRODUCTION, $.uglify()
       .on('error', e => { console.log(e); })
     ))
-    // .pipe($.if(!PRODUCTION, $.sourcemaps.write()))
     .pipe(gulp.dest(PATHS.dist + '/js'));
 }
 
 // Copy images to the "dist" folder
 // In production, the images are compressed
+// [ DEFAULT FOLDER CHANGED FROM '/ASSETS' TO '/' ]
+// [ THIS MAKES IT EASIER TO RIGHTCLICK->COPY PATH WHILE CODING]
+// [ ALSO REMOVED THE 'IMAGEMIN' FUNCTION PER PERSONAL PREFERENCE OF GRAPHICS EDITING FLOW ]
 function images() {
-  // return gulp.src('src/assets/img/**/*')
   return gulp.src('src/img/**/*')
-    // .pipe($.if(PRODUCTION, $.imagemin({
-    //   progressive: true
-    // })))
     .pipe(gulp.dest(PATHS.dist + '/img'));
-    // .pipe(gulp.dest(PATHS.dist + '/assets/img'));
 }
 
 // Start a server with BrowserSync to preview the site in
@@ -147,12 +120,13 @@ function server(done) {
 }
 
 // Watch for changes to static assets, pages, Sass, and JavaScript
+// [ ALL OF THESE HAVE ALTERED PATHS: '/ASSETS' WAS REMOVED FROM PATHS]
+// [ IMAGES STILL TO BE ADJUSTED ]
 function watch() {
   gulp.watch(PATHS.assets, copy);
   gulp.watch('src/pages/**/*.html', gulp.series(pages, browser.reload));
   gulp.watch('src/{layouts,partials}/**/*.html', gulp.series(resetPages, pages, browser.reload));
   gulp.watch('src/scss/**/*.scss', sass);
-  // gulp.watch('src/assets/scss/**/*.scss', sass);
   gulp.watch('src/js/**/*.js', gulp.series(javascript, browser.reload));
   gulp.watch('src/assets/img/**/*', gulp.series(images, browser.reload));
   gulp.watch('src/styleguide/**', gulp.series(styleGuide, browser.reload));
