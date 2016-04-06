@@ -15,6 +15,7 @@ UNCSS_OPTIONS:
   html:
     # - "/**/*.html"
     - "src/**/*.html"
+    - "src/**/*.php"
   ignore:
     - !!js/regexp .foundation-mq
     - !!js/regexp ^\.is-.*
