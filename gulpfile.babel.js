@@ -73,11 +73,11 @@ function resetPages(done) {
 // [ REMOVED SOURCE-MAPPING/ERROR-LOGGING FUNCTION]
 function sass() {
   return gulp.src('css/app.css')
-    // .pipe($.autoprefixer({
-    //   browsers: COMPATIBILITY
-    // }))
-    // .pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
-    // .pipe($.if(PRODUCTION, $.cssnano()))
+    .pipe($.autoprefixer({
+      browsers: COMPATIBILITY
+    }))
+    .pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
+    .pipe($.if(PRODUCTION, $.cssnano()))
     .pipe(gulp.dest(PATHS.dist + '/css'))
     .pipe(browser.reload({ stream: true }));
 }
