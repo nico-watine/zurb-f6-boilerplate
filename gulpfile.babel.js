@@ -18,7 +18,6 @@ const PRODUCTION = !!(yargs.argv.production);
 
 // Load settings from settings.yml
 const { COMPATIBILITY, UNCSS_OPTIONS, PATHS } = loadConfig();
-// const { COMPATIBILITY, PORT, UNCSS_OPTIONS, PATHS } = loadConfig();
 
 function loadConfig() {
   let ymlFile = fs.readFileSync('config.yml', 'utf8');
@@ -28,12 +27,10 @@ function loadConfig() {
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
   gulp.series(clean, gulp.parallel(pages, sass, javascript, images, copy)));
- // gulp.series(clean, gulp.parallel(pages, sass, javascript, images, copy), styleGuide));
 
 // Build the site, run the server, and watch for file changes
 gulp.task('default',
   gulp.series('build', watch));
-  // gulp.series('build', server, watch));
 
 // Delete the "dist" folder
 // This happens every time a build starts
@@ -109,13 +106,6 @@ function images() {
     .pipe(gulp.dest(PATHS.dist + '/img'));
 }
 
-// Start a server with BrowserSync to preview the site in
-// function server(done) {
-//   browser.init({
-//     server: PATHS.dist, port: PORT
-//   });
-//   done();
-// }
 
 // Watch for changes to static assets, pages, Sass, and JavaScript
 // [ ALL OF THESE HAVE ALTERED PATHS: '/ASSETS' WAS REMOVED FROM PATHS]
@@ -125,10 +115,6 @@ function watch() {
   gulp.watch('src/pages/**/*.html', gulp.series(pages));
   gulp.watch('src/pages/**/*.php', gulp.series(pages));
   gulp.watch('src/{layouts,partials}/**/*.html', gulp.series(resetPages, pages));
-  // gulp.watch('src/pages/**/*.html', gulp.series(pages, browser.reload));
-  // gulp.watch('src/pages/**/*.php', gulp.series(pages, browser.reload));
-  // gulp.watch('src/{layouts,partials}/**/*.html', gulp.series(resetPages, pages, browser.reload));
   gulp.watch('scss/**/*.scss', sass);
   gulp.watch('js/**/*.js', gulp.series(javascript));
-  // gulp.watch('js/**/*.js', gulp.series(javascript, browser.reload));
 }
