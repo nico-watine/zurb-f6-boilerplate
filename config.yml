@@ -29,6 +29,7 @@ PATHS:
     # - "!/{img,js,scss}/**/*"
     - "src/"
     - "assets/**/*"
+    - "assets/.htaccess"
     # - "php/autoVer.php"
     - "!src/{img,js,scss}/**/*"
   # Paths to Sass libraries, which can then be loaded with @import
