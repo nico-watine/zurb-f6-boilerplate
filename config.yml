@@ -61,5 +61,5 @@ PATHS:
     - "bower_components/foundation-sites/js/foundation.toggler.js"
     - "bower_components/foundation-sites/js/foundation.tooltip.js"
     # Paths to your own project code are here
-    - "js/!(app-min).js"
+    # - "js/!(app-min).js"
     - "js/app-min.js"
