@@ -219,7 +219,7 @@
 			"file": "/Users/nico/Web Development/Foundation/Foundation 6/foundation-6-advanced.static/.gitignore",
 			"settings":
 			{
-				"buffer_size": 160,
+				"buffer_size": 178,
 				"line_ending": "Unix"
 			}
 		},
@@ -958,15 +958,19 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 160,
+						"buffer_size": 178,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								160,
-								160
+								83,
+								83
+							],
+							[
+								142,
+								142
 							]
 						],
 						"settings":
