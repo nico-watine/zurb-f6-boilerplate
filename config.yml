@@ -26,13 +26,9 @@ PATHS:
   dist: "dist"  
   # Paths to static assets that aren't images, CSS, or JavaScript
   assets:
-    # - "/*"
-    # - "!/{img,js,scss}/**/*"
     - "src/"
-    - "assets/**/*"
+    - "assets/**/*" #(Specifically 'php/autoVer.php')
     - "assets/.htaccess"
-    # - "php/autoVer.php"
-    - "!src/{img,js,scss}/**/*"
   # Paths to Sass libraries, which can then be loaded with @import
   sass:
     - "bower_components/foundation-sites/scss"
