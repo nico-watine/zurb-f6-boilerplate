@@ -1,7 +1,5 @@
 $(document).foundation();
 
-// yo yo 
-// hello hello
-// minified this
+// yo yo yo
+// and a bottle of rum for checking minification (word?)
 
-// last try
