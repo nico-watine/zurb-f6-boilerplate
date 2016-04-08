@@ -1,4 +1,0 @@
-There is an invisible .htaccess file located here
-
-This .htaccess file CANNOT be deleted!
-It is auto imported into dist/ and it is NECESSARY for autoversioning to function correctly

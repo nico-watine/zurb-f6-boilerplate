@@ -1,0 +1,58 @@
+Hello savvy Internet wanderer!
+
+This site is a Studio N Creation
+
+Coded with <3 and powered by HTML5 for a better web
+
+
+
+
+================
+
+Need a website? :: contact@studioncreations.com
+Get in touch with Nico :: nico.w@tine.rocks
+
+================
+
+/* SITE COLOPHON */
+Standards: 
+  Semantic HTML5 
+  CSS3 pre-processed via SASS
+
+Components: 
+  Foundation 6 for Sites ADVANCED TEMPLATE
+
+Software: 
+  Sublime Text
+  CodeKit
+  Sketch 3
+
+What is this rambling file??
+humanstxt.org
+
+================
+
+
+                    ++++++++          
+                 ++++++++++++         
+                +++++++++++++         
+                   .+++++++++         
+                    +++++++++         
+                    +++++++++         
+        ,+++++      +++++++++         
+     +++++++++++    +++++++++         
+    +++++++++++++   +++++++++         
+     ++++++++++++++ +++++++++         
+     ++++++++++++++++++++++++         
+     +++++++++++++++++++++++++        
+     +++++++++++++++++++++++++        
+     +++++++++++++++++++++++++        
+    ++++++++++++++++++++++++++        
+    +++++++++  +++++++++++++++        
+   +++++++++     +++++++++++++,       
+   ++++++         +++++++++++++       
+     +              +++++++++.        
+                     ++++++           
+                      .+~
+
+   WWW . STUDIO N CREATIONS . COM

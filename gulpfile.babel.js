@@ -26,7 +26,8 @@ function loadConfig() {
 
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
-  gulp.series(clean, gulp.parallel(pages, sass, javascript, javascript_other, images, copy)));
+  gulp.series(clean, gulp.parallel(pages, sass, javascript, javascript_other, fonts, images, copy)));
+  // gulp.series(clean, gulp.parallel(pages, sass, javascript, javascript_other, images, copy)));
 
 // Build the site, run the server, and watch for file changes
 gulp.task('default',
@@ -101,6 +102,12 @@ function javascript_other() {
     .pipe(gulp.dest(PATHS.dist + '/js'));
 }
 
+// Copy over fonts
+function fonts() {
+  return gulp.src('fonts/**/**/**/*')
+    .pipe(gulp.dest(PATHS.dist + '/fonts'));
+}
+
 // Copy images to the "dist" folder
 // In production, the images are compressed
 // [ DEFAULT FOLDER CHANGED FROM '/ASSETS' TO '/' ]
@@ -122,4 +129,5 @@ function watch() {
   gulp.watch('src/{layouts,partials}/**/*.html', gulp.series(resetPages, pages));
   gulp.watch('scss/**/*.scss', sass);
   gulp.watch('js/**/*.js', gulp.series(javascript, javascript_other));
+  gulp.watch('fonts/**/**/**/*', fonts);
 }
