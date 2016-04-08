@@ -2037,3 +2037,7 @@ table.hover tr:nth-of-type(even):hover { background-color: #ececec; }
 .short-delay { animation-delay: 300ms !important; }
 
 .long-delay { animation-delay: 700ms !important; }
+
+.p-0 { padding: 0; }
+
+.m-0 { margin: 0; }

@@ -53,3 +53,26 @@
 // TYPICALLY NEVER IMPORTED::
 // @include foundation-flex-grid;
 
+
+//  ---------------------------------------------------------------
+// IMPORT CUSTOM SCSS FILES ::
+//  ---------------------------------------------------------------
+
+// BLOCKS ::
+@import "blocks/_body.scss";
+@import "blocks/_header.scss";
+@import "blocks/_nav.scss";
+@import "blocks/_main.scss";
+@import "blocks/_footer.scss";
+
+// COMPONENTS ::
+@import "components/_extras.scss";
+@import "components/_typography.scss";
+@import "components/_resets.scss";
+@import "components/_utility-classes.scss";
+
+// PAGES ::
+@import "pages/index/_index.scss";
+
+
+
