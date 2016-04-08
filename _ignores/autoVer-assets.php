@@ -1,8 +1,10 @@
+<!-- beginning of html/php page :: -->
 <?php 
 	include($_SERVER['DOCUMENT_ROOT'].'/php/autoVer.php');
 ?>
+<!DOCTYPE html>
 
-
+<!-- in a file named 'autoVer.php' ::  -->
 <?php
 function autoVer($url){
     $path = pathinfo($url);

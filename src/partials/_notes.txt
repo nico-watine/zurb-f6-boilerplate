@@ -1,0 +1,7 @@
+Example files for this 'partials' folder ::
+
+header.html
+navigation.html
+footer.html
+
+IOW blocks withing a page template

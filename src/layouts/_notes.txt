@@ -1,0 +1,12 @@
+These are the page templates which include such things as everything in the <head> tag and including the <body> tags
+
+Currently the 'default.html' template also has the <script src="/js/app-min.js"></script>, but that could technically be moved to a file such as src/partials/scripts.html
+
+It would then be imported into the 'default.html' template via ::
+{{> scripts}}
+
+
+SO
+Anthing that you want to have imported into said 'default.html' template is done so with the following tag ::
+{{> _____}}
+It does NOT include the file extension of the imported file
