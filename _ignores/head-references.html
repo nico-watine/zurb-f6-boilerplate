@@ -1,0 +1,57 @@
+:: VIEWPORT OPTIONS ::
+
+<!-- DEFINE INITIAL SCALE BASED ON DEVICE-WIDTH (DEFAULT ON PROJECT BOILERPLATE) :: -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- NO SCALING/ZOOMING (REFRAIN FROM USING) ::-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!-- INITIAL SCALE IS @1, BUT USER CAN ZOOM IN TO @1.5X :: -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.5">
+
+====================================================================================================
+
+:: HTML5 PREFETCH OPTIONS ::
+--PER H5BP NOTES ::
+'THEY SHOULD GO DIRECTLY AFTER <META CHARSET="UTF-8"> (AND ..."IE-EDGE" IF USED (but that should be in .htaccess))
+SO THAT BROWSER CAN GET TO IT ASAP'
+=========
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="dns-prefetch" href="http://cdn.website.com">
+=========
+<!-- #1 'DNS-PREFETCH'
+LOOK UP THIS ADDRESS 
+-->
+<!-- MOST BASIC CONNECTION TO CDN SITE 
+// GOOGLE SAYS :: 'USEFUL FOR CRITICAL RESOURCES LATER IN PAGE' -->
+<link rel="dns-prefetch" href="http://cdn.website.com">
+
+
+<!-- #2 'PRECONNECT'
+TAKE #1 FURTHER :: LOOK UP THIS ADDRESS AND FETCH REQUIRED RESOURCES 
+BUT 
+BROWSER CAN DECIDE HOW MUCH TO CONNECT BASED ON SPEED OPTIMIZATION / RESOURCE AVAILABIITY
+-->
+<!-- BETTER (THAN #1 'IMO') CONNECTION FOR CDN SITE 
+INITIATES STRONGER CONNECTION BASED ON RESOURCE AVAILABILITY-->
+<link rel="preconnect" href="http://cdn.website.com">
+
+
+<!-- #3 'PREFETCH'
+THIS IS MOST LIKELY THE NEXT NAVIGATED PAGE
+BEGIN CONNECTION
+BUT
+DO NOT PRE-RENDER -->
+<!-- USEFUL FOR INDEX -> PORTFOLIO -->
+<link rel="prefetch" href="http://website.com/next-probable-page.html" as="html">
+<!-- 'AS="HTML"' HELPS THE BROWSER OPTIMIZE ITS PREFETCH BY TELLING IT HOW TO LOAD IT (
+BC IT'S HTML AS OPPOSED TO SOMETHING ELSE) -->
+
+====================================================================================================
+
+:: DISABLE iOS PHONE NUMBER SNIFFING ::
+<meta name="format-detection" content="telephone=no">
+
+====================================================================================================
+
