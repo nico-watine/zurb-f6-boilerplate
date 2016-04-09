@@ -27,7 +27,6 @@ function loadConfig() {
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
   gulp.series(clean, gulp.parallel(pages, sass, javascript, javascript_other, fonts, images, copy)));
-  // gulp.series(clean, gulp.parallel(pages, sass, javascript, javascript_other, images, copy)));
 
 // Build the site, run the server, and watch for file changes
 gulp.task('default',
@@ -73,7 +72,7 @@ function resetPages(done) {
 // In production, the CSS is compressed
 // [ REMOVED SOURCE-MAPPING/ERROR-LOGGING FUNCTION]
 function sass() {
-  return gulp.src('css/app.css')
+  return gulp.src('css/*.css')
     .pipe($.autoprefixer({
       browsers: COMPATIBILITY
     }))
@@ -114,7 +113,7 @@ function fonts() {
 // [ THIS MAKES IT EASIER TO RIGHTCLICK->COPY PATH WHILE CODING]
 // [ ALSO REMOVED THE 'IMAGEMIN' FUNCTION PER PERSONAL PREFERENCE OF GRAPHICS EDITING FLOW ]
 function images() {
-  return gulp.src('img/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/*')
+  return gulp.src('img/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/*')
     .pipe(gulp.dest(PATHS.dist + '/img'));
 }
 
@@ -127,7 +126,9 @@ function watch() {
   gulp.watch('src/pages/**/*.html', gulp.series(pages));
   gulp.watch('src/pages/**/*.php', gulp.series(pages));
   gulp.watch('src/{layouts,partials}/**/*.html', gulp.series(resetPages, pages));
-  gulp.watch('scss/**/*.scss', sass);
-  gulp.watch('js/**/*.js', gulp.series(javascript, javascript_other));
-  gulp.watch('fonts/**/**/**/*', fonts);
+  // gulp.watch('scss/*.scss', sass);
+  gulp.watch('css/*.css', sass);
+  gulp.watch('js/src/*.js', gulp.series(javascript, javascript_other));
+  gulp.watch('img/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/*', images);
+  gulp.watch('fonts/**/**/**/**/**/**/**/**/**/*', fonts);
 }

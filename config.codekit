@@ -3835,35 +3835,22 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/dist\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/dist\/img\/banditos.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4.59495e+06,
+		"initialSize": 363627,
 		"inputAbbreviatedPath": "\/dist\/img\/banditos.jpg",
 		"outputAbbreviatedPath": "\/dist\/img\/banditos.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/dist\/img\/lvl-1\/2\/banditos.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.59495e+06,
-		"inputAbbreviatedPath": "\/dist\/img\/lvl-1\/2\/banditos.jpg",
-		"outputAbbreviatedPath": "\/dist\/img\/lvl-1\/2\/banditos.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/dist\/img\/lvl-1\/banditos.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.59495e+06,
-		"inputAbbreviatedPath": "\/dist\/img\/lvl-1\/banditos.jpg",
-		"outputAbbreviatedPath": "\/dist\/img\/lvl-1\/banditos.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3888,12 +3875,12 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
-	"\/dist\/js\/extra-min.js": {
+	"\/dist\/js\/scripts-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dist\/js\/extra-min.js",
-		"outputAbbreviatedPath": "\/dist\/extra-min-min.js",
+		"inputAbbreviatedPath": "\/dist\/js\/scripts-min.js",
+		"outputAbbreviatedPath": "\/dist\/scripts-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3930,28 +3917,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/lvl-1\/2\/banditos.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.59495e+06,
-		"inputAbbreviatedPath": "\/img\/lvl-1\/2\/banditos.jpg",
-		"outputAbbreviatedPath": "\/img\/lvl-1\/2\/banditos.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/lvl-1\/banditos.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.59495e+06,
-		"inputAbbreviatedPath": "\/img\/lvl-1\/banditos.jpg",
-		"outputAbbreviatedPath": "\/img\/lvl-1\/banditos.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/js\/app-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -3963,12 +3928,12 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
-	"\/js\/extra-min.js": {
+	"\/js\/scripts-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/extra-min.js",
-		"outputAbbreviatedPath": "\/extra-min-min.js",
+		"inputAbbreviatedPath": "\/js\/scripts-min.js",
+		"outputAbbreviatedPath": "\/scripts-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3985,12 +3950,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
 		},
-	"\/js\/src\/extra.js": {
+	"\/js\/src\/scripts.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/js\/src\/extra.js",
-		"outputAbbreviatedPath": "\/js\/extra-min.js",
+		"inputAbbreviatedPath": "\/js\/src\/scripts.js",
+		"outputAbbreviatedPath": "\/js\/scripts-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
