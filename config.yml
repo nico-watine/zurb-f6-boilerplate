@@ -26,9 +26,7 @@ PATHS:
   assets:
     - "src/"
     - "assets/.htaccess"
-    - "assets/*"
-    - "assets/**/*"
-    - "assets/**/**/*"
+    - "assets/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/**/*"
     # instead of being able to just import "assets/", we have to explicitly identify the files so that _notes.txt is not imported there may be a better way of doing this but ATM unknown
   # Paths to Sass libraries, which can then be loaded with @import
   sass:

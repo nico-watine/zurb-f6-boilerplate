@@ -3808,6 +3808,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/dist\/403.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/403.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/dist\/404.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/404.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/dist\/css\/app.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -3824,6 +3842,28 @@
 		"initialSize": 4.59495e+06,
 		"inputAbbreviatedPath": "\/dist\/img\/banditos.jpg",
 		"outputAbbreviatedPath": "\/dist\/img\/banditos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/img\/lvl-1\/2\/banditos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.59495e+06,
+		"inputAbbreviatedPath": "\/dist\/img\/lvl-1\/2\/banditos.jpg",
+		"outputAbbreviatedPath": "\/dist\/img\/lvl-1\/2\/banditos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/img\/lvl-1\/banditos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.59495e+06,
+		"inputAbbreviatedPath": "\/dist\/img\/lvl-1\/banditos.jpg",
+		"outputAbbreviatedPath": "\/dist\/img\/lvl-1\/banditos.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3859,6 +3899,15 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
+	"\/dist\/php\/autoVer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/php\/autoVer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/gulpfile.babel.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -3877,6 +3926,28 @@
 		"initialSize": 4.59495e+06,
 		"inputAbbreviatedPath": "\/img\/banditos.jpg",
 		"outputAbbreviatedPath": "\/img\/banditos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/lvl-1\/2\/banditos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.59495e+06,
+		"inputAbbreviatedPath": "\/img\/lvl-1\/2\/banditos.jpg",
+		"outputAbbreviatedPath": "\/img\/lvl-1\/2\/banditos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/lvl-1\/banditos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.59495e+06,
+		"inputAbbreviatedPath": "\/img\/lvl-1\/banditos.jpg",
+		"outputAbbreviatedPath": "\/img\/lvl-1\/banditos.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
