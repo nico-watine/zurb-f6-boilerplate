@@ -11,9 +11,11 @@ COMPATIBILITY:
 # UnCSS will use these settings
 UNCSS_OPTIONS:
   html:
+    - "dist/*.html"
+    - "dist/*.php"
     # - "/**/*.html"
-    - "src/**/*.html"
-    - "src/**/*.php"
+    # - "src/**/*.html"
+    # - "src/**/*.php"
   ignore:
     - !!js/regexp .foundation-mq
     - !!js/regexp ^\.is-.*
