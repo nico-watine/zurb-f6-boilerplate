@@ -276,7 +276,7 @@ RewriteRule ^(.*)\.html$ /$1 [R=301,L]
 
 
 # ----------------------------------------------------------------------
-# | Compression                                                        |
+# | Compression   [This section just copy/pasted from H5BP Config]     |
 # ----------------------------------------------------------------------
 
 <IfModule mod_deflate.c>
