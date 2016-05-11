@@ -67,6 +67,15 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
+	"\/_ignores\/test-body-classes-ids.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_ignores\/test-body-classes-ids.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/assets\/403.html": {
 		"fileType": 8192,
 		"ignore": 0,
