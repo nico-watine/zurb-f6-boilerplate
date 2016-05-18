@@ -1,5 +1,12 @@
 ---
-id: index
+url: /
+title:
+description:
+og-title:
+og-description:
+og-image:
+body-id: index
+body-class:
 ---
 <div class="row">
   <div class="large-12 columns">
