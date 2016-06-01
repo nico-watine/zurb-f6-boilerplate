@@ -4,6 +4,6 @@ npm-debug.log
 bower_components
 dist
 config.codekit
-_ignores/foundation-6-advanced-boilerplate.sublime-project
-_ignores/foundation-6-advanced-boilerplate.sublime-workspace
+*.sublime-project
+*.sublime-workspace
 _ignores/foundation-zurb-template-master.zip

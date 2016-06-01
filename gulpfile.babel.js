@@ -53,11 +53,6 @@ function pages() {
     .pipe(panini({
       root: 'src/pages/',
       layouts: 'src/layouts/',
-      // For CDN referencing ONLY ::
-      // pageLayouts: {
-      //   '': 'default-cdn'
-      // },
-      // --------------------
       partials: 'src/partials/',
       data: 'src/data/',
       helpers: 'src/helpers/'
