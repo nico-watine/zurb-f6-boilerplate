@@ -2067,3 +2067,7 @@ table.hover tr:nth-of-type(even):hover { background-color: #ececec; }
 .p-0 { padding: 0; }
 
 .m-0 { margin: 0; }
+
+.p-x { padding: 0 1rem; }
+
+.p-y { padding: 1rem 0; }

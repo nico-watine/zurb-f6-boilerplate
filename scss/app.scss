@@ -57,23 +57,28 @@
 
 //  ---------------------------------------------------------------
 // IMPORT CUSTOM SCSS FILES ::
+// IN ORDER OF LOAD PRIORITY ::
 //  ---------------------------------------------------------------
 
-// BLOCKS ::
+// #1 TYPOGRAPHY
+@import "components/_typography.scss";
+
+// #2 COMMON PAGE BLOCKS
 @import "blocks/_body.scss";
 @import "blocks/_header.scss";
 @import "blocks/_nav.scss";
 @import "blocks/_main.scss";
 @import "blocks/_footer.scss";
 
-// COMPONENTS ::
+// #3 SPECIFIC PAGE STYLES
+@import "pages/index/_index.scss";
+
+// #4 MISC COMPONENTS
 @import "components/_extras.scss";
-@import "components/_typography.scss";
 @import "components/_resets.scss";
 @import "components/_utility-classes.scss";
 
-// PAGES ::
-@import "pages/index/_index.scss";
+
 
 
 
