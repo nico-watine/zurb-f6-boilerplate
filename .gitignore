@@ -6,4 +6,3 @@ dist
 config.codekit
 *.sublime-project
 *.sublime-workspace
-_ignores/foundation-zurb-template-master.zip
