@@ -3,6 +3,7 @@
 
 @import 'settings';
 @import 'foundation';
+// UPON DEVELOPMENT, MOVE THE IMPORT OF MOTION-UI TO THE BOTTOM OF THE PAGE FOR LOADING OPTIMIZATION ::
 @import 'motion-ui';
 
 @include foundation-global-styles;
