@@ -4,4 +4,9 @@ header.html
 navigation.html
 footer.html
 
-IOW blocks withing a page template
+IOW blocks within a page template
+
+Reference a partial like so:
+{{> header}}
+{{> navigation}}
+{{> footer}}
