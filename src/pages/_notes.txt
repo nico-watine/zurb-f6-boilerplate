@@ -1,8 +1,0 @@
-Example files for this 'pages' folder ::
-
-index.php
-contact.html
-
-IOW the actual pages that will end up being compiled and imported into the final '/dist' folder
-
-Everything contained in these files go within the <body> tags of a page, but does not include the <body> tags themselves

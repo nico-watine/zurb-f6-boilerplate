@@ -1,3 +1,10 @@
+For a page with a custom layout, add to YAML matter like so::
+---
+layout: custom-layout-name
+---
+
+
+
 These are the page templates which include such things as everything in the <head> tag and including the <body> tags
 
 Currently the 'default.html' template also has the <script src="/js/app-min.js"></script>, but that could technically be moved to a file such as src/partials/scripts.html
