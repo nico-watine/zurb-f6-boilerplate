@@ -37,10 +37,6 @@
     "type": "git",
     "url": "https://github.com/nico-watine/zurb-f6-boilerplate.git"
   },
-  "bugs": {
-    "url": "https://github.com/zurb/foundation-sites/issues",
-    "email": "foundation@zurb.com"
-  },
   "babel": {
     "presets": ["es2015"]
   },
