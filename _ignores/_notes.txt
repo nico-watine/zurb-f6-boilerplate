@@ -1,14 +1,13 @@
-foundation-zurb-template-master.zip added for 'just in case' need to look up an original file content values
+PROJECT NOTES
 
-BUT all custom edits SHOULD be properly documented throughout folders (typically via a '_notes.txt' file)
-
-
-
+--------
 
 There is an invisible .htaccess file located in 'assets/'
 
 This .htaccess file CANNOT be deleted!
 It is auto imported into dist/ and it is NECESSARY for autoversioning to function correctly
+
+--------
 
 TO UPDATE NORMALIZE.CSS IMPORT, THE FILE IS LOCATED WITHIN:
 /bower_components/foundation-sites/scss/_global.scss
