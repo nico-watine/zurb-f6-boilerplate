@@ -6,3 +6,7 @@ https://github.com/nico-watine/zurb-f6-boilerplate.git
 3. npm install
 
 4. bower install
+
+5. unzip '_ignores/codekit-config.zip'
+
+6. Move the unzipped 'config.codekit' into root directory (../)
