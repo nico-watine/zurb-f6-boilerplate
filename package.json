@@ -1,11 +1,11 @@
 {
-  "name": "foundation-zurb-template",
+  "name": "zurb-f6-boilerplate",
   "version": "1.0.0",
-  "description": "Official ZURB Template for Foundation for Sites.",
+  "description": "New project boilerplate using ZURB's 'Advanced' Foundation 6 framework",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp",
-    "build": "gulp build --production"
+    "start": "foundation watch",
+    "build": "npm run build"
   },
   "author": "ZURB <foundation@zurb.com>",
   "license": "MIT",
