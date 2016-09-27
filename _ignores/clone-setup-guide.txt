@@ -1,0 +1,8 @@
+1. Clone via HTTPS
+https://github.com/nico-watine/zurb-f6-boilerplate.git
+
+2. cd Terminal
+
+3. npm install
+
+4. bower install
