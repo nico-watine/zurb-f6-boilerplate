@@ -4,8 +4,8 @@
   "description": "New project boilerplate using ZURB's 'Advanced' Foundation 6 framework",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "foundation watch",
-    "build": "npm run build"
+    "start": "gulp",
+    "build": "gulp build --production"
   },
   "author": "Nico Watine <nico@studioncreations.com>",
   "license": "MIT",
