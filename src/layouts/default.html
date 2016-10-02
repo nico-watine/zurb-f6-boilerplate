@@ -10,10 +10,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ title }}</title>
 	<meta name="description" content="{{ description }}">
-	<link rel="canonical" href="http://url.com{{ url }}" />
-	<link rel="author" href="/humans.txt">
+	<link href="http://url.com{{ url }}" rel="canonical">
+	<link href="/humans.txt" rel="author">
 
-	<link rel="stylesheet" href="{{ cdn }}<?php autoVer('/css/app.css'); ?>"/>
+	<link href="{{ cdn }}<?php autoVer('/css/app.css'); ?>" rel="stylesheet">
 		
 </head>
 <body id="{{ body-id }}" class="{{ body-class }}">
