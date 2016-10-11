@@ -3,8 +3,6 @@
 
 @import 'settings';
 @import 'foundation';
-// UPON DEVELOPMENT, MOVE THE IMPORT OF MOTION-UI TO THE BOTTOM OF THE PAGE FOR LOADING OPTIMIZATION ::
-@import 'motion-ui';
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -47,19 +45,19 @@
 @include foundation-float-classes;
 @include foundation-flex-classes;
 
-// THESE ARE MOTION CSS STYLES... DO NOT IMPORT WITHOUT
-// USING MOTION BC OF LARGE FILE SIZES
+// THESE ARE MOTION CSS STYLES... DO NOT IMPORT IF
+// NOT USING MOTION BC OF THEIR LARGE FILE SIZES
+@import 'motion-ui';
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-// TYPICALLY NEVER IMPORTED::
+// NOT TYPICALLY USED WITH THIS BOILERPLATE
 // @include foundation-flex-grid;
 
 
-//  ---------------------------------------------------------------
-// IMPORT CUSTOM SCSS FILES ::
-// IN ORDER OF LOAD PRIORITY ::
-//  ---------------------------------------------------------------
+// ------------------------------------------------------------------------------
+// |            IMPORT CUSTOM SASS FILES (IN ORDER OF LOAD PRIORITY)            |
+// ------------------------------------------------------------------------------
 
 // #1 TYPOGRAPHY
 @import "components/_typography.scss";
