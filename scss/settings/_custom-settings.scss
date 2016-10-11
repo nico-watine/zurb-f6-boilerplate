@@ -1,5 +1,13 @@
-// CDN SWITCHING :: '#{$url}'
+// -------------------------------------------------------------
+// |            CDN VARIABLE USAGE (IF USING A CDN)            |
+// -------------------------------------------------------------
+// USAGE NOTES
+// 1. Insert below variable at the beginning of any "url('')" within your SASS files
+// #{$url}
+// 2. Swap between the two below variables during development/production modes
+// 		Use "null" during development
 $url:null;
+// 		Comment-out "null" and uncomment below line to use proper CDN url during production
 // $url:'http://cdn.url.com';
 
 
