@@ -3659,7 +3659,7 @@
 		"oA": 1,
 		"oAP": "\/app-min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/js\/scripts-min.js": {
@@ -3668,15 +3668,6 @@
 		"oA": 1,
 		"oAP": "\/scripts-min-min.js",
 		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/src\/app.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 0,
-		"oAP": "\/js\/app-min.js",
-		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
