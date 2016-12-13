@@ -89,9 +89,15 @@ function javascript() {
 }
 
 function javascript_other() {
-  return gulp.src('js/{{(**),!(src)/**},*.js}') // all sub-files and sub-folders except src
-    .pipe(gulp.dest(PATHS.dist + '/js'));
+  return gulp.src('js/custom/**') // all sub-files and sub-folders except src
+    .pipe(gulp.dest(PATHS.dist + '/js/custom/'));
 }
+
+// ORIGINAL JAVASCRIPT_OTHER
+// function javascript_other() {
+//   return gulp.src('js/{{(**),!(src)/**},*.js}') // all sub-files and sub-folders except src
+//     .pipe(gulp.dest(PATHS.dist + '/js'));
+// }
 
 // Copy over fonts
 function fonts() {
