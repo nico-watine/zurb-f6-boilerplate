@@ -3668,15 +3668,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/js\/scripts-min.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/scripts-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/js\/src\/app.js": {
 		"ft": 64,
 		"mi": 1,
@@ -3686,12 +3677,12 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/src\/scripts.js": {
+	"\/js\/src\/custom\/scripts.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 0,
-		"oAP": "\/js\/scripts-min.js",
-		"oF": 1,
+		"oAP": "\/js\/custom\/scripts-min.js",
+		"oF": 3,
 		"sC": 1,
 		"tS": 0
 		},
