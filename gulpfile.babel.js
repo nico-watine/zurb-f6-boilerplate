@@ -24,7 +24,7 @@ function loadConfig() {
 
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
-  gulp.series(clean, gulp.parallel(pages, sass, javascript, javascript_other, fonts, images, copy)));
+  gulp.series(clean, gulp.parallel(pages, sass, javascript, javascript_custom, fonts, images, copy)));
 
 // Build the site, run the server, and watch for file changes
 gulp.task('default',
@@ -88,9 +88,11 @@ function javascript() {
     .pipe(gulp.dest(PATHS.dist + '/js'));
 }
 
-function javascript_other() {
-  return gulp.src('js/{{(**),!(src)/**},*.js}') // all sub-files and sub-folders except src
-    .pipe(gulp.dest(PATHS.dist + '/js'));
+// Watch and copy .js files located in js/custom to js/custom in dist
+// These js files are already being processed by Codekit
+function javascript_custom() {
+  return gulp.src('js/custom/**') // all sub-files and sub-folders except src
+    .pipe(gulp.dest(PATHS.dist + '/js/custom/'));
 }
 
 // Copy over fonts
@@ -112,7 +114,7 @@ function watch() {
   gulp.watch('src/pages/**', gulp.series(pages)); // <-watch for any type of additions
   gulp.watch('src/{layouts,partials}/**/*.html', gulp.series(resetPages, pages));
   gulp.watch('css/*.css', sass);
-  gulp.watch('js/**', gulp.series(javascript, javascript_other));
+  gulp.watch('js/**', gulp.series(javascript, javascript_custom));
   gulp.watch('img/**', images);
   gulp.watch('fonts/**', fonts);
 }

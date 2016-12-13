@@ -3557,13 +3557,13 @@
 		},
 	"\/dist\/403.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dist\/403.html",
 		"oF": 0
 		},
 	"\/dist\/404.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dist\/404.html",
 		"oF": 0
 		},
@@ -3572,7 +3572,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dist\/css\/app-min.css",
 		"oF": 0,
 		"oS": 0
@@ -3593,7 +3593,7 @@
 		},
 	"\/dist\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dist\/index.php",
 		"oF": 0
 		},
@@ -3617,7 +3617,7 @@
 		},
 	"\/dist\/php\/autoVer.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dist\/php\/autoVer.php",
 		"oF": 0
 		},
@@ -3653,30 +3653,30 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/js\/scripts-min.js": {
+	"\/js\/custom\/scripts-min.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/scripts-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/src\/app.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/js\/app-min.js",
+		"oAP": "\/js\/scripts-min-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/js\/src\/scripts.js": {
+	"\/js\/src\/app.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/scripts-min.js",
+		"oAP": "\/js\/app-min.js",
 		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/src\/custom\/scripts.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/custom\/scripts-min.js",
+		"oF": 3,
 		"sC": 1,
 		"tS": 0
 		},
