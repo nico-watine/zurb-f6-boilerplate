@@ -646,7 +646,7 @@
 	"\/bower_components\/foundation-sites\/js\/foundation.core.js": {
 		"ft": 64,
 		"mi": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/foundation-sites\/js\/foundation.core.js",
 		"oF": 0,
 		"sC": 0,
@@ -817,7 +817,7 @@
 	"\/bower_components\/foundation-sites\/js\/foundation.util.mediaQuery.js": {
 		"ft": 64,
 		"mi": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/foundation-sites\/js\/foundation.util.mediaQuery.js",
 		"oF": 0,
 		"sC": 0,
@@ -3518,7 +3518,7 @@
 	"\/bower_components\/what-input\/what-input.js": {
 		"ft": 64,
 		"mi": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/what-input\/what-input.js",
 		"oF": 0,
 		"sC": 0,
@@ -3674,9 +3674,9 @@
 	"\/js\/src\/app.js": {
 		"ft": 64,
 		"mi": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/js\/app-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
@@ -3983,6 +3983,26 @@
 "hooks": [
 	],
 "manualImportLinks": {
+	"\/js\/src\/app.js": [
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/what-input\/what-input.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.core.js",
+			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/foundation-sites\/js\/foundation.util.mediaQuery.js",
+			"position": 2,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"creationDate": 502296054,
