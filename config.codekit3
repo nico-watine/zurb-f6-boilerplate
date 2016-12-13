@@ -33,6 +33,12 @@
 		"oAP": "\/_ignores\/_notes.txt",
 		"oF": 0
 		},
+	"\/_ignores\/build-process-notes.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_ignores\/build-process-notes.txt",
+		"oF": 0
+		},
 	"\/_ignores\/clone-setup-guide.txt": {
 		"ft": 8192,
 		"oA": 2,

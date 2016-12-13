@@ -1,0 +1,3 @@
+So everytime scripts.js (or anything else in /js) is processed by Codekit, app.js is wiped clean bc Codekit doesn't "process" it, but the CLI pipe is interrupted for app.js (via imports specified in config.yml)
+
+-This sounds super smarrrrt
