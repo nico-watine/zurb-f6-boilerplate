@@ -3606,20 +3606,11 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/dist\/js\/scripts-min.js": {
+	"\/dist\/js\/custom\/scripts-min.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/dist\/scripts-min-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/dist\/js\/vendor\/jquery\/2-2-4\/jquery-min.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/dist\/js\/vendor\/jquery\/jquery-min-min.js",
+		"oAP": "\/dist\/js\/scripts-min-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
