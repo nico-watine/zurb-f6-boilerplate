@@ -24,7 +24,7 @@ function loadConfig() {
 
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
-  gulp.series(clean, gulp.parallel(pages, sass, javascript, javascript_custom, fonts, images, copy)));
+  gulp.series(clean, gulp.parallel(pages, sass, javascript, javascript_custom, javascript_vendor, fonts, images, copy)));
 
 // Build the site, run the server, and watch for file changes
 gulp.task('default',
@@ -93,6 +93,13 @@ function javascript() {
 function javascript_custom() {
   return gulp.src('js/custom/**') // all sub-files and sub-folders except src
     .pipe(gulp.dest(PATHS.dist + '/js/custom/'));
+}
+
+// Watch and copy .js files located in js/vendor to js/vendor in dist
+// These js files are not touched by Codekit. For example, a jquery source file is in here
+function javascript_vendor() {
+  return gulp.src('js/vendor/**') // all sub-files and sub-folders except src
+    .pipe(gulp.dest(PATHS.dist + '/js/vendor/'));
 }
 
 // Copy over fonts
