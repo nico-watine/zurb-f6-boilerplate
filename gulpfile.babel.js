@@ -121,7 +121,7 @@ function watch() {
   gulp.watch('src/pages/**', gulp.series(pages)); // <-watch for any type of additions
   gulp.watch('src/{layouts,partials}/**/*.html', gulp.series(resetPages, pages));
   gulp.watch('css/*.css', sass);
-  gulp.watch('js/**', gulp.series(javascript, javascript_custom));
+  gulp.watch('js/**', gulp.series(javascript, javascript_custom, javascript_vendor));
   gulp.watch('img/**', images);
   gulp.watch('fonts/**', fonts);
 }
