@@ -80,7 +80,7 @@ function sass() {
 // In production, the file is minified (app-min.js)
 function javascript() {
   return gulp.src(PATHS.javascript)
-    .pipe($.babel())
+    .pipe($.babel({ignore: ['what-input.js']}))
     .pipe($.concat('app-min.js'))
     .pipe($.if(PRODUCTION, $.uglify()
       .on('error', e => { console.log(e); })
