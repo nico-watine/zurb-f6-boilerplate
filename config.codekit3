@@ -388,6 +388,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/bower_components\/foundation-sites\/browserstack.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/foundation-sites\/browserstack.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/bower_components\/foundation-sites\/code-of-conduct.md": {
 		"cS": 0,
 		"eF": 1,
@@ -2103,7 +2111,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/foundation-sites\/scss\/settings\/_settings.scss",
 		"oF": 0,
 		"oS": 0,
@@ -2200,6 +2208,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/bower_components\/foundation-sites\/scss\/util\/_direction.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/foundation-sites\/scss\/util\/_direction.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/bower_components\/foundation-sites\/scss\/util\/_flex.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2248,6 +2269,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/foundation-sites\/scss\/util\/_selector.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/foundation-sites\/scss\/util\/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/foundation-sites\/scss\/util\/_typography.scss",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2931,7 +2965,7 @@
 	"\/bower_components\/jquery\/src\/manipulation\/_evalUrl.js": {
 		"ft": 64,
 		"mi": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/jquery\/src\/manipulation\/_evalUrl.js",
 		"oF": 0,
 		"sC": 0,
