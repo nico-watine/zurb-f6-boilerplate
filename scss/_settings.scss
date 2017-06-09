@@ -118,9 +118,9 @@ $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
-    'h1': ('font-size': 32),
-    'h2': ('font-size': 26),
-    'h3': ('font-size': 22),
+    'h1': ('font-size': 32), // This is a custom font-size (stock 24)
+    'h2': ('font-size': 26), // This is a custom font-size (stock 20)
+    'h3': ('font-size': 22), // This is a custom font-size (stock 19)
     'h4': ('font-size': 18),
     'h5': ('font-size': 17),
     'h6': ('font-size': 16),
