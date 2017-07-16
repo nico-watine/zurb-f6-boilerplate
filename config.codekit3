@@ -68,6 +68,12 @@
 		"oAP": "\/_ignores\/head\/head-references.html",
 		"oF": 0
 		},
+	"\/_ignores\/htaccess\/custom-error-pages.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_ignores\/htaccess\/custom-error-pages.txt",
+		"oF": 0
+		},
 	"\/_ignores\/misc\/browser-upgrade-snippet.html": {
 		"ft": 8192,
 		"oA": 0,
