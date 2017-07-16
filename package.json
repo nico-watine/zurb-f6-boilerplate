@@ -1,6 +1,6 @@
 {
   "name": "zurb-f6-boilerplate",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "New project boilerplate using ZURB's 'Advanced' Foundation 6 framework",
   "main": "gulpfile.js",
   "scripts": {
