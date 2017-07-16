@@ -2,9 +2,9 @@
   "name": "foundation-ssg",
   "version": "1.0.0",
   "authors": [
-    "ZURB <foundation@zurb.com>"
+    "Nico Watine <nico@studioncreations.com> (http://nicowatine.me/)"
   ],
-  "description": "Static site generator for Foundation for Sites.",
+  "description": "New project boilerplate using ZURB's 'Advanced' Foundation 6 framework",
   "main": "gulpfile.js",
   "license": "MIT",
   "ignore": [
