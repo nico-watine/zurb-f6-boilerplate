@@ -4151,6 +4151,12 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/LICENSE",
+		"oF": 0
+		},
 	"\/node_modules": {
 		"ft": 65536,
 		"oA": 2,
