@@ -4,7 +4,7 @@
   "description": "New project boilerplate using ZURB's 'Advanced' Foundation 6 framework",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "foundation watch",
+    "start": "gulp",
     "build": "npm run build"
   },
   "author": { 
