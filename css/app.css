@@ -4744,7 +4744,7 @@ a.thumbnail {
   margin: 0; }
 
 .p-x {
-  padding: 0 rem(16); }
+  padding: 0 1rem; }
 
 .p-y {
-  padding: rem(16) 0; }
+  padding: 1rem 0; }
