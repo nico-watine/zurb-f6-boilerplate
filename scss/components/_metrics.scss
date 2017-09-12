@@ -1,1 +1,22 @@
 @import "../_settings.scss";
+
+
+// NO PADDING
+.p-0 {
+	padding: 0;
+}
+
+// NO MARGIN
+.m-0 {
+	margin: 0;
+}
+
+// PADDING X
+.p-x {
+	padding: 0 rem-calc(16);
+}
+
+// PADDING Y
+.p-y {
+	padding: rem-calc(16) 0;
+}
