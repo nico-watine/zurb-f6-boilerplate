@@ -27,6 +27,24 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/_ignores\/CHANGELOG-guide.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/_ignores\/CHANGELOG-guide.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/_ignores\/codekit-icon.png": {
 		"ft": 32768,
 		"iS": 492119,
@@ -4336,6 +4354,16 @@
 		"oA": 2,
 		"oAP": "\/dist\/404.html",
 		"oF": 0
+		},
+	"\/dist\/css\/app-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/dist\/css\/app-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/dist\/css\/app.css": {
 		"aP": 0,
