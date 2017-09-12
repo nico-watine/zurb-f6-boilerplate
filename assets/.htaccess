@@ -1,13 +1,6 @@
-# ------------------------------------------------------------------------------
-# Custom .htaccess file built on Apache Server Configs v2.14.0 | MIT License
-# ------------------------------------------------------------------------------
-# https://github.com/h5bp/server-configs-apache
-# ------------------------------------------------------------------------------
-
-
-# ------------------------------------------------------------------------------------
-# | Cross-origin images  |  Send the CORS header for images when browsers request it | 
-# ------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------
+# | Cross-origin images                                                |
+# ----------------------------------------------------------------------
 
 <IfModule mod_setenvif.c>
     <IfModule mod_headers.c>
@@ -19,56 +12,44 @@
 </IfModule>
 
 
+# ----------------------------------------------------------------------
+# | Error prevention                                                   |
+# ----------------------------------------------------------------------
+
+Options -MultiViews
+
 
 # ----------------------------------------------------------------------
-# | Cross-origin web fonts  |  Allow cross-origin access to web fonts  |
+# | Custom error messages/pages                                        |
 # ----------------------------------------------------------------------
 
-<IfModule mod_headers.c>
-    <FilesMatch "\.(eot|otf|tt[cf]|woff2?)$">
-        Header set Access-Control-Allow-Origin "*"
-    </FilesMatch>
-</IfModule>
+ErrorDocument 403 /403.html
 
+ErrorDocument 404 /404.html
 
 
 # ----------------------------------------------------------------------
 # | Character encodings                                                |
 # ----------------------------------------------------------------------
 
-# Serve the following file types with the media type `charset`
-# parameter set to `UTF-8`.
-#
-# https://httpd.apache.org/docs/current/mod/mod_mime.html#addcharset
-
 <IfModule mod_mime.c>
-    AddCharset utf-8 .css \
-                     .js \
+    AddCharset utf-8 .js \
                      .json \
                      .jsonld \
-                     .manifest \
-                     .rss \
-                     .webapp \
-                     .webmanifest \
-                     .xml
+                     .manifest
 </IfModule>
 
 
 # ----------------------------------------------------------------------
-# | Enable (Turn on) Rewrite engine                                    |
-# | REQUIRED for www/not redirects, along with removing extensions     |
+# | Rewrite engine                                                     |
 # ----------------------------------------------------------------------
-
-# (1) Set %{ENV:PROTO} variable, to allow rewrites to redirect with the
-#     appropriate schema automatically (http or https).
-#
 
 <IfModule mod_rewrite.c>
 
     RewriteEngine On
+
     Options +FollowSymlinks
 
-    # (1)
     RewriteCond %{HTTPS} =on
     RewriteRule ^ - [env=proto:https]
     RewriteCond %{HTTPS} !=on
@@ -77,11 +58,11 @@
 </IfModule>
 
 
-# ----------------------------------------------------------------------
-# | Suppressing / Forcing the `www.` at the beginning of URLs          |
-# ----------------------------------------------------------------------
+# --------------------------------------------------------------------
+# |            Remove the `www.` at the beginning of URLs            |
+# --------------------------------------------------------------------
 
-# Rewrite www.example.com → example.com
+# Rewrite www.studioncreations.com → studioncreations.com
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
@@ -92,7 +73,7 @@
 
 
 # ------------------------------------------------------------------------------
-# | Remove & Redirect 'HTML' / 'PHP' / 'HTM' Endings                                         |
+# | Remove & Redirect 'HTML' / 'PHP' / 'HTM' Endings                           |
 # ------------------------------------------------------------------------------
 
 RewriteOptions inherit
@@ -123,126 +104,72 @@ RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
 RewriteRule ^(.*)\.html$ /$1 [R=301,L]
 
 
-
-# ----------------------------------------------------------------------
-# | Hosting Account Security [Content Security Policy (CSP)]           |
-# ----------------------------------------------------------------------
-
 # ----------------------------------------------------------------------
 # | File access                                                        |
 # ----------------------------------------------------------------------
-
-# Block access to directories without a default document.
-#
-# You should leave the following uncommented, as you shouldn't allow
-# anyone to surf through every directory on your server (which may
-# includes rather private places such as the CMS's directories).
 
 <IfModule mod_autoindex.c>
     Options -Indexes
 </IfModule>
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-# Block access to hidden files and directories.
-# This includes directories used by version control systems such as Git and SVN.
 
 <IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_URI} "!(^|/)\.well-known/([^./]+./?)+$" [NC]
     RewriteCond %{SCRIPT_FILENAME} -d [OR]
     RewriteCond %{SCRIPT_FILENAME} -f
     RewriteRule "(^|/)\." - [F]
 </IfModule>
 
 
+<FilesMatch "(^#.*#|\.(bak|conf|dist|fla|in[ci]|log|psd|sh|sql|sw[op])|~)$">
+
+    # Apache < 2.3
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+        Satisfy All
+    </IfModule>
+
+    # Apache ≥ 2.3
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+
+</FilesMatch>
+
+
 # ----------------------------------------------------------------------
-# | Expires headers                                                    |
+# | Reducing MIME type security risks                                  |
 # ----------------------------------------------------------------------
 
-# Serve resources with far-future expires headers.
-#
-# https://httpd.apache.org/docs/current/mod/mod_expires.html
-#
-# See: http://www.particletree.com/notebook/automatically-version-your-css-and-javascript-files/
-# This webpage is the source of the auto-versioning snippet
-
-<IfModule mod_expires.c>
-
-    <FilesMatch "\.(bmp|gif|png|jpg?g|js|css|swf|svgz?|webp|mp4|ogg|webm)$">
-        ExpiresActive On
-        ExpiresDefault "access plus 10 years"
-    </FilesMatch>
-
-    ExpiresActive on
-    ExpiresDefault                                      "access plus 1 month"
-
-
-  # Data interchange
-
-    ExpiresByType application/atom+xml                  "access plus 1 hour"
-    ExpiresByType application/rdf+xml                   "access plus 1 hour"
-    ExpiresByType application/rss+xml                   "access plus 1 hour"
-
-    ExpiresByType application/json                      "access plus 0 seconds"
-    ExpiresByType application/ld+json                   "access plus 0 seconds"
-    ExpiresByType application/schema+json               "access plus 0 seconds"
-    ExpiresByType application/vnd.geo+json              "access plus 0 seconds"
-    ExpiresByType application/xml                       "access plus 0 seconds"
-    ExpiresByType text/xml                              "access plus 0 seconds"
-
-
-  # Favicon (cannot be renamed!) and cursor images
-
-    ExpiresByType image/vnd.microsoft.icon              "access plus 1 week"
-    ExpiresByType image/x-icon                          "access plus 1 week"
-
-  # HTML
-
-    ExpiresByType text/html                             "access plus 0 seconds"
-
-
-  # Manifest files
-
-    ExpiresByType application/manifest+json             "access plus 1 week"
-    ExpiresByType application/x-web-app-manifest+json   "access plus 0 seconds"
-    ExpiresByType text/cache-manifest                   "access plus 0 seconds"
-
-
-  # Web fonts
-
-    # Embedded OpenType (EOT)
-    ExpiresByType application/vnd.ms-fontobject         "access plus 10 years"
-    ExpiresByType font/eot                              "access plus 10 years"
-
-    # OpenType
-    ExpiresByType font/opentype                         "access plus 10 years"
-
-    # TrueType
-    ExpiresByType application/x-font-ttf                "access plus 10 years"
-
-    # Web Open Font Format (WOFF) 1.0
-    ExpiresByType application/font-woff                 "access plus 10 years"
-    ExpiresByType application/x-font-woff               "access plus 10 years"
-    ExpiresByType font/woff                             "access plus 10 years"
-
-    # Web Open Font Format (WOFF) 2.0
-    ExpiresByType application/font-woff2                "access plus 10 years"
-
-
-  # Other
-
-    ExpiresByType text/x-cross-domain-policy            "access plus 1 week"
-
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
 </IfModule>
 
 
 # ----------------------------------------------------------------------
-# | Compression   [This section just copy/pasted from H5BP Config]     |
+# | Server-side technology information                                 |
+# ----------------------------------------------------------------------
+
+<IfModule mod_headers.c>
+    Header unset X-Powered-By
+</IfModule>
+
+
+# ----------------------------------------------------------------------
+# | Server software information                                        |
+# ----------------------------------------------------------------------
+
+ServerSignature Off
+
+
+# ----------------------------------------------------------------------
+# | Compression                                                        |
 # ----------------------------------------------------------------------
 
 <IfModule mod_deflate.c>
 
-    # Force compression for mangled `Accept-Encoding` request headers
-    # https://developer.yahoo.com/blogs/ydn/pushing-beyond-gzipping-25601.html
 
     <IfModule mod_setenvif.c>
         <IfModule mod_headers.c>
@@ -251,16 +178,6 @@ RewriteRule ^(.*)\.html$ /$1 [R=301,L]
         </IfModule>
     </IfModule>
 
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-    # Compress all output labeled with one of the following media types.
-    #
-    # (!) For Apache versions below version 2.3.7 you don't need to
-    # enable `mod_filter` and can remove the `<IfModule mod_filter.c>`
-    # and `</IfModule>` lines as `AddOutputFilterByType` is still in
-    # the core directives.
-    #
-    # https://httpd.apache.org/docs/current/mod/mod_filter.html#addoutputfilterbytype
 
     <IfModule mod_filter.c>
         AddOutputFilterByType DEFLATE "application/atom+xml" \
@@ -298,20 +215,6 @@ RewriteRule ^(.*)\.html$ /$1 [R=301,L]
 
     </IfModule>
 
-    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-    # Map the following filename extensions to the specified
-    # encoding type in order to make Apache serve the file types
-    # with the appropriate `Content-Encoding` response header
-    # (do note that this will NOT make Apache compress them!).
-    #
-    # If these files types would be served without an appropriate
-    # `Content-Enable` response header, client applications (e.g.:
-    # browsers) wouldn't know that they first need to uncompress
-    # the response, and thus, wouldn't be able to understand the
-    # content.
-    #
-    # https://httpd.apache.org/docs/current/mod/mod_mime.html#addencoding
 
     <IfModule mod_mime.c>
         AddEncoding gzip              svgz
@@ -320,22 +223,91 @@ RewriteRule ^(.*)\.html$ /$1 [R=301,L]
 </IfModule>
 
 
+# ----------------------------------------------------------------------
+# | ETags                                                              |
+# ----------------------------------------------------------------------
+
+<IfModule mod_headers.c>
+    Header unset ETag
+</IfModule>
+
+FileETag None
+
+
+# ----------------------------------------------------------------------
+# | Expires headers                                                    |
+# ----------------------------------------------------------------------
+
+<IfModule mod_expires.c>
+
+    ExpiresActive on
+    ExpiresDefault                                      "access plus 1 month"
+
+
+    ExpiresByType text/css                              "access plus 1 year"
+
+
+    ExpiresByType application/atom+xml                  "access plus 1 hour"
+    ExpiresByType application/rdf+xml                   "access plus 1 hour"
+    ExpiresByType application/rss+xml                   "access plus 1 hour"
+
+
+    ExpiresByType application/json                      "access plus 0 seconds"
+    ExpiresByType application/ld+json                   "access plus 0 seconds"
+    ExpiresByType application/schema+json               "access plus 0 seconds"
+    ExpiresByType application/vnd.geo+json              "access plus 0 seconds"
+    ExpiresByType application/xml                       "access plus 0 seconds"
+    ExpiresByType text/xml                              "access plus 0 seconds"
+
+
+    ExpiresByType image/vnd.microsoft.icon              "access plus 1 week"
+    ExpiresByType image/x-icon                          "access plus 1 week"
+
+
+    ExpiresByType text/html                             "access plus 0 seconds"
+
+
+    ExpiresByType application/javascript                "access plus 1 year"
+    ExpiresByType application/x-javascript              "access plus 1 year"
+    ExpiresByType text/javascript                       "access plus 1 year"
+
+
+    ExpiresByType application/manifest+json             "access plus 1 week"
+    ExpiresByType application/x-web-app-manifest+json   "access plus 0 seconds"
+    ExpiresByType text/cache-manifest                   "access plus 0 seconds"
+
+
+    ExpiresByType audio/ogg                             "access plus 1 month"
+    ExpiresByType image/bmp                             "access plus 1 month"
+    ExpiresByType image/gif                             "access plus 1 month"
+    ExpiresByType image/jpeg                            "access plus 1 month"
+    ExpiresByType image/png                             "access plus 1 month"
+    ExpiresByType image/svg+xml                         "access plus 1 month"
+    ExpiresByType image/webp                            "access plus 1 month"
+    ExpiresByType video/mp4                             "access plus 1 month"
+    ExpiresByType video/ogg                             "access plus 1 month"
+    ExpiresByType video/webm                            "access plus 1 month"
+
+
+    ExpiresByType application/vnd.ms-fontobject         "access plus 1 month"
+    ExpiresByType font/eot                              "access plus 1 month"
+    ExpiresByType font/opentype                         "access plus 1 month"
+    ExpiresByType application/x-font-ttf                "access plus 1 month"
+    ExpiresByType application/font-woff                 "access plus 1 month"
+    ExpiresByType application/x-font-woff               "access plus 1 month"
+    ExpiresByType font/woff                             "access plus 1 month"
+
+    ExpiresByType application/font-woff2                "access plus 1 month"
+
+
+    ExpiresByType text/x-cross-domain-policy            "access plus 1 week"
+
+</IfModule>
+
 
 # ------------------------------------------------------------------------------
 # | Rules for Versioned Static Files
 # ------------------------------------------------------------------------------
 
 RewriteRule ^(js|css)/(.+)\.(.+)\.(js|css)$ $1/$2.$4 [L]
-
-
-
-# -------------------------------------------------------------------------------------------------------
-# | Custom error messages / pages  |  http://httpd.apache.org/docs/current/mod/core.html#errordocument  |
-# -------------------------------------------------------------------------------------------------------
-
-# Use 403 for 'access denied' - Don't necessarily need 403 by default
-ErrorDocument 403 /403.html
-
-# Use 404 for 'not found' - Is good to use
-ErrorDocument 404 /404.html
 
