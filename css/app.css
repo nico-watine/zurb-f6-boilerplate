@@ -4737,6 +4737,9 @@ a.thumbnail {
 .long-delay {
   animation-delay: 700ms !important; }
 
+.inline-block {
+  display: inline-block; }
+
 .p-0 {
   padding: 0; }
 
