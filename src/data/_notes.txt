@@ -1,4 +1,5 @@
+# ------------------------------------------------------
+# |            More info can be found at ::            |
+# ------------------------------------------------------
 
-
-More info can be found at ::
 http://foundation.zurb.com/sites/docs/panini.html#custom-data
