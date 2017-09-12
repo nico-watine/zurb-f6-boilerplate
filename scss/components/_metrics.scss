@@ -26,7 +26,19 @@
 // |            Margins            |
 // ---------------------------------
 
-// NO MARGIN
-.m-0 {
+.margin-0 {
 	margin: 0;
 }
+
+.margin-X {
+	margin: 0 rem-calc(15);
+}
+
+.margin-Y {
+	margin: rem-calc(15) 0;
+}
+
+.margin-XY {
+	margin: rem-calc(15);
+}
+
