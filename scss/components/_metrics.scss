@@ -5,14 +5,12 @@
 // |            Padding            |
 // ---------------------------------
 
-// NO PADDING
-.p-0 {
+.padding-0 {
 	padding: 0;
 }
 
-// PADDING X
-.p-x {
-	padding: 0 rem-calc(16);
+.padding-X {
+	padding: 0 rem-calc(15);
 }
 
 // PADDING Y

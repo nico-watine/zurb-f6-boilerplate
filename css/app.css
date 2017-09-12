@@ -4740,11 +4740,11 @@ a.thumbnail {
 .inline-block {
   display: inline-block; }
 
-.p-0 {
+.padding-0 {
   padding: 0; }
 
-.p-x {
-  padding: 0 1rem; }
+.padding-X {
+  padding: 0 0.9375rem; }
 
 .p-y {
   padding: 1rem 0; }
