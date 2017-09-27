@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",
-    "build": "npm run build"
+    "build": "gulp build --production"
   },
   "author": { 
     "name" : "Nico Watine",
