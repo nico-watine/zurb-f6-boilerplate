@@ -26,3 +26,6 @@ In order:
 * bower install
 
 * Ensure 'External Server Address' is correct in 'config.codekit' file
+
+### **Notes**
+There is an invisible .htaccess file located in '/assets'. This .htaccess file **cannot** be deleted. It is auto imported into '/dist' and it is necessary for autoversioning to function correctly
