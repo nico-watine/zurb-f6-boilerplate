@@ -13,5 +13,3 @@
 * Optimized Google Analytics tracking code ([CREDIT](https://github.com/h5bp/html5-boilerplate/pull/1660#issuecomment-89815017))
 
 * Can process PHP files (not just HTML)
-
-README still in development
