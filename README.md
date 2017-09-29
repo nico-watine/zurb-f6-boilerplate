@@ -13,3 +13,16 @@
 * Optimized Google Analytics tracking code ([CREDIT](https://github.com/h5bp/html5-boilerplate/pull/1660#issuecomment-89815017))
 
 * Can process PHP files (not just HTML)
+
+### **Setup**
+In order:
+
+* cd Terminal
+
+* Clone via HTTPS : [https://github.com/nico-watine/zurb-f6-boilerplate.git](https://github.com/nico-watine/zurb-f6-boilerplate.git)
+
+* npm install
+
+* bower install
+
+* Ensure 'External Server Address' is correct in 'config.codekit' file
