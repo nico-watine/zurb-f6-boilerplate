@@ -80,12 +80,6 @@
 		"oAP": "\/_ignores\/htaccess\/force-https.txt",
 		"oF": 0
 		},
-	"\/_ignores\/misc\/browser-upgrade-snippet.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_ignores\/misc\/browser-upgrade-snippet.html",
-		"oF": 0
-		},
 	"\/_ignores\/zurb-f6-boilerplate.sublime-project": {
 		"ft": 8192,
 		"oA": 2,
