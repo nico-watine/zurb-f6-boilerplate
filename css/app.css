@@ -980,6 +980,9 @@ pre {
   .row.gutter-large > .column, .row.gutter-large > .columns {
     padding-right: 0.9375rem;
     padding-left: 0.9375rem; }
+  .row.gutter-xlarge > .column, .row.gutter-xlarge > .columns {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem; }
 
 .column, .columns {
   width: 100%;
@@ -994,6 +997,10 @@ pre {
     .column, .columns {
       padding-right: 0.9375rem;
       padding-left: 0.9375rem; } }
+  @media screen and (min-width: 75em) {
+    .column, .columns {
+      padding-right: 1.25rem;
+      padding-left: 1.25rem; } }
   .column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
     float: right; }
   .column.end:last-child:last-child, .end.columns:last-child:last-child {
@@ -1717,6 +1724,11 @@ pre {
   @media print, screen and (min-width: 64em) {
     .column-block {
       margin-bottom: 1.875rem; }
+      .column-block > :last-child {
+        margin-bottom: 0; } }
+  @media screen and (min-width: 75em) {
+    .column-block {
+      margin-bottom: 2.5rem; }
       .column-block > :last-child {
         margin-bottom: 0; } }
 
