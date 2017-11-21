@@ -4749,6 +4749,9 @@ a.thumbnail {
 .long-delay {
   animation-delay: 700ms !important; }
 
+.p {
+  font-size: 1rem; }
+
 .h1 {
   font-size: 2rem; }
 

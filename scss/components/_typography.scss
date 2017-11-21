@@ -1,6 +1,9 @@
 @import "../_settings.scss";
 @import "typography/_fonts.scss";
 
+.p {
+	font-size: $p;
+}
 
 .h1 {
 	font-size: $h1;
