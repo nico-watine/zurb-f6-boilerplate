@@ -25,3 +25,29 @@
 .h6 {
 	font-size: $h6;
 }
+
+@include breakpoint(medium) {
+	.h1 {
+		font-size: $h1-medium;
+	}
+
+	.h2 {
+		font-size: $h2-medium;
+	}
+
+	.h3 {
+		font-size: $h3-medium;
+	}
+
+	.h4 {
+		font-size: $h4-medium;
+	}
+
+	.h5 {
+		font-size: $h5-medium;
+	}
+
+	.h6 {
+		font-size: $h6-medium;
+	}
+}
