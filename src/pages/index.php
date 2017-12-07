@@ -47,6 +47,8 @@ body-class:
 	</div>
 </div>
 
+<br>
+
 <div class="row">
 	<div class="columns">
 		<code>48px/1.4</code>
@@ -59,6 +61,8 @@ body-class:
 		<p>p - An Equal Amount Of Text</p>
 	</div>
 </div>
+
+<hr>
 
 <div class="row">
 	<div class="large-8 medium-8 columns">
