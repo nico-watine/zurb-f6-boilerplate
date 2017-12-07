@@ -959,8 +959,8 @@ pre {
         margin-left: -0.75rem; } }
     @media print, screen and (min-width: 64em) {
       .row .row {
-        margin-right: -0.9375rem;
-        margin-left: -0.9375rem; } }
+        margin-right: -0.75rem;
+        margin-left: -0.75rem; } }
     .row .row.collapse {
       margin-right: 0;
       margin-left: 0; }
@@ -977,9 +977,6 @@ pre {
   .row.gutter-medium > .column, .row.gutter-medium > .columns {
     padding-right: 0.75rem;
     padding-left: 0.75rem; }
-  .row.gutter-large > .column, .row.gutter-large > .columns {
-    padding-right: 0.9375rem;
-    padding-left: 0.9375rem; }
 
 .column, .columns {
   width: 100%;
@@ -990,10 +987,6 @@ pre {
     .column, .columns {
       padding-right: 0.75rem;
       padding-left: 0.75rem; } }
-  @media print, screen and (min-width: 64em) {
-    .column, .columns {
-      padding-right: 0.9375rem;
-      padding-left: 0.9375rem; } }
   .column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
     float: right; }
   .column.end:last-child:last-child, .end.columns:last-child:last-child {
@@ -1689,8 +1682,8 @@ pre {
     margin-right: 0;
     margin-left: 0; }
   .large-uncollapse > .column, .large-uncollapse > .columns {
-    padding-right: 0.9375rem;
-    padding-left: 0.9375rem; }
+    padding-right: 0.75rem;
+    padding-left: 0.75rem; }
   .large-centered {
     margin-right: auto;
     margin-left: auto; }
@@ -1712,11 +1705,6 @@ pre {
   @media print, screen and (min-width: 40em) {
     .column-block {
       margin-bottom: 1.5rem; }
-      .column-block > :last-child {
-        margin-bottom: 0; } }
-  @media print, screen and (min-width: 64em) {
-    .column-block {
-      margin-bottom: 1.875rem; }
       .column-block > :last-child {
         margin-bottom: 0; } }
 
