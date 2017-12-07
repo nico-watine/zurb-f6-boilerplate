@@ -17,6 +17,7 @@ body-class:
 <div class="row">
 	<img src="/img/banditos.jpg" alt="Best.Friends.For.Life.">
 </div>
+
 <div class="row">
 	<div class="large-12 columns">
 		<div class="callout">
