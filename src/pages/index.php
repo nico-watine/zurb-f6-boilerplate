@@ -69,7 +69,7 @@ body-class:
 		<h6 class="inline-block" style="padding-right: 16px;">h6 - An Equal Amount Of Text</h6><code>16px/1.4</code>
 		<br>
 		<br>
-		<p>p - An Equal Amount Of Text</p>
+		<p class="inline-block" style="padding-right: 16px;">p - An Equal Amount Of Text</p><code>16px/1.6</code>
 	</div>
 </div>
 
