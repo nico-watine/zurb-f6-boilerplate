@@ -54,20 +54,20 @@ body-class:
 		<h1 class="inline-block" style="padding-right: 16px;">h1 - An Equal Amount Of Text</h1><code>48px/1.4</code>
 		<br>
 		<br>
-		<code>40px/1.4</code>
-		<h2>h2 - An Equal Amount Of Text</h2>
+		<h2 class="inline-block" style="padding-right: 16px;">h2 - An Equal Amount Of Text</h2><code>40px/1.4</code>
 		<br>
-		<code>31px/1.4</code>
-		<h3>h3 - An Equal Amount Of Text</h3>
 		<br>
-		<code>25px/1.4</code>
-		<h4>h4 - An Equal Amount Of Text</h4>
+		<h3 class="inline-block" style="padding-right: 16px;">h3 - An Equal Amount Of Text</h3><code>31px/1.4</code>
 		<br>
-		<code>20px/1.4</code>
-		<h5>h5 - An Equal Amount Of Text</h5>
 		<br>
-		<code>16px/1.4</code>
-		<h6>h6 - An Equal Amount Of Text</h6>
+		<h4 class="inline-block" style="padding-right: 16px;">h4 - An Equal Amount Of Text</h4><code>25px/1.4</code>
+		<br>
+		<br>
+		<h5 class="inline-block" style="padding-right: 16px;">h5 - An Equal Amount Of Text</h5><code>20px/1.4</code>
+		<br>
+		<br>
+		<h6 class="inline-block" style="padding-right: 16px;">h6 - An Equal Amount Of Text</h6><code>16px/1.4</code>
+		<br>
 		<br>
 		<p>p - An Equal Amount Of Text</p>
 	</div>
