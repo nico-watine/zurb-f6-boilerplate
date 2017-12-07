@@ -49,6 +49,7 @@ body-class:
 
 <div class="row">
 	<div class="columns">
+		<code>48px/1.4</code>
 		<h1>h1 - An Equal Amount Of Text</h1>
 		<h2>h2 - An Equal Amount Of Text</h2>
 		<h3>h3 - An Equal Amount Of Text</h3>
