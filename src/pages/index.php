@@ -48,6 +48,18 @@ body-class:
 </div>
 
 <div class="row">
+	<div class="columns">
+		<h1>h1 - An Equal Amount Of Text</h1>
+		<h2>h2 - An Equal Amount Of Text</h2>
+		<h3>h3 - An Equal Amount Of Text</h3>
+		<h4>h4 - An Equal Amount Of Text</h4>
+		<h5>h5 - An Equal Amount Of Text</h5>
+		<h6>h6 - An Equal Amount Of Text</h6>
+		<p>p - An Equal Amount Of Text</p>
+	</div>
+</div>
+
+<div class="row">
 	<div class="large-8 medium-8 columns">
 		<h5>Here&rsquo;s your basic grid:</h5>
 		<!-- Grid Example -->
