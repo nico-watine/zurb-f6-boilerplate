@@ -131,7 +131,7 @@ body-class:
 				<br>
 				<br>
 			</div>
-			<div class="large-4 columns end">
+			<div class="large-4 columns">
 				<div class="boxShadow-4 padding-Y" style="border: 1px solid #e6e6e6;">
 					<p style="margin-bottom: 12px;">Class: <small><code>.boxShadow-4</code></small></p>
 					<code>box-shadow: $z-4;</code>
@@ -139,7 +139,7 @@ body-class:
 				<br>
 				<br>
 			</div>
-			<div class="large-4 columns end">
+			<div class="large-4 columns">
 				<div class="boxShadow-5 padding-Y" style="border: 1px solid #e6e6e6;">
 					<p style="margin-bottom: 12px;">Class: <small><code>.boxShadow-5</code></small></p>
 					<code>box-shadow: $z-5;</code>
