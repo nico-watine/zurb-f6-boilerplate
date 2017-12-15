@@ -98,19 +98,19 @@ body-class:
 	<div class="large-9 columns">
 		<div class="row">
 			<div class="large-4 columns text-center">
-				<div style="border: 1px solid #e6e6e6; height: 100px; background: #f9f9f9;">
+				<div style="border: 1px solid #e6e6e6; height: 100px;">
 					<code>box-shadow: 0;</code>
 				</div>
 				<br>
 			</div>
 			<div class="large-4 columns text-center">
-				<div class="boxShadow-1" style="height: 100px; background: #f9f9f9;">
+				<div class="boxShadow-1" style="height: 100px;">
 					<code>box-shadow: $z-1;</code>
 				</div>
 				<br>
 			</div>
 			<div class="large-4 columns text-center">
-				<div class="boxShadow-2" style="height: 100px; background: #f9f9f9;">
+				<div class="boxShadow-2" style="height: 100px;">
 					<code>box-shadow: $z-2;</code>
 				</div>
 				<br>
@@ -118,17 +118,17 @@ body-class:
 		</div>
 		<div class="row">
 			<div class="large-4 columns text-center">
-				<div class="boxShadow-3" style="height: 100px; background: #f9f9f9;">
+				<div class="boxShadow-3" style="height: 100px;">
 					<code>box-shadow: $z-3;</code>
 				</div>
 			</div>
 			<div class="large-4 columns text-center end">
-				<div class="boxShadow-4" style="height: 100px; background: #f9f9f9;">
+				<div class="boxShadow-4" style="height: 100px;">
 					<code>box-shadow: $z-4;</code>
 				</div>
 			</div>
 			<div class="large-4 columns text-center end">
-				<div class="boxShadow-5" style="height: 100px; background: #f9f9f9;">
+				<div class="boxShadow-5" style="height: 100px;">
 					<code>box-shadow: $z-5;</code>
 				</div>
 			</div>
