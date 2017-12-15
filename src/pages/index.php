@@ -93,7 +93,9 @@ body-class:
 
 <div class="row">
 	<div class="large-3 columns">
-		&nbsp;
+		<h4>The values for these classes are inspired by Material Design paper shadow.</h4>
+		<br>
+		<br>
 	</div>
 	<div class="large-9 columns text-center">
 		<div class="row">
