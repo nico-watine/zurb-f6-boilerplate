@@ -4674,19 +4674,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/pages\/index\/_index.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/pages\/css\/_index.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/scss\/settings\/_custom-settings.scss": {
 		"aP": 0,
 		"bl": 0,

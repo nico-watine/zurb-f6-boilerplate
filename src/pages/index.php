@@ -84,6 +84,80 @@ body-class:
 <hr>
 
 <div class="row">
+	<div class="columns">
+		<h1><small><code>box-shadow</code></small> Styles</h1>
+	</div>
+</div>
+
+<hr>
+
+<div class="row">
+	<div class="large-3 columns">
+		<h4>The values for these classes are inspired by Material Design paper shadow.</h4>
+		<br>
+		<br>
+	</div>
+	<div class="large-9 columns text-center">
+		<div class="row">
+			<div class="medium-4 columns">
+				<div class="padding-Y" style="border: 1px solid #e6e6e6;">
+					<p style="margin-bottom: 12px;"><small><code>border</code></small> added for display</p>
+					<code>box-shadow: 0;</code>
+				</div>
+				<br>
+				<br>
+			</div>
+			<div class="medium-4 columns">
+				<div class="boxShadow-1 padding-Y" style="border: 1px solid #e6e6e6;">
+					<p style="margin-bottom: 12px;">Class: <small><code>.boxShadow-1</code></small></p>
+					<code>box-shadow: $z-1;</code>
+				</div>
+				<br>
+				<br>
+			</div>
+			<div class="medium-4 columns">
+				<div class="boxShadow-2 padding-Y" style="border: 1px solid #e6e6e6;">
+					<p style="margin-bottom: 12px;">Class: <small><code>.boxShadow-2</code></small></p>
+					<code>box-shadow: $z-2;</code>
+				</div>
+				<br>
+				<br>
+			</div>
+		</div>
+		<div class="row">
+			<div class="medium-4 columns">
+				<div class="boxShadow-3 padding-Y" style="border: 1px solid #e6e6e6;">
+					<p style="margin-bottom: 12px;">Class: <small><code>.boxShadow-3</code></small></p>
+					<code>box-shadow: $z-3;</code>
+				</div>
+				<br>
+				<br>
+			</div>
+			<div class="medium-4 columns">
+				<div class="boxShadow-4 padding-Y" style="border: 1px solid #e6e6e6;">
+					<p style="margin-bottom: 12px;">Class: <small><code>.boxShadow-4</code></small></p>
+					<code>box-shadow: $z-4;</code>
+				</div>
+				<br>
+				<br>
+			</div>
+			<div class="medium-4 columns">
+				<div class="boxShadow-5 padding-Y" style="border: 1px solid #e6e6e6;">
+					<p style="margin-bottom: 12px;">Class: <small><code>.boxShadow-5</code></small></p>
+					<code>box-shadow: $z-5;</code>
+				</div>
+				<br>
+				<br>
+			</div>
+		</div>
+	</div>
+</div>
+
+<hr>
+<br>
+<br>
+
+<div class="row">
 	<div class="large-8 medium-8 columns">
 		<h5>Here&rsquo;s your basic grid:</h5>
 		<!-- Grid Example -->
