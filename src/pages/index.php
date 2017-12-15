@@ -84,6 +84,14 @@ body-class:
 <hr>
 
 <div class="row">
+	<div class="columns">
+		<h1><code>box-shadow</code> Styles</h1>
+	</div>
+</div>
+
+<hr>
+
+<div class="row">
 	<div class="large-8 medium-8 columns">
 		<h5>Here&rsquo;s your basic grid:</h5>
 		<!-- Grid Example -->
