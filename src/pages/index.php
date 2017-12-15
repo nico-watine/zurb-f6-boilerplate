@@ -47,7 +47,15 @@ body-class:
 	</div>
 </div>
 
-<br>
+<hr>
+
+<div class="row">
+	<div class="columns">
+		<h1>Typography Styles</h1>
+	</div>
+</div>
+
+<hr>
 
 <div class="row">
 	<div class="columns">
