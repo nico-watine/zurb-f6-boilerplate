@@ -47,6 +47,7 @@ body-class:
 	</div>
 </div>
 
+<br>
 <hr>
 
 <div class="row">
