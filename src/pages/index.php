@@ -92,34 +92,46 @@ body-class:
 <hr>
 
 <div class="row">
-	<div class="medium-2 columns text-center">
-		<div style="height: 100px; background: #f0f2f2;">
-			<code>box-shadow: 0;</code>
-		</div>
+	<div class="large-3 columns">
+		&nbsp;
 	</div>
-	<div class="medium-2 columns text-center">
-		<div class="boxShadow-1" style="height: 100px; background: #f0f2f2;">
-			<code>box-shadow: $z-1;</code>
+	<div class="large-9 columns">
+		<div class="row">
+			<div class="large-4 columns text-center">
+				<div class="boxShadow-1" style="height: 100px; background: #f0f2f2;">
+					<code>box-shadow: $z-1;</code>
+				</div>
+				<br>
+			</div>
+			<div class="large-4 columns text-center">
+				<div class="boxShadow-1" style="height: 100px; background: #f0f2f2;">
+					<code>box-shadow: $z-1;</code>
+				</div>
+				<br>
+			</div>
+			<div class="large-4 columns text-center">
+				<div class="boxShadow-1" style="height: 100px; background: #f0f2f2;">
+					<code>box-shadow: $z-1;</code>
+				</div>
+				<br>
+			</div>
 		</div>
-	</div>
-	<div class="medium-2 columns text-center">
-		<div class="boxShadow-2" style="height: 100px; background: #f0f2f2;">
-			<code>box-shadow: $z-2;</code>
-		</div>
-	</div>
-	<div class="medium-2 columns text-center">
-		<div class="boxShadow-3" style="height: 100px; background: #f0f2f2;">
-			<code>box-shadow: $z-3;</code>
-		</div>
-	</div>
-	<div class="medium-2 columns text-center">
-		<div class="boxShadow-4" style="height: 100px; background: #f0f2f2;">
-			<code>box-shadow: $z-4;</code>
-		</div>
-	</div>
-	<div class="medium-2 columns text-center">
-		<div class="boxShadow-5" style="height: 100px; background: #f0f2f2;">
-			<code>box-shadow: $z-5;</code>
+		<div class="row">
+			<div class="large-4 columns text-center">
+				<div class="boxShadow-1" style="height: 100px; background: #f0f2f2;">
+					<code>box-shadow: $z-1;</code>
+				</div>
+			</div>
+			<div class="large-4 columns text-center end">
+				<div class="boxShadow-1" style="height: 100px; background: #f0f2f2;">
+					<code>box-shadow: $z-1;</code>
+				</div>
+			</div>
+			<div class="large-4 columns text-center end">
+				<div class="boxShadow-1" style="height: 100px; background: #f0f2f2;">
+					<code>box-shadow: $z-1;</code>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
