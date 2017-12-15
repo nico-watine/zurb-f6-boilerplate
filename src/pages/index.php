@@ -85,7 +85,7 @@ body-class:
 
 <div class="row">
 	<div class="columns">
-		<h1><code>box-shadow</code> Styles</h1>
+		<h1><small><code>box-shadow</code></small> Styles</h1>
 	</div>
 </div>
 
