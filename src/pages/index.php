@@ -47,6 +47,42 @@ body-class:
 	</div>
 </div>
 
+<hr>
+
+<div class="row">
+	<div class="columns">
+		<h1>Typography Styles</h1>
+	</div>
+</div>
+
+<hr>
+
+<div class="row">
+	<div class="columns">
+		<h1 class="inline-block" style="padding-right: 16px;">h1 - An Equal Amount Of Text</h1><code>48px/1.4 +8</code>
+		<br>
+		<br>
+		<h2 class="inline-block" style="padding-right: 16px;">h2 - An Equal Amount Of Text</h2><code>40px/1.4 +8</code>
+		<br>
+		<br>
+		<h3 class="inline-block" style="padding-right: 16px;">h3 - An Equal Amount Of Text</h3><code>31px/1.4 +8</code>
+		<br>
+		<br>
+		<h4 class="inline-block" style="padding-right: 16px;">h4 - An Equal Amount Of Text</h4><code>25px/1.4 +8</code>
+		<br>
+		<br>
+		<h5 class="inline-block" style="padding-right: 16px;">h5 - An Equal Amount Of Text</h5><code>20px/1.4 +8</code>
+		<br>
+		<br>
+		<h6 class="inline-block" style="padding-right: 16px;">h6 - An Equal Amount Of Text</h6><code>16px/1.4 +8</code>
+		<br>
+		<br>
+		<p class="inline-block" style="padding-right: 16px;">p - An Equal Amount Of Text</p><code>16px/1.6 +16</code>
+	</div>
+</div>
+
+<hr>
+
 <div class="row">
 	<div class="large-8 medium-8 columns">
 		<h5>Here&rsquo;s your basic grid:</h5>
