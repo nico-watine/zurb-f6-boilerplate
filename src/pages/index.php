@@ -154,6 +154,8 @@ body-class:
 </div>
 
 <hr>
+<br>
+<br>
 
 <div class="row">
 	<div class="large-8 medium-8 columns">
