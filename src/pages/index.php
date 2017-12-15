@@ -98,8 +98,8 @@ body-class:
 	<div class="large-9 columns">
 		<div class="row">
 			<div class="large-4 columns text-center">
-				<div class="boxShadow-1" style="height: 100px; background: #f9f9f9;">
-					<code>box-shadow: $z-1;</code>
+				<div style="border: 1px solid #e6e6e6; height: 100px; background: #f9f9f9;">
+					<code>box-shadow: 0;</code>
 				</div>
 				<br>
 			</div>
