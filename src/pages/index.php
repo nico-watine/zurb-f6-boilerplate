@@ -102,17 +102,20 @@ body-class:
 					<code>box-shadow: 0;</code>
 				</div>
 				<br>
+				<br>
 			</div>
 			<div class="large-4 columns text-center">
 				<div class="boxShadow-1" style="height: 100px;">
 					<code>box-shadow: $z-1;</code>
 				</div>
 				<br>
+				<br>
 			</div>
 			<div class="large-4 columns text-center">
 				<div class="boxShadow-2" style="height: 100px;">
 					<code>box-shadow: $z-2;</code>
 				</div>
+				<br>
 				<br>
 			</div>
 		</div>
@@ -121,16 +124,22 @@ body-class:
 				<div class="boxShadow-3" style="height: 100px;">
 					<code>box-shadow: $z-3;</code>
 				</div>
+				<br>
+				<br>
 			</div>
 			<div class="large-4 columns text-center end">
 				<div class="boxShadow-4" style="height: 100px;">
 					<code>box-shadow: $z-4;</code>
 				</div>
+				<br>
+				<br>
 			</div>
 			<div class="large-4 columns text-center end">
 				<div class="boxShadow-5" style="height: 100px;">
 					<code>box-shadow: $z-5;</code>
 				</div>
+				<br>
+				<br>
 			</div>
 		</div>
 	</div>
