@@ -99,7 +99,7 @@ body-class:
 		<div class="row">
 			<div class="large-4 columns text-center">
 				<div class="padding-Y" style="border: 1px solid #e6e6e6; height: 100px;">
-					<p><code>border</code> added for display</p>
+					<p style="margin-bottom: 12px;"><small><code>border</code></small> added for display</p>
 					<code>box-shadow: 0;</code>
 				</div>
 				<br>
@@ -107,7 +107,7 @@ body-class:
 			</div>
 			<div class="large-4 columns text-center">
 				<div class="boxShadow-1 padding-Y" style="border: 1px solid #e6e6e6; height: 100px;">
-					<h5 style="margin-bottom: 12px;">Class: <small><code>.boxShadow-1</code></small></h5>
+					<p style="margin-bottom: 12px;">Class: <small><code>.boxShadow-1</code></small></p>
 					<code>box-shadow: $z-1;</code>
 				</div>
 				<br>
@@ -115,7 +115,7 @@ body-class:
 			</div>
 			<div class="large-4 columns text-center">
 				<div class="boxShadow-2 padding-Y" style="border: 1px solid #e6e6e6; height: 100px;">
-					<h5 style="margin-bottom: 12px;">Class: <small><code>.boxShadow-2</code></small></h5>
+					<p style="margin-bottom: 12px;">Class: <small><code>.boxShadow-2</code></small></p>
 					<code>box-shadow: $z-2;</code>
 				</div>
 				<br>
@@ -125,7 +125,7 @@ body-class:
 		<div class="row">
 			<div class="large-4 columns text-center">
 				<div class="boxShadow-3 padding-Y" style="border: 1px solid #e6e6e6; height: 100px;">
-					<h5 style="margin-bottom: 12px;">Class: <small><code>.boxShadow-3</code></small></h5>
+					<p style="margin-bottom: 12px;">Class: <small><code>.boxShadow-3</code></small></p>
 					<code>box-shadow: $z-3;</code>
 				</div>
 				<br>
@@ -133,7 +133,7 @@ body-class:
 			</div>
 			<div class="large-4 columns text-center end">
 				<div class="boxShadow-4 padding-Y" style="border: 1px solid #e6e6e6; height: 100px;">
-					<h5 style="margin-bottom: 12px;">Class: <small><code>.boxShadow-4</code></small></h5>
+					<p style="margin-bottom: 12px;">Class: <small><code>.boxShadow-4</code></small></p>
 					<code>box-shadow: $z-4;</code>
 				</div>
 				<br>
@@ -141,7 +141,7 @@ body-class:
 			</div>
 			<div class="large-4 columns text-center end">
 				<div class="boxShadow-5 padding-Y" style="border: 1px solid #e6e6e6; height: 100px;">
-					<h5 style="margin-bottom: 12px;">Class: <small><code>.boxShadow-5</code></small></h5>
+					<p style="margin-bottom: 12px;">Class: <small><code>.boxShadow-5</code></small></p>
 					<code>box-shadow: $z-5;</code>
 				</div>
 				<br>
