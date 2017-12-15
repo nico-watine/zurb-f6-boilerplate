@@ -99,6 +99,7 @@ body-class:
 		<div class="row">
 			<div class="large-4 columns text-center">
 				<div class="padding-Y" style="border: 1px solid #e6e6e6; height: 100px;">
+					<p><code>border</code> added for display</p>
 					<code>box-shadow: 0;</code>
 				</div>
 				<br>
