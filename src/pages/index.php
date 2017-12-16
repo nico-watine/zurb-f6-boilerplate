@@ -6,7 +6,7 @@ og-title:
 og-description:
 og-image:
 body-id: index
-body-class:
+body-class: index
 ---
 <div class="row">
 	<div class="large-12 columns">
