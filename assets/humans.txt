@@ -15,6 +15,7 @@ Coded with care and powered by HTML5 for a better web
 
 Project Lead:
   Nico Watine
+  https://nicowatine.me
   nico@studioncreations.com
 
 
