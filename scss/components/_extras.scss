@@ -1,6 +1,29 @@
 @import "../_settings.scss";
 
-// OPTIONAL STYLES
+// ------------------------------------------------
+// |            Optional Style Effects            |
+// ------------------------------------------------
+// Import As Needed -----------------------------::
+// ---------------------------------------------------------------------- //
 
-// IMPORT EXTRAS AS NEEDED
+// Sticky Footer:
+
 // @import "extras/_sticky-footer.scss";
+
+
+// ---------------------------------------------------------------------- //
+
+// Custom highlight text effect:
+
+// ::-moz-selection {
+// 	background: #b3d4fc;
+// 	text-shadow: none;
+// }
+
+// ::selection {
+// 	background: #b3d4fc;
+// 	text-shadow: none;
+// }
+
+
+// ---------------------------------------------------------------------- //
