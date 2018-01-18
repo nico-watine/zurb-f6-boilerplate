@@ -4409,7 +4409,11 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
+<<<<<<< HEAD
 		"oA": 2,
+=======
+		"oA": 1,
+>>>>>>> develop
 		"oAP": "\/dist\/css\/app-min-min.css",
 		"oF": 0,
 		"oS": 3
@@ -4419,7 +4423,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/dist\/css\/app-min.css",
 		"oF": 0,
 		"oS": 3
@@ -6637,7 +6641,7 @@
 		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
-		"autoOutputAction": 2,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*-min.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
