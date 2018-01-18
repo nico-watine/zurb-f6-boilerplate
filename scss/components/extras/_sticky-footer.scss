@@ -1,38 +1,55 @@
 @import "../../_settings.scss";
 
-html,
-body {
-    height: 100%;
-}
 
-// THESE STYLES (HEIGHT/COLOR) ARE FOR EXAMPLE SETUP
-// .height-wrapper {
-//     min-height: 100%;
-//     position:relative;
+// ----------------------------------------------------
+// |            Sticky-Footer SASS Example            |
+// ----------------------------------------------------
 
+// REQUIRED ----------------//
+
+// html,
+// body {
+// 	height: 100%;
+// }
+
+// ---------------------------------------------------------------------- //
+
+// CLASS USAGE EXAMPLE ----------------//
+
+// .heightWrapper {
+// 	min-height: 100%;
+// 	position:relative;
+// 
 // 	main {
-// 		padding-bottom: em(160);
+// 		padding-bottom: 160px;
 // 	}
-
+// 
 // 	footer {
 // 		position: absolute;
-// 		height: em(100);
-// 		bottom: 0px;
+// 		height: 100px;
+// 		bottom: 0;
 // 		width: 100%;
 // 		background: #d4d4d4;
 // 	}
 // }
 
 
-// STICKY-FOOTER SETUP
-// <div class="height-wrapper">
+// ---------------------------------------------------------------------- //
 
+
+// -----------------------------------------------------------
+// |            Sticky-Footer HTML Markup Example            |
+// -----------------------------------------------------------
+
+// <div class="heightWrapper">
+// 
 // 	<main>
 // 		&nbsp;
 // 	</main>
-
+// 
 // 	<footer>
 // 		&nbsp;
 // 	</footer>
-
+// 
 // </div>
+
