@@ -204,10 +204,13 @@ body-class: index
 	</div>
 </div>
 
+<br>
+<hr>
+<br>
+<br>
+
 <div class="row">
 	<div class="large-8 medium-8 columns">
-
-	<hr>
 
 	<h5>We bet you&rsquo;ll need a form somewhere:</h5>
 	
