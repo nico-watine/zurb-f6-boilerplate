@@ -154,53 +154,63 @@ body-class: index
 	</div>
 </div>
 
+<br>
+<br>
+<hr>
+
+<div class="row">
+	<div class="columns">
+		<h1>Grid Layout Example</h1>
+		<h5>Here&rsquo;s your basic grid:</h5>
+	</div>
+</div>
+
+<hr>
+
+<div class="row">
+	<div class="large-12 columns">
+		<div class="primary callout">
+			<p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="large-6 medium-6 columns">
+		<div class="primary callout">
+			<p>Six columns</p>
+		</div>
+	</div>
+	<div class="large-6 medium-6 columns">
+		<div class="primary callout">
+			<p>Six columns</p>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="large-4 medium-4 small-4 columns">
+		<div class="primary callout">
+			<p>Four columns</p>
+		</div>
+	</div>
+	<div class="large-4 medium-4 small-4 columns">
+		<div class="primary callout">
+			<p>Four columns</p>
+		</div>
+	</div>
+	<div class="large-4 medium-4 small-4 columns">
+		<div class="primary callout">
+			<p>Four columns</p>
+		</div>
+	</div>
+</div>
+
+<br>
 <hr>
 <br>
 <br>
 
 <div class="row">
 	<div class="large-8 medium-8 columns">
-		<h5>Here&rsquo;s your basic grid:</h5>
-		<!-- Grid Example -->
-
-		<div class="row">
-			<div class="large-12 columns">
-				<div class="primary callout">
-					<p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="large-6 medium-6 columns">
-				<div class="primary callout">
-					<p>Six columns</p>
-				</div>
-			</div>
-			<div class="large-6 medium-6 columns">
-				<div class="primary callout">
-					<p>Six columns</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="large-4 medium-4 small-4 columns">
-				<div class="primary callout">
-					<p>Four columns</p>
-				</div>
-			</div>
-			<div class="large-4 medium-4 small-4 columns">
-				<div class="primary callout">
-					<p>Four columns</p>
-				</div>
-			</div>
-			<div class="large-4 medium-4 small-4 columns">
-				<div class="primary callout">
-					<p>Four columns</p>
-				</div>
-			</div>
-		</div>
-
-	<hr />
 
 	<h5>We bet you&rsquo;ll need a form somewhere:</h5>
 	
