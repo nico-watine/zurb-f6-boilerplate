@@ -4769,6 +4769,12 @@ a.thumbnail {
 .flex {
   display: flex; }
 
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
 .boxShadow-1 {
   box-shadow: 0 0.0625rem 0.25rem 0 rgba(0, 0, 0, 0.37); }
 
