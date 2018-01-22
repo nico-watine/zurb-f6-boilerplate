@@ -23,6 +23,14 @@
 		"oAP": "\/.bowerrc",
 		"oF": 0
 		},
+	"\/.csscomb.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.csscomb-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -4382,12 +4390,6 @@
 		"oAP": "\/css\/app-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/dist": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/dist",
-		"oF": 0
 		},
 	"\/gulpfile.babel.js": {
 		"ft": 64,

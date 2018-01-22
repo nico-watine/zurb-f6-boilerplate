@@ -1,8 +1,8 @@
-@charset 'utf-8';
+@charset "utf-8";
 
-@import 'settings';
-@import 'foundation';
-@import 'motion-ui';
+@import "settings";
+@import "foundation";
+@import "motion-ui";
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -73,6 +73,3 @@
 @import "components/_metrics.scss";
 @import "components/_utility-classes.scss";
 @import "components/_extras.scss";
-
-
-
