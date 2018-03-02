@@ -4409,8 +4409,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/src\/app-min.js",
-		"oF": 1,
+		"oAP": "\/js\/app-min.js",
+		"oF": 3,
 		"sC": 1,
 		"tS": 0
 		},
