@@ -7,20 +7,13 @@
 		"uuidString": "472B7510-C306-426F-AF80-FB25224303CF"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26330",
 "files": {
 	"\/.babelrc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.babelrc",
-		"oF": 0
-		},
-	"\/.bowerrc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.bowerrc",
 		"oF": 0
 		},
 	"\/.gitignore": {
@@ -4786,6 +4779,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
