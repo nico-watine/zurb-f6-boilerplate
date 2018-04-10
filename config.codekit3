@@ -7,7 +7,7 @@
 		"uuidString": "472B7510-C306-426F-AF80-FB25224303CF"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.babelrc": {
 		"cB": 0,
@@ -4333,6 +4333,12 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/dist": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/dist",
+		"oF": 0
+		},
 	"\/gulpfile.babel.js": {
 		"ft": 64,
 		"ma": 0,
@@ -4346,6 +4352,7 @@
 	"\/img\/banditos.jpg": {
 		"ft": 16384,
 		"iS": 363627,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/img\/banditos.jpg",
 		"oF": 0,
@@ -4722,7 +4729,8 @@
 	"creationDate": 502296054,
 	"displayValue": "zurb-f6-boilerplate",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "\/_ignores\/codekit-icon.png"
+	"iconImageName": "\/_ignores\/codekit-icon.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -6525,6 +6533,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
