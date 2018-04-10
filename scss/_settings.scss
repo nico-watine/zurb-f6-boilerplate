@@ -127,13 +127,13 @@ $header-styles: (
     'h5': ('font-size': 17),
     'h6': ('font-size': 16),
   ),
-  medium: (
-    'h1': ('font-size': 48),
-    'h2': ('font-size': 40),
-    'h3': ('font-size': 31),
-    'h4': ('font-size': 25),
-    'h5': ('font-size': 20),
-    'h6': ('font-size': 16),
+  medium: ( // Perfect Fourth Scale (1.333)
+    'h1': ('font-size': 50),
+    'h2': ('font-size': 38),
+    'h3': ('font-size': 28),
+    'h4': ('font-size': 21),
+    'h5': ('font-size': 16),
+    'h6': ('font-size': 14),
   ),
 );
 $header-text-rendering: optimizeLegibility;
