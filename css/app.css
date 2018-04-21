@@ -4767,17 +4767,17 @@ a.thumbnail {
 
 @media print, screen and (min-width: 40em) {
   .h1 {
-    font-size: 3rem; }
+    font-size: 3.125rem; }
   .h2 {
-    font-size: 2.5rem; }
+    font-size: 2.375rem; }
   .h3 {
-    font-size: 1.9375rem; }
+    font-size: 1.75rem; }
   .h4 {
-    font-size: 1.5625rem; }
+    font-size: 1.3125rem; }
   .h5 {
-    font-size: 1.25rem; }
+    font-size: 1rem; }
   .h6 {
-    font-size: 1rem; } }
+    font-size: 0.875rem; } }
 
 .inline-block {
   display: inline-block; }
