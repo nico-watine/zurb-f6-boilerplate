@@ -4808,7 +4808,8 @@ a.thumbnail {
   padding-right: 0.9375rem; }
 
 .padding-Y {
-  padding: 0.9375rem 0; }
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem; }
 
 .padding-XY {
   padding: 0.9375rem; }
@@ -4817,10 +4818,12 @@ a.thumbnail {
   margin: 0; }
 
 .margin-X {
-  margin: 0 0.9375rem; }
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem; }
 
 .margin-Y {
-  margin: 0.9375rem 0; }
+  margin-top: 0.9375rem;
+  margin-bottom: 0.9375rem; }
 
 .margin-XY {
   margin: 0.9375rem; }
