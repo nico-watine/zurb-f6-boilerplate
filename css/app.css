@@ -4804,7 +4804,8 @@ a.thumbnail {
   padding: 0; }
 
 .padding-X {
-  padding: 0 0.9375rem; }
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem; }
 
 .padding-Y {
   padding: 0.9375rem 0; }
