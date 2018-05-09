@@ -10,11 +10,13 @@
 }
 
 .padding-X {
-	padding: 0 rem-calc(15);
+	padding-left: rem-calc(15);
+	padding-right: rem-calc(15);
 }
 
 .padding-Y {
-	padding: rem-calc(15) 0;
+	padding-top: rem-calc(15);
+	padding-bottom: rem-calc(15);
 }
 
 .padding-XY {
@@ -34,11 +36,13 @@
 }
 
 .margin-X {
-	margin: 0 rem-calc(15);
+	margin-left: rem-calc(15);
+	margin-right: rem-calc(15);
 }
 
 .margin-Y {
-	margin: rem-calc(15) 0;
+	margin-top: rem-calc(15);
+	margin-bottom: rem-calc(15);
 }
 
 .margin-XY {
