@@ -4333,12 +4333,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/dist": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/dist",
-		"oF": 0
-		},
 	"\/gulpfile.babel.js": {
 		"ft": 64,
 		"ma": 0,
