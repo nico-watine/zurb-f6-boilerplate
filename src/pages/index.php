@@ -9,7 +9,7 @@ body-id: index
 body-class: index
 ---
 <div class="row">
-	<div class="large-12 columns">
+	<div class="columns">
 		<h1>Welcome to Foundation for Sites</h1>
 	</div>
 </div> 
@@ -19,7 +19,7 @@ body-class: index
 </div>
 
 <div class="row">
-	<div class="large-12 columns">
+	<div class="columns">
 		<div class="callout">
 			<h3>We&rsquo;re stoked you want to try Foundation!</h3>
 			<p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
@@ -168,7 +168,7 @@ body-class: index
 <hr>
 
 <div class="row">
-	<div class="large-12 columns">
+	<div class="columns">
 		<div class="primary callout">
 			<p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
 		</div>
@@ -216,7 +216,7 @@ body-class: index
 	
 	<form>
 		<div class="row">
-			<div class="large-12 columns">
+			<div class="columns">
 				<label>Input Label</label>
 				<input type="text" placeholder="large-12.columns" />
 			</div>
@@ -241,7 +241,7 @@ body-class: index
 			</div>
 		</div>
 		<div class="row">
-			<div class="large-12 columns">
+			<div class="columns">
 				<label>Select Box</label>
 				<select>
 					<option value="husker">Husker</option>
@@ -264,7 +264,7 @@ body-class: index
 			</div>
 		</div>
 		<div class="row">
-			<div class="large-12 columns">
+			<div class="columns">
 				<label>Textarea Label</label>
 				<textarea placeholder="small-12.columns"></textarea>
 			</div>
