@@ -210,7 +210,7 @@ body-class: index
 <br>
 
 <div class="row">
-	<div class="large-8 medium-8 columns">
+	<div class="medium-8 columns">
 
 	<h5>We bet you&rsquo;ll need a form somewhere:</h5>
 	
@@ -222,15 +222,15 @@ body-class: index
 			</div>
 		</div>
 		<div class="row">
-			<div class="large-4 medium-4 columns">
+			<div class="medium-4 columns">
 				<label>Input Label</label>
 				<input type="text" placeholder="large-4.columns" />
 			</div>
-			<div class="large-4 medium-4 columns">
+			<div class="medium-4 columns">
 				<label>Input Label</label>
 				<input type="text" placeholder="large-4.columns" />
 			</div>
-			<div class="large-4 medium-4 columns">
+			<div class="medium-4 columns">
 				<div class="row collapse">
 					<label>Input Label</label>
 					<div class="input-group">
