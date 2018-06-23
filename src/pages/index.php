@@ -15,7 +15,7 @@ body-class: index
 </div> 
 
 <div class="row">
-	<img src="/img/banditos.jpg" alt="Best.Friends.For.Life.">
+	<img src="/img/banditos.jpg" alt="@nico-watine & @AntoineHythierAkzo">
 </div>
 
 <div class="row">
