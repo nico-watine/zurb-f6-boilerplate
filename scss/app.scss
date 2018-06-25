@@ -1,8 +1,8 @@
-@charset "utf-8";
+@charset 'utf-8';
 
-@import "settings";
-@import "foundation";
-@import "motion-ui";
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -55,23 +55,23 @@
 // |            IMPORT CUSTOM SASS FILES (IN ORDER OF LOAD PRIORITY)            |
 // ------------------------------------------------------------------------------
 
-@import "settings/_custom-settings.scss";
+@import 'settings/_custom-settings.scss';
 
 // #1 TYPOGRAPHY
-@import "components/_typography.scss";
+@import 'components/_typography.scss';
 
 // #2 COMMON PAGE BLOCKS
-@import "blocks/_body.scss";
-@import "blocks/_header.scss";
-@import "blocks/_nav.scss";
-@import "blocks/_main.scss";
-@import "blocks/_footer.scss";
+@import 'blocks/_body.scss';
+@import 'blocks/_header.scss';
+@import 'blocks/_nav.scss';
+@import 'blocks/_main.scss';
+@import 'blocks/_footer.scss';
 
 // #3 SPECIFIC PAGE STYLES
-@import "pages/index/_index.scss";
+@import 'pages/index/_index.scss';
 
 // #4 MISC COMPONENTS
-@import "components/_display.scss";
-@import "components/_metrics.scss";
-@import "components/_utility-classes.scss";
-@import "components/_extras.scss";
+@import 'components/_display.scss';
+@import 'components/_metrics.scss';
+@import 'components/_utility-classes.scss';
+@import 'components/_extras.scss';
