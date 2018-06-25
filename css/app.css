@@ -4780,7 +4780,8 @@ a.thumbnail {
     font-size: 0.875rem; } }
 
 a {
-  -webkit-text-decoration-skip: initial; }
+  -webkit-text-decoration-skip: initial;
+  text-decoration: underline; }
 
 .inline-block {
   display: inline-block; }
