@@ -1,6 +1,6 @@
-# Mac-optimized [Foundation ZURB Template](https://github.com/zurb/foundation-zurb-template) workflow for web development
+# zurb-f6-boilerplate
 
-### This is highly customized workflow for website development. It requires a Macintosh computer, running the programs [Codekit 3](https://incident57.com/codekit/index.html), [Sublime Text 3](https://www.sublimetext.com/3) and [MAMP](https://www.mamp.info/en/)
+This is a macOS-optimized [Foundation ZURB Template](https://github.com/zurb/foundation-zurb-template) workflow for web development. It requires a Macintosh computer, running the programs [Codekit 3](https://incident57.com/codekit/index.html), [Sublime Text 3](https://www.sublimetext.com/3) and [MAMP](https://www.mamp.info/en/)
 
 #### **FEATURES**
 
