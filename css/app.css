@@ -4779,6 +4779,10 @@ a.thumbnail {
   .h6 {
     font-size: 0.875rem; } }
 
+a {
+  -webkit-text-decoration-skip: initial;
+  text-decoration: underline; }
+
 .inline-block {
   display: inline-block; }
 

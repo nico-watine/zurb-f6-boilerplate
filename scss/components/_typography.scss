@@ -53,3 +53,8 @@
 		font-size: $h6-medium;
 	}
 }
+
+a {
+	-webkit-text-decoration-skip: initial;
+	text-decoration: underline;
+}
