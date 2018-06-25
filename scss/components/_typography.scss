@@ -53,3 +53,7 @@
 		font-size: $h6-medium;
 	}
 }
+
+a {
+	-webkit-text-decoration-skip: initial;
+}
