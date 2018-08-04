@@ -24,7 +24,7 @@ function loadConfig() {
 
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
-  gulp.series(clean, gulp.parallel(pages, sass, javascript, javascript_custom, javascript_vendor, fonts, images, copy)));
+  gulp.series(clean, gulp.parallel(pages, sass, javascript, javascript_vendor, fonts, images, copy)));
 
 // Build the site, run the server, and watch for file changes
 gulp.task('default',
@@ -79,20 +79,13 @@ function sass() {
 // Combine Foundation JavaScript imports into one file (app.js)
 // In production, the file is minified (app-min.js)
 function javascript() {
-  return gulp.src(PATHS.javascript)
-    .pipe($.babel({ignore: ['what-input.js']}))
-    .pipe($.concat('app-min.js'))
-    .pipe($.if(PRODUCTION, $.uglify()
-      .on('error', e => { console.log(e); })
-    ))
-    .pipe(gulp.dest(PATHS.dist + '/js'));
-}
-
-// Watch and copy .js files located in js/custom to js/custom in dist
-// These js files are already being processed by Codekit
-function javascript_custom() {
-  return gulp.src('js/custom/**') // all sub-files and sub-folders except src
-    .pipe(gulp.dest(PATHS.dist + '/js/custom/'));
+	return gulp.src(PATHS.javascript)
+		.pipe($.babel({ignore: ['what-input.js']}))
+		.pipe($.concat('app-min.js'))
+		.pipe($.if(PRODUCTION, $.uglify()
+			.on('error', e => { console.log(e); })
+		))
+		.pipe(gulp.dest(PATHS.dist + '/js'));
 }
 
 // Watch and copy .js files located in js/vendor to js/vendor in dist
@@ -104,24 +97,24 @@ function javascript_vendor() {
 
 // Copy over fonts
 function fonts() {
-  return gulp.src('fonts/**')
-    .pipe(gulp.dest(PATHS.dist + '/fonts'));
+	return gulp.src('fonts/**')
+		.pipe(gulp.dest(PATHS.dist + '/fonts'));
 }
 
 // Copy images to the "dist" folder
 function images() {
-  return gulp.src('img/**')
-    .pipe(gulp.dest(PATHS.dist + '/img'));
+	return gulp.src('img/**')
+		.pipe(gulp.dest(PATHS.dist + '/img'));
 }
 
 
 // Watch for changes to static assets, pages, Sass, and JavaScript
 function watch() {
-  gulp.watch(PATHS.assets, copy);
-  gulp.watch('src/pages/**', gulp.series(pages)); // <-watch for any type of additions
-  gulp.watch('src/{layouts,partials}/**/*.html', gulp.series(resetPages, pages));
-  gulp.watch('css/*.css', sass);
-  gulp.watch('js/**', gulp.series(javascript, javascript_custom, javascript_vendor));
-  gulp.watch('img/**', images);
-  gulp.watch('fonts/**', fonts);
+	gulp.watch(PATHS.assets, copy);
+	gulp.watch('src/pages/**', gulp.series(pages)); // <-watch for any type of additions
+	gulp.watch('src/{layouts,partials}/**/*.html', gulp.series(resetPages, pages));
+	gulp.watch('css/*.css', sass);
+	gulp.watch('js/**', gulp.series(javascript, javascript_vendor));
+	gulp.watch('img/**', images);
+	gulp.watch('fonts/**', fonts);
 }
