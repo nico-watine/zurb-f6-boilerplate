@@ -4370,11 +4370,11 @@
 	"\/js\/app-min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 0,
-		"oA": 1,
+		"mi": 1,
+		"oA": 0,
 		"oAP": "\/js\/app-min-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/custom\/scripts-min.js": {
@@ -4393,8 +4393,8 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/app-min.js",
-		"oF": 3,
-		"sC": 1,
+		"oF": 2,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/js\/src\/custom\/scripts.js": {
