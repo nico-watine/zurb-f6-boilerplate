@@ -8,3 +8,12 @@ end_of_line = lf
 charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
+
+# Ignore config.yml
+[config.yml]
+charset = none
+end_of_line = none
+insert_final_newline = none
+trim_trailing_whitespace = none
+indent_style = none
+indent_size = none
