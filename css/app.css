@@ -7468,13 +7468,13 @@ a {
   -webkit-text-decoration-skip: initial;
   text-decoration: underline; }
 
-.inline-block {
+.display-inline-block {
   display: inline-block; }
 
-.block {
+.display-block {
   display: block; }
 
-.flex {
+.display-flex {
   display: flex; }
 
 .relative {
