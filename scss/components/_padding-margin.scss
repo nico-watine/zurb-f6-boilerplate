@@ -1,0 +1,598 @@
+
+// ---------------------------------
+// |            Padding            |
+// ---------------------------------
+
+.p-0 {
+	padding: 0;
+}
+
+.p-4 {
+	padding: rem-calc(4);
+}
+
+.p-8 {
+	padding: rem-calc(8);
+}
+
+.p-12 {
+	padding: rem-calc(12);
+}
+
+.p-16 {
+	padding: rem-calc(16);
+}
+
+.p-20 {
+	padding: rem-calc(20);
+}
+
+.p-24 {
+	padding: rem-calc(24);
+}
+
+.p-32 {
+	padding: rem-calc(32);
+}
+
+.p-40 {
+	padding: rem-calc(40);
+}
+
+// -------------------------------------
+// |            padding-top            |
+// -------------------------------------
+
+.pt-0 {
+	padding-top: 0;
+}
+
+.pt-4 {
+	padding-top: rem-calc(4);
+}
+
+.pt-8 {
+	padding-top: rem-calc(8);
+}
+
+.pt-12 {
+	padding-top: rem-calc(12);
+}
+
+.pt-16 {
+	padding-top: rem-calc(16);
+}
+
+.pt-20 {
+	padding-top: rem-calc(20);
+}
+
+.pt-24 {
+	padding-top: rem-calc(24);
+}
+
+.pt-32 {
+	padding-top: rem-calc(32);
+}
+
+.pt-40 {
+	padding-top: rem-calc(40);
+}
+
+// ----------------------------------------
+// |            padding-bottom            |
+// ----------------------------------------
+
+.pb-0 {
+	padding-bottom: 0;
+}
+
+.pb-4 {
+	padding-bottom: rem-calc(4);
+}
+
+.pb-8 {
+	padding-bottom: rem-calc(8);
+}
+
+.pb-12 {
+	padding-bottom: rem-calc(12);
+}
+
+.pb-16 {
+	padding-bottom: rem-calc(16);
+}
+
+.pb-20 {
+	padding-bottom: rem-calc(20);
+}
+
+.pb-24 {
+	padding-bottom: rem-calc(24);
+}
+
+.pb-32 {
+	padding-bottom: rem-calc(32);
+}
+
+.pb-40 {
+	padding-bottom: rem-calc(40);
+}
+
+// ---------------------------------------
+// |            padding-right            |
+// ---------------------------------------
+
+.pr-0 {
+	padding-right: 0;
+}
+
+.pr-4 {
+	padding-right: rem-calc(4);
+}
+
+.pr-8 {
+	padding-right: rem-calc(8);
+}
+
+.pr-12 {
+	padding-right: rem-calc(12);
+}
+
+.pr-16 {
+	padding-right: rem-calc(16);
+}
+
+.pr-20 {
+	padding-right: rem-calc(20);
+}
+
+.pr-24 {
+	padding-right: rem-calc(24);
+}
+
+.pr-32 {
+	padding-right: rem-calc(32);
+}
+
+.pr-40 {
+	padding-right: rem-calc(40);
+}
+
+// --------------------------------------
+// |            padding-left            |
+// --------------------------------------
+
+.pl-0 {
+	padding-left: 0;
+}
+
+.pl-4 {
+	padding-left: rem-calc(4);
+}
+
+.pl-8 {
+	padding-left: rem-calc(8);
+}
+
+.pl-12 {
+	padding-left: rem-calc(12);
+}
+
+.pl-16 {
+	padding-left: rem-calc(16);
+}
+
+.pl-20 {
+	padding-left: rem-calc(20);
+}
+
+.pl-24 {
+	padding-left: rem-calc(24);
+}
+
+.pl-32 {
+	padding-left: rem-calc(32);
+}
+
+.pl-40 {
+	padding-left: rem-calc(40);
+}
+
+// ----------------------------------------------
+// |            padding left & right            |
+// ----------------------------------------------
+
+.px-0 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.px-4 {
+	padding-left: rem-calc(4);
+	padding-right: rem-calc(4);
+}
+
+.px-8 {
+	padding-left: rem-calc(8);
+	padding-right: rem-calc(8);
+}
+
+.px-12 {
+	padding-left: rem-calc(12);
+	padding-right: rem-calc(12);
+}
+
+.px-16 {
+	padding-left: rem-calc(16);
+	padding-right: rem-calc(16);
+}
+
+.px-20 {
+	padding-left: rem-calc(20);
+	padding-right: rem-calc(20);
+}
+
+.px-24 {
+	padding-left: rem-calc(24);
+	padding-right: rem-calc(24);
+}
+
+.px-32 {
+	padding-left: rem-calc(32);
+	padding-right: rem-calc(32);
+}
+
+.px-40 {
+	padding-left: rem-calc(40);
+	padding-right: rem-calc(40);
+}
+
+// ----------------------------------------------
+// |            padding top & bottom            |
+// ----------------------------------------------
+
+.py-0 {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.py-4 {
+	padding-top: rem-calc(4);
+	padding-bottom: rem-calc(4);
+}
+
+.py-8 {
+	padding-top: rem-calc(8);
+	padding-bottom: rem-calc(8);
+}
+
+.py-12 {
+	padding-top: rem-calc(12);
+	padding-bottom: rem-calc(12);
+}
+
+.py-16 {
+	padding-top: rem-calc(16);
+	padding-bottom: rem-calc(16);
+}
+
+.py-20 {
+	padding-top: rem-calc(20);
+	padding-bottom: rem-calc(20);
+}
+
+.py-24 {
+	padding-top: rem-calc(24);
+	padding-bottom: rem-calc(24);
+}
+
+.py-32 {
+	padding-top: rem-calc(32);
+	padding-bottom: rem-calc(32);
+}
+
+.py-40 {
+	padding-top: rem-calc(40);
+	padding-bottom: rem-calc(40);
+}
+
+// ---------------------------------------------------------------------- //
+
+// ---------------------------------
+// |            Margin            |
+// ---------------------------------
+
+.m-0 {
+	margin: 0;
+}
+
+.m-4 {
+	margin: rem-calc(4);
+}
+
+.m-8 {
+	margin: rem-calc(8);
+}
+
+.m-12 {
+	margin: rem-calc(12);
+}
+
+.m-16 {
+	margin: rem-calc(16);
+}
+
+.m-20 {
+	margin: rem-calc(20);
+}
+
+.m-24 {
+	margin: rem-calc(24);
+}
+
+.m-32 {
+	margin: rem-calc(32);
+}
+
+.m-40 {
+	margin: rem-calc(40);
+}
+
+// -------------------------------------
+// |            margin-top            |
+// -------------------------------------
+
+.mt-0 {
+	margin-top: 0;
+}
+
+.mt-4 {
+	margin-top: rem-calc(4);
+}
+
+.mt-8 {
+	margin-top: rem-calc(8);
+}
+
+.mt-12 {
+	margin-top: rem-calc(12);
+}
+
+.mt-16 {
+	margin-top: rem-calc(16);
+}
+
+.mt-20 {
+	margin-top: rem-calc(20);
+}
+
+.mt-24 {
+	margin-top: rem-calc(24);
+}
+
+.mt-32 {
+	margin-top: rem-calc(32);
+}
+
+.mt-40 {
+	margin-top: rem-calc(40);
+}
+
+// ----------------------------------------
+// |            margin-bottom            |
+// ----------------------------------------
+
+.mb-0 {
+	margin-bottom: 0;
+}
+
+.mb-4 {
+	margin-bottom: rem-calc(4);
+}
+
+.mb-8 {
+	margin-bottom: rem-calc(8);
+}
+
+.mb-12 {
+	margin-bottom: rem-calc(12);
+}
+
+.mb-16 {
+	margin-bottom: rem-calc(16);
+}
+
+.mb-20 {
+	margin-bottom: rem-calc(20);
+}
+
+.mb-24 {
+	margin-bottom: rem-calc(24);
+}
+
+.mb-32 {
+	margin-bottom: rem-calc(32);
+}
+
+.mb-40 {
+	margin-bottom: rem-calc(40);
+}
+
+// ---------------------------------------
+// |            margin-right            |
+// ---------------------------------------
+
+.mr-0 {
+	margin-right: 0;
+}
+
+.mr-4 {
+	margin-right: rem-calc(4);
+}
+
+.mr-8 {
+	margin-right: rem-calc(8);
+}
+
+.mr-12 {
+	margin-right: rem-calc(12);
+}
+
+.mr-16 {
+	margin-right: rem-calc(16);
+}
+
+.mr-20 {
+	margin-right: rem-calc(20);
+}
+
+.mr-24 {
+	margin-right: rem-calc(24);
+}
+
+.mr-32 {
+	margin-right: rem-calc(32);
+}
+
+.mr-40 {
+	margin-right: rem-calc(40);
+}
+
+// --------------------------------------
+// |            margin-left            |
+// --------------------------------------
+
+.ml-0 {
+	margin-left: 0;
+}
+
+.ml-4 {
+	margin-left: rem-calc(4);
+}
+
+.ml-8 {
+	margin-left: rem-calc(8);
+}
+
+.ml-12 {
+	margin-left: rem-calc(12);
+}
+
+.ml-16 {
+	margin-left: rem-calc(16);
+}
+
+.ml-20 {
+	margin-left: rem-calc(20);
+}
+
+.ml-24 {
+	margin-left: rem-calc(24);
+}
+
+.ml-32 {
+	margin-left: rem-calc(32);
+}
+
+.ml-40 {
+	margin-left: rem-calc(40);
+}
+
+// ----------------------------------------------
+// |            margin left & right            |
+// ----------------------------------------------
+
+.mx-0 {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.mx-4 {
+	margin-left: rem-calc(4);
+	margin-right: rem-calc(4);
+}
+
+.mx-8 {
+	margin-left: rem-calc(8);
+	margin-right: rem-calc(8);
+}
+
+.mx-12 {
+	margin-left: rem-calc(12);
+	margin-right: rem-calc(12);
+}
+
+.mx-16 {
+	margin-left: rem-calc(16);
+	margin-right: rem-calc(16);
+}
+
+.mx-20 {
+	margin-left: rem-calc(20);
+	margin-right: rem-calc(20);
+}
+
+.mx-24 {
+	margin-left: rem-calc(24);
+	margin-right: rem-calc(24);
+}
+
+.mx-32 {
+	margin-left: rem-calc(32);
+	margin-right: rem-calc(32);
+}
+
+.mx-40 {
+	margin-left: rem-calc(40);
+	margin-right: rem-calc(40);
+}
+
+// ----------------------------------------------
+// |            margin top & bottom            |
+// ----------------------------------------------
+
+.my-0 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.my-4 {
+	margin-top: rem-calc(4);
+	margin-bottom: rem-calc(4);
+}
+
+.my-8 {
+	margin-top: rem-calc(8);
+	margin-bottom: rem-calc(8);
+}
+
+.my-12 {
+	margin-top: rem-calc(12);
+	margin-bottom: rem-calc(12);
+}
+
+.my-16 {
+	margin-top: rem-calc(16);
+	margin-bottom: rem-calc(16);
+}
+
+.my-20 {
+	margin-top: rem-calc(20);
+	margin-bottom: rem-calc(20);
+}
+
+.my-24 {
+	margin-top: rem-calc(24);
+	margin-bottom: rem-calc(24);
+}
+
+.my-32 {
+	margin-top: rem-calc(32);
+	margin-bottom: rem-calc(32);
+}
+
+.my-40 {
+	margin-top: rem-calc(40);
+	margin-bottom: rem-calc(40);
+}
