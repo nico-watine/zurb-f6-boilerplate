@@ -5324,6 +5324,12 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/dist": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/dist",
+		"oF": 0
+		},
 	"\/gulpfile.babel.js": {
 		"ft": 64,
 		"ma": 0,
@@ -5440,7 +5446,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/blocks\/_body.scss": {
+	"\/scss\/components\/_display-position.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5448,72 +5454,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/css\/_body.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/blocks\/_footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/blocks\/_header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/blocks\/_main.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_main.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/blocks\/_nav.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_nav.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/components\/_display.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_display.css",
+		"oAP": "\/scss\/css\/_display-position.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -5544,19 +5485,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/components\/_typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/css\/_typography.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/scss\/components\/_utility-classes.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -5570,19 +5498,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/components\/extras\/_sticky-footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/components\/css\/_sticky-footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/scss\/components\/typography\/_fonts.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -5592,6 +5507,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/components\/css\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/components\/typography\/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/components\/css\/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
