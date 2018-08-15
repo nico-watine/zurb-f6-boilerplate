@@ -7487,208 +7487,208 @@ a {
   padding: 0; }
 
 .p-4 {
-  padding: 4; }
+  padding: 0.25rem; }
 
 .p-8 {
-  padding: 8; }
+  padding: 0.5rem; }
 
 .p-12 {
-  padding: 12; }
+  padding: 0.75rem; }
 
 .p-16 {
-  padding: 16; }
+  padding: 1rem; }
 
 .p-20 {
-  padding: 20; }
+  padding: 1.25rem; }
 
 .p-24 {
-  padding: 24; }
+  padding: 1.5rem; }
 
 .p-32 {
-  padding: 32; }
+  padding: 2rem; }
 
 .p-40 {
-  padding: 40; }
+  padding: 2.5rem; }
 
 .pt-0 {
   padding-top: 0; }
 
 .pt-4 {
-  padding-top: 4; }
+  padding-top: 0.25rem; }
 
 .pt-8 {
-  padding-top: 8; }
+  padding-top: 0.5rem; }
 
 .pt-12 {
-  padding-top: 12; }
+  padding-top: 0.75rem; }
 
 .pt-16 {
-  padding-top: 16; }
+  padding-top: 1rem; }
 
 .pt-20 {
-  padding-top: 20; }
+  padding-top: 1.25rem; }
 
 .pt-24 {
-  padding-top: 24; }
+  padding-top: 1.5rem; }
 
 .pt-32 {
-  padding-top: 32; }
+  padding-top: 2rem; }
 
 .pt-40 {
-  padding-top: 40; }
+  padding-top: 2.5rem; }
 
 .pb-0 {
   padding-bottom: 0; }
 
 .pb-4 {
-  padding-bottom: 4; }
+  padding-bottom: 0.25rem; }
 
 .pb-8 {
-  padding-bottom: 8; }
+  padding-bottom: 0.5rem; }
 
 .pb-12 {
-  padding-bottom: 12; }
+  padding-bottom: 0.75rem; }
 
 .pb-16 {
-  padding-bottom: 16; }
+  padding-bottom: 1rem; }
 
 .pb-20 {
-  padding-bottom: 20; }
+  padding-bottom: 1.25rem; }
 
 .pb-24 {
-  padding-bottom: 24; }
+  padding-bottom: 1.5rem; }
 
 .pb-32 {
-  padding-bottom: 32; }
+  padding-bottom: 2rem; }
 
 .pb-40 {
-  padding-bottom: 40; }
+  padding-bottom: 2.5rem; }
 
 .pr-0 {
   padding-right: 0; }
 
 .pr-4 {
-  padding-right: 4; }
+  padding-right: 0.25rem; }
 
 .pr-8 {
-  padding-right: 8; }
+  padding-right: 0.5rem; }
 
 .pr-12 {
-  padding-right: 12; }
+  padding-right: 0.75rem; }
 
 .pr-16 {
-  padding-right: 16; }
+  padding-right: 1rem; }
 
 .pr-20 {
-  padding-right: 20; }
+  padding-right: 1.25rem; }
 
 .pr-24 {
-  padding-right: 24; }
+  padding-right: 1.5rem; }
 
 .pr-32 {
-  padding-right: 32; }
+  padding-right: 2rem; }
 
 .pr-40 {
-  padding-right: 40; }
+  padding-right: 2.5rem; }
 
 .pl-0 {
   padding-left: 0; }
 
 .pl-4 {
-  padding-left: 4; }
+  padding-left: 0.25rem; }
 
 .pl-8 {
-  padding-left: 8; }
+  padding-left: 0.5rem; }
 
 .pl-12 {
-  padding-left: 12; }
+  padding-left: 0.75rem; }
 
 .pl-16 {
-  padding-left: 16; }
+  padding-left: 1rem; }
 
 .pl-20 {
-  padding-left: 20; }
+  padding-left: 1.25rem; }
 
 .pl-24 {
-  padding-left: 24; }
+  padding-left: 1.5rem; }
 
 .pl-32 {
-  padding-left: 32; }
+  padding-left: 2rem; }
 
 .pl-40 {
-  padding-left: 40; }
+  padding-left: 2.5rem; }
 
 .px-0 {
   padding-left: 0;
   padding-right: 0; }
 
 .px-4 {
-  padding-left: 4;
-  padding-right: 4; }
+  padding-left: 0.25rem;
+  padding-right: 0.25rem; }
 
 .px-8 {
-  padding-left: 8;
-  padding-right: 8; }
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; }
 
 .px-12 {
-  padding-left: 12;
-  padding-right: 12; }
+  padding-left: 0.75rem;
+  padding-right: 0.75rem; }
 
 .px-16 {
-  padding-left: 16;
-  padding-right: 16; }
+  padding-left: 1rem;
+  padding-right: 1rem; }
 
 .px-20 {
-  padding-left: 20;
-  padding-right: 20; }
+  padding-left: 1.25rem;
+  padding-right: 1.25rem; }
 
 .px-24 {
-  padding-left: 24;
-  padding-right: 24; }
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; }
 
 .px-32 {
-  padding-left: 32;
-  padding-right: 32; }
+  padding-left: 2rem;
+  padding-right: 2rem; }
 
 .px-40 {
-  padding-left: 40;
-  padding-right: 40; }
+  padding-left: 2.5rem;
+  padding-right: 2.5rem; }
 
 .py-0 {
   padding-top: 0;
   padding-bottom: 0; }
 
 .py-4 {
-  padding-top: 4;
-  padding-bottom: 4; }
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem; }
 
 .py-8 {
-  padding-top: 8;
-  padding-bottom: 8; }
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem; }
 
 .py-12 {
-  padding-top: 12;
-  padding-bottom: 12; }
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem; }
 
 .py-16 {
-  padding-top: 16;
-  padding-bottom: 16; }
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
 
 .py-20 {
-  padding-top: 20;
-  padding-bottom: 20; }
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem; }
 
 .py-24 {
-  padding-top: 24;
-  padding-bottom: 24; }
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
 
 .py-32 {
-  padding-top: 32;
-  padding-bottom: 32; }
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
 
 .py-40 {
-  padding-top: 40;
-  padding-bottom: 40; }
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem; }
 
 .margin-0 {
   margin: 0; }
