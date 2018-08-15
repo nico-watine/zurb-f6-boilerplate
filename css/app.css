@@ -7483,6 +7483,33 @@ a {
 .position-absolute {
   position: absolute; }
 
+.p-0 {
+  padding: 0; }
+
+.p-4 {
+  padding: 4; }
+
+.p-8 {
+  padding: 8; }
+
+.p-12 {
+  padding: 12; }
+
+.p-16 {
+  padding: 16; }
+
+.p-20 {
+  padding: 20; }
+
+.p-24 {
+  padding: 24; }
+
+.p-32 {
+  padding: 32; }
+
+.p-40 {
+  padding: 40; }
+
 .margin-0 {
   margin: 0; }
 
