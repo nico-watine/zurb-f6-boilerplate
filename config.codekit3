@@ -5498,19 +5498,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/components\/extras\/_sticky-footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/components\/css\/_sticky-footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/scss\/components\/typography\/_fonts.scss": {
 		"aP": 0,
 		"bl": 0,
