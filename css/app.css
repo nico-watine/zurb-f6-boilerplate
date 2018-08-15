@@ -7477,10 +7477,10 @@ a {
 .display-flex {
   display: flex; }
 
-.relative {
+.position-relative {
   position: relative; }
 
-.absolute {
+.position-absolute {
   position: absolute; }
 
 .padding-0 {
