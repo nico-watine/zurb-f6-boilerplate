@@ -5371,16 +5371,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/js\/vendor\/jquery\/2-2-4\/jquery-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/js\/vendor\/jquery\/2-2-4\/jquery-min-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"\/LICENSE": {
 		"cB": 0,
 		"ft": 8192,
