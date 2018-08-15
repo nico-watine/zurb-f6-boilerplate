@@ -7483,20 +7483,6 @@ a {
 .position-absolute {
   position: absolute; }
 
-.padding-0 {
-  padding: 0; }
-
-.padding-X {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem; }
-
-.padding-Y {
-  padding-top: 0.9375rem;
-  padding-bottom: 0.9375rem; }
-
-.padding-XY {
-  padding: 0.9375rem; }
-
 .margin-0 {
   margin: 0; }
 
