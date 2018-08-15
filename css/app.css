@@ -7654,6 +7654,42 @@ a {
   padding-left: 40;
   padding-right: 40; }
 
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.py-4 {
+  padding-top: 4;
+  padding-bottom: 4; }
+
+.py-8 {
+  padding-top: 8;
+  padding-bottom: 8; }
+
+.py-12 {
+  padding-top: 12;
+  padding-bottom: 12; }
+
+.py-16 {
+  padding-top: 16;
+  padding-bottom: 16; }
+
+.py-20 {
+  padding-top: 20;
+  padding-bottom: 20; }
+
+.py-24 {
+  padding-top: 24;
+  padding-bottom: 24; }
+
+.py-32 {
+  padding-top: 32;
+  padding-bottom: 32; }
+
+.py-40 {
+  padding-top: 40;
+  padding-bottom: 40; }
+
 .margin-0 {
   margin: 0; }
 
