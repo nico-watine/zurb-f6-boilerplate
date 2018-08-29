@@ -41,20 +41,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_ignores\/head\/favicon-linking.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_ignores\/head\/favicon-linking.html",
-		"oF": 0
-		},
-	"\/_ignores\/head\/head-references.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_ignores\/head\/head-references.html",
-		"oF": 0
-		},
 	"\/_ignores\/htaccess\/force-https.txt": {
 		"cB": 0,
 		"ft": 8192,
@@ -5371,15 +5357,11 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/js\/vendor\/jquery\/3-3-1\/jquery-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/vendor\/jquery\/3-3-1\/jquery-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
+	"\/js\/vendor": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/js\/vendor",
+		"oF": 0
 		},
 	"\/LICENSE": {
 		"cB": 0,
@@ -7605,7 +7587,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/dist",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/dist, \/js\/vendor",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",

@@ -2,7 +2,6 @@
 
 @import 'settings';
 @import 'foundation';
-@import 'motion-ui';
 
 @include foundation-global-styles;
 @include foundation-xy-grid-classes;
@@ -47,6 +46,7 @@
 
 @include foundation-prototype-classes;
 
+@import 'motion-ui';
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
