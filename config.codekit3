@@ -5370,12 +5370,6 @@
 		"oAP": "\/LICENSE",
 		"oF": 0
 		},
-	"\/node_modules": {
-		"ft": 65536,
-		"oA": 2,
-		"oAP": "\/build\/node_modules",
-		"oF": 0
-		},
 	"\/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -5859,7 +5853,7 @@
 	"bowerInstallDevDependencies": 0,
 	"bowerSaveDependencies": 1,
 	"bowerSaveDevDependencies": 0,
-	"bowerUseExactVersion": 0,
+	"bowerUseExactVersion": 1,
 	"browserRefreshDelay": 0,
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
