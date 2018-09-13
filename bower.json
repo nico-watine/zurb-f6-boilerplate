@@ -4,7 +4,6 @@
     "Nico Watine <nico@studioncreations.com> (https://nicowatine.me/)"
   ],
   "description": "New project boilerplate using ZURB's 'Advanced' Foundation 6 framework",
-  "main": "gulpfile.js",
   "license": "MIT",
   "ignore": [
     "**/.*",
