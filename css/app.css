@@ -8202,21 +8202,6 @@ a {
   -webkit-text-decoration-skip: initial;
   text-decoration: underline; }
 
-.display-inline-block {
-  display: inline-block; }
-
-.display-block {
-  display: block; }
-
-.display-flex {
-  display: flex; }
-
-.position-relative {
-  position: relative; }
-
-.position-absolute {
-  position: absolute; }
-
 .p-0 {
   padding: 0; }
 
