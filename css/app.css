@@ -8198,9 +8198,11 @@ ol.list-upper-roman {
   .h6 {
     font-size: 0.875rem; } }
 
-a {
+a:not(.button) {
   -webkit-text-decoration-skip: initial;
   text-decoration: underline; }
+  a:not(.button):hover {
+    text-decoration: none; }
 
 .p-0 {
   padding: 0; }
