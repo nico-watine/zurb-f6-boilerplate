@@ -8201,6 +8201,8 @@ ol.list-upper-roman {
 a:not(.button) {
   -webkit-text-decoration-skip: initial;
   text-decoration: underline; }
+  a:not(.button):hover {
+    text-decoration: none; }
 
 .p-0 {
   padding: 0; }
