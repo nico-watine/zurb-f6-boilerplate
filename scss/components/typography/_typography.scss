@@ -54,7 +54,7 @@
 	}
 }
 
-a {
+a:not(.button) {
 	-webkit-text-decoration-skip: initial;
 	text-decoration: underline;
 }
