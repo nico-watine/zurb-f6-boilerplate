@@ -109,16 +109,16 @@ body-class: index
 				<br>
 			</div>
 			<div class="medium-4 columns">
-				<div class="boxShadow-1 py-16" style="border: 1px solid #e6e6e6;">
-					<p style="margin-bottom: 12px;">Class: <small><code>.boxShadow-1</code></small></p>
+				<div class="box-shadow-1 py-16" style="border: 1px solid #e6e6e6;">
+					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-1</code></small></p>
 					<code>box-shadow: $z-1;</code>
 				</div>
 				<br>
 				<br>
 			</div>
 			<div class="medium-4 columns">
-				<div class="boxShadow-2 py-16" style="border: 1px solid #e6e6e6;">
-					<p style="margin-bottom: 12px;">Class: <small><code>.boxShadow-2</code></small></p>
+				<div class="box-shadow-2 py-16" style="border: 1px solid #e6e6e6;">
+					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-2</code></small></p>
 					<code>box-shadow: $z-2;</code>
 				</div>
 				<br>
@@ -127,24 +127,24 @@ body-class: index
 		</div>
 		<div class="row">
 			<div class="medium-4 columns">
-				<div class="boxShadow-3 py-16" style="border: 1px solid #e6e6e6;">
-					<p style="margin-bottom: 12px;">Class: <small><code>.boxShadow-3</code></small></p>
+				<div class="box-shadow-3 py-16" style="border: 1px solid #e6e6e6;">
+					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-3</code></small></p>
 					<code>box-shadow: $z-3;</code>
 				</div>
 				<br>
 				<br>
 			</div>
 			<div class="medium-4 columns">
-				<div class="boxShadow-4 py-16" style="border: 1px solid #e6e6e6;">
-					<p style="margin-bottom: 12px;">Class: <small><code>.boxShadow-4</code></small></p>
+				<div class="box-shadow-4 py-16" style="border: 1px solid #e6e6e6;">
+					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-4</code></small></p>
 					<code>box-shadow: $z-4;</code>
 				</div>
 				<br>
 				<br>
 			</div>
 			<div class="medium-4 columns">
-				<div class="boxShadow-5 py-16" style="border: 1px solid #e6e6e6;">
-					<p style="margin-bottom: 12px;">Class: <small><code>.boxShadow-5</code></small></p>
+				<div class="box-shadow-5 py-16" style="border: 1px solid #e6e6e6;">
+					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-5</code></small></p>
 					<code>box-shadow: $z-5;</code>
 				</div>
 				<br>
