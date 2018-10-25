@@ -4,7 +4,7 @@ This is a macOS-optimized [Foundation ZURB Template](https://github.com/zurb/fou
 
 #### **FEATURES**
 
-* [Foundation 6](http://foundation.zurb.com/sites.html) Framework (inherently awesome) 
+* [Foundation 6](http://foundation.zurb.com/sites.html) Framework (inherently awesome)
 
 * Cache-busting auto-versioning for CSS and JS [(CREDIT)](http://www.particletree.com/notebook/automatically-version-your-css-and-javascript-files/)
 
@@ -29,3 +29,7 @@ In order:
 
 ### **Notes**
 There is an invisible .htaccess file located in '/assets'. This .htaccess file **cannot** be deleted. It is auto imported into '/dist' and it is necessary for autoversioning to function correctly
+
+"settings.scss" can greatly change between core updates. Keep track of your custom tweaks by adding a comment in the following structure:
+
+"// Vanilla: VAR" after the setting's semi-colon and on the same line
