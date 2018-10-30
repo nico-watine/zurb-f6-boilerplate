@@ -14,13 +14,13 @@ body-class: index
 	</div>
 </div>
 
-<div class="grid-container">
+<!-- <div class="grid-container">
 	<div class="grid-x grid-padding-x small-padding-collapse">
 		<div class="cell">
 			<img src="/img/banditos.jpg" alt="@nico-watine & @AntoineHythierAkzo">
 		</div>
 	</div>
-</div>
+</div> -->
 
 <br>
 
