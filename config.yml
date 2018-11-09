@@ -44,7 +44,6 @@ PATHS:
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.util.motion.js"
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.util.nest.js"
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.util.timer.js"
-    # - "bower_components/foundation-sites/dist/js/plugins/foundation.util.timerAndImageLoader.js"
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.util.touch.js"
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.util.triggers.js"
 
