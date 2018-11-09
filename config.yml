@@ -69,7 +69,6 @@ PATHS:
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.tabs.js"
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.toggler.js"
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.tooltip.js"
-    # - "bower_components/foundation-sites/dist/js/plugins/foundation.zf.responsiveAccordionTabs"
 
     # Main JS file (imports everything above)
     - "js/app-min.js"
