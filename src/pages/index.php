@@ -161,7 +161,7 @@ body-class: index
 
 <div class="row">
 	<div class="columns">
-		<h1>Grid Layout Example</h1>
+		<h1><strong>Float Grid</strong> Layout Example <small>(Legacy)</small></h1>
 		<h5>Here&rsquo;s your basic grid:</h5>
 	</div>
 </div>
