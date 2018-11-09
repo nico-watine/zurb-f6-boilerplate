@@ -14,32 +14,34 @@ body-class: index
 	</div>
 </div>
 
-<div class="row">
-	<img src="/img/banditos.jpg" alt="@nico-watine & @AntoineHythierAkzo">
-</div>
+<br>
 
-<div class="row">
-	<div class="columns">
-		<div class="callout">
-			<h3>We&rsquo;re stoked you want to try Foundation!</h3>
-			<p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-			<p>Once you've exhausted the fun in this document, you should check out:</p>
-			<div class="row">
-				<div class="medium-4 columns">
+<div class="grid-container">
+	<div class="grid-x">
+		<div class="cell callout">
+			<div class="grid-x grid-padding-x">
+				<div class="cell">
+					<h3>We&rsquo;re stoked you want to try Foundation!</h3>
+					<p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
+					<p>Once you've exhausted the fun in this document, you should check out:</p>
+				</div>
+			</div>
+			<div class="grid-x grid-padding-x">
+				<div class="cell medium-4">
 					<p><a target="_blank" href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
 				</div>
-				<div class="medium-4 columns">
+				<div class="cell medium-4">
 					<p><a target="_blank" href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
 				</div>
-				<div class="medium-4 columns">
+				<div class="cell medium-4">
 					<p><a target="_blank" href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="medium-4 medium-push-2 columns">
+			<div class="grid-x grid-padding-x align-center">
+				<div class="cell medium-4">
 					<p><a target="_blank" href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
 				</div>
-				<div class="medium-4 medium-pull-2 columns">
+				<div class="cell medium-4">
 					<p><a target="_blank" href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
 				</div>
 			</div>
@@ -47,7 +49,6 @@ body-class: index
 	</div>
 </div>
 
-<br>
 <hr>
 
 <div class="row">
@@ -160,7 +161,7 @@ body-class: index
 
 <div class="row">
 	<div class="columns">
-		<h1>Grid Layout Example</h1>
+		<h1><strong>Float Grid</strong> Layout Example <small>(Legacy)</small></h1>
 		<h5>Here&rsquo;s your basic grid:</h5>
 	</div>
 </div>
