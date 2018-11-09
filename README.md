@@ -1,10 +1,10 @@
 # zurb-f6-boilerplate
 
-This is a macOS-optimized [Foundation ZURB Template](https://github.com/zurb/foundation-zurb-template) workflow for web development. It requires a Macintosh computer, running the programs [Codekit 3](https://incident57.com/codekit/index.html), [Sublime Text 3](https://www.sublimetext.com/3) and [MAMP](https://www.mamp.info/en/)
+This is a macOS-optimized [foundation-zurb-template](https://github.com/zurb/foundation-zurb-template) workflow. The build requires a Macintosh computer, specifically running the programs [Codekit 3](https://incident57.com/codekit/index.html) and [MAMP](https://www.mamp.info/en/). You can use your text editor of choice.
 
-#### **FEATURES**
+## Features
 
-* [Foundation 6](http://foundation.zurb.com/sites.html) Framework (inherently awesome)
+* [Foundation 6](http://foundation.zurb.com/sites.html) Framework – (latest stable release – [version 6.4.3](https://github.com/zurb/foundation-sites/releases/tag/v6.4.3))
 
 * Cache-busting auto-versioning for CSS and JS [(CREDIT)](http://www.particletree.com/notebook/automatically-version-your-css-and-javascript-files/)
 
@@ -12,24 +12,22 @@ This is a macOS-optimized [Foundation ZURB Template](https://github.com/zurb/fou
 
 * Optimized Google Analytics tracking code ([CREDIT](https://github.com/h5bp/html5-boilerplate/pull/1660#issuecomment-89815017))
 
-* Can process PHP files (not just HTML)
-
-### **Setup**
+## Setup
 In order:
 
-* cd Terminal
+* `cd` Terminal into your install directory
 
-* Clone via HTTPS : [https://github.com/nico-watine/zurb-f6-boilerplate.git](https://github.com/nico-watine/zurb-f6-boilerplate.git)
+* Clone the repo: `git clone https://github.com/nico-watine/zurb-f6-boilerplate.git`
 
-* npm install
+* `npm install`
 
-* bower install
+* `bower install`
 
 * Ensure 'External Server Address' is correct in 'config.codekit' file
 
-### **Notes**
-There is an invisible .htaccess file located in '/assets'. This .htaccess file **cannot** be deleted. It is auto imported into '/dist' and it is necessary for autoversioning to function correctly
+### Notes
+There is an invisible `.htaccess` file located in `/assets`. This `.htaccess` file **cannot** be deleted. It is auto imported into `/dist` and is necessary for autoversioning to function correctly
 
-"settings.scss" can greatly change between core updates. Keep track of your custom tweaks by adding a comment in the following structure:
+`_settings.scss` can greatly change between core Foundation updates. Keep track of your custom tweaks by adding an inline comment following the variable's ending semicolon. The comment should begin with `// "Vanilla:"` and end with the variable's original value.
 
-"// Vanilla: VAR" after the setting's semi-colon and on the same line
+`$black: #000; // Vanilla: #0a0a0a`
