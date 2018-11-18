@@ -5588,6 +5588,20 @@
 		"oAP": "/bower_components/what-input/.gitignore",
 		"oF": 0
 		},
+	"/bower_components/what-input/.prettierrc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/bower_components/what-input/.prettierrc",
+		"oF": 0
+		},
+	"/bower_components/what-input/dist/maps/what-input.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/bower_components/what-input/dist/maps/what-input.min.js.map",
+		"oF": 0
+		},
 	"/bower_components/what-input/dist/what-input.js": {
 		"ft": 64,
 		"ma": 0,
