@@ -57,13 +57,13 @@
 
 @import 'settings/_custom-settings.scss';
 
-// #1 TYPOGRAPHY
+// #1 Typography
 @import 'components/typography/_typography.scss';
 
-// #3 SPECIFIC PAGE STYLES
+// #2 Page styles
 @import 'pages/index/_index.scss';
 
-// #4 MISC COMPONENTS
+// #3 Components
 @import 'components/_padding-margin.scss';
 @import 'components/_metrics.scss';
 @import 'components/_utility-classes.scss';
