@@ -6086,6 +6086,13 @@
 		"oA": 0,
 		"oAP": "/src/partials/google-tracking-id.html",
 		"oF": 0
+		},
+	"/src/partials/scripts-tag.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/src/partials/scripts-tag.html",
+		"oF": 0
 		}
 	},
 "hooks": [
