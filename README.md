@@ -4,7 +4,7 @@ This is a macOS-optimized [foundation-zurb-template](https://github.com/zurb/fou
 
 ## Features
 
-* [Foundation 6](http://foundation.zurb.com/sites.html) Framework – ([v6.5.0](https://github.com/zurb/foundation-sites/releases/tag/v6.5.0))
+* [Foundation 6](http://foundation.zurb.com/sites.html) Framework – ([v6.5.1](https://github.com/zurb/foundation-sites/releases/tag/v6.5.1))
 
 * Cache-busting auto-versioning for CSS and JS [(CREDIT)](http://www.particletree.com/notebook/automatically-version-your-css-and-javascript-files/)
 

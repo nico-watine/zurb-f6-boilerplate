@@ -6,3 +6,8 @@ Reference a partial like so:
 Existing google-tracking-id.html ::
 Insert unique code in UA-XXXXX-X
 Typical best practice is to include this partial before closing body tag (or beginning of js tags)
+
+scripts-tag.html
+<script>
+	// in-page-scripts
+</script>
