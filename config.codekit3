@@ -5828,6 +5828,16 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/js/src/custom.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/custom-min.js",
+		"oF": 2,
+		"sC": 0,
+		"tS": 0
+		},
 	"/js/vendor": {
 		"ft": 65536,
 		"oA": 1,
