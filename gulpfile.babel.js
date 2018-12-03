@@ -18,61 +18,61 @@ const PRODUCTION = !!(yargs.argv.production);
 const { COMPATIBILITY, UNCSS_OPTIONS, PATHS } = loadConfig();
 
 function loadConfig() {
-  let ymlFile = fs.readFileSync('config.yml', 'utf8');
-  return yaml.load(ymlFile);
+	let ymlFile = fs.readFileSync('config.yml', 'utf8');
+	return yaml.load(ymlFile);
 }
 
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
-  gulp.series(clean, gulp.parallel(pages, sass, javascript, javascript_vendor, fonts, images, copy)));
+	gulp.series(clean, gulp.parallel(pages, sass, javascript, javascript_vendor, fonts, images, copy)));
 
 // Build the site, run the server, and watch for file changes
 gulp.task('default',
-  gulp.series('build', watch));
+	gulp.series('build', watch));
 
 // Delete the "dist" folder
 // This happens every time a build starts
 function clean(done) {
-  rimraf(PATHS.dist, done);
+	rimraf(PATHS.dist, done);
 }
 
 // Copy files out of the assets folder
 function copy() {
-  return gulp.src(PATHS.assets)
-    .pipe(gulp.dest(PATHS.dist + '/'));
+	return gulp.src(PATHS.assets)
+		.pipe(gulp.dest(PATHS.dist + '/'));
 }
 
 // Copy page templates into finished HTML files
 function pages() {
   return gulp.src('src/pages/**/*.{html,php,htm,hbs,handlebars}') // <-must specify exactly what kind
-    .pipe(panini({
-      root: 'src/pages/',
-      layouts: 'src/layouts/',
-      // UNCOMMENT FOR PRODUCTION ::
-      // layouts: 'src/layouts-production/',
-      partials: 'src/partials/',
-      data: 'src/data/',
-      helpers: 'src/helpers/'
-    }))
-    .pipe(gulp.dest(PATHS.dist));
+	.pipe(panini({
+		root: 'src/pages/',
+		layouts: 'src/layouts/',
+		// UNCOMMENT FOR PRODUCTION ::
+		// layouts: 'src/layouts-production/',
+		partials: 'src/partials/',
+		data: 'src/data/',
+		helpers: 'src/helpers/'
+	}))
+	.pipe(gulp.dest(PATHS.dist));
 }
 
 // Load updated HTML templates and partials into Panini
 function resetPages(done) {
-  panini.refresh();
-  done();
+	panini.refresh();
+	done();
 }
 
 
 // In production, compress CSS and append Autoprefixer
 function sass() {
   return gulp.src('css/*.css')
-    .pipe($.autoprefixer({
-      browsers: COMPATIBILITY
-    }))
-    .pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
-    .pipe($.if(PRODUCTION, $.cssnano()))
-    .pipe(gulp.dest(PATHS.dist + '/css'));
+	.pipe($.autoprefixer({
+		browsers: COMPATIBILITY
+	}))
+	.pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
+	.pipe($.if(PRODUCTION, $.cssnano()))
+	.pipe(gulp.dest(PATHS.dist + '/css'));
 }
 
 
@@ -91,8 +91,8 @@ function javascript() {
 // Watch and copy .js files located in js/vendor to js/vendor in dist
 // These js files are not touched by Codekit. For example, a jquery source file is in here
 function javascript_vendor() {
-  return gulp.src('js/vendor/**') // all sub-files and sub-folders except src
-    .pipe(gulp.dest(PATHS.dist + '/js/vendor/'));
+	return gulp.src('js/vendor/**') // all sub-files and sub-folders except src
+		.pipe(gulp.dest(PATHS.dist + '/js/vendor/'));
 }
 
 // Copy over fonts
