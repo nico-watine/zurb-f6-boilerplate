@@ -24,7 +24,7 @@ function loadConfig() {
 
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
-	gulp.series(clean, gulp.parallel(pages, sass, javascript, javascript_custom, javascript_vendor, fonts, images, copy)));
+	gulp.series(clean, gulp.parallel(pages, sass, javascript_custom, javascript_vendor, javascript, fonts, images, copy)));
 
 // Build the site, run the server, and watch for file changes
 gulp.task('default',
@@ -118,10 +118,11 @@ function images() {
 // Watch for changes to static assets, pages, Sass, and JavaScript
 function watch() {
 	gulp.watch(PATHS.assets, copy);
+	gulp.watch('js/**', javascript_custom);
 	gulp.watch('src/pages/**', gulp.series(pages)); // <-watch for any type of additions
 	gulp.watch('src/{layouts,partials}/**/*.html', gulp.series(resetPages, pages));
 	gulp.watch('css/*.css', sass);
-	gulp.watch('js/**', gulp.series(javascript, javascript_custom, javascript_vendor));
+	gulp.watch('js/**', gulp.series(javascript_vendor, javascript));
 	gulp.watch('img/**', images);
 	gulp.watch('fonts/**', fonts);
 }
