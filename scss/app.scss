@@ -55,7 +55,7 @@
 // |            IMPORT CUSTOM SASS FILES (IN ORDER OF LOAD PRIORITY)            |
 // ------------------------------------------------------------------------------
 
-@import 'settings/_custom-settings.scss';
+@import '_var.scss';
 
 // #1 Typography
 @import 'components/typography/_typography.scss';
