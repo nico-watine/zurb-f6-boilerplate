@@ -17,3 +17,14 @@ insert_final_newline = none
 trim_trailing_whitespace = none
 indent_style = none
 indent_size = none
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.json]
+indent_size = 2
+insert_final_newline = ignore
+
+[**-min.js]
+indent_style = ignore
+insert_final_newline = ignore
