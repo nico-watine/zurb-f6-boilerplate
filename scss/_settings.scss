@@ -123,7 +123,7 @@ $breakpoint-classes: (small medium large);
 $grid-row-width: $global-width;
 $grid-column-count: 12;
 $grid-column-gutter: (
-	small: 20px, // +4
+	small: 16px, // +8
 	medium: 24px, // +8
 	large: 32px
 	// Only specify below gutters if using a $global-width of more than the standard 1200px
