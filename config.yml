@@ -59,16 +59,16 @@ PATHS:
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.magellan.js" # smoothScroll
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.offcanvas.js" # keyboard / mediaQuery / triggers
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.orbit.js" # keyboard / motion / timer / imageLoader / touch
-    # - "bower_components/foundation-sites/dist/js/plugins/foundation.responsiveAccordionTabs.js"
-    # - "bower_components/foundation-sites/dist/js/plugins/foundation.responsiveMenu.js"
-    # - "bower_components/foundation-sites/dist/js/plugins/foundation.responsiveToggle.js"
-    # - "bower_components/foundation-sites/dist/js/plugins/foundation.reveal.js"
-    # - "bower_components/foundation-sites/dist/js/plugins/foundation.slider.js"
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.responsiveAccordionTabs.js" # motion / accordion / tabs
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.responsiveMenu.js" # triggers / mediaQuery
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.responsiveToggle.js" # mediaQuery / motion
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.reveal.js" # keyboard / triggers / mediaQuery / motion
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.slider.js" # motion / triggers / keyboard / touch
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.smoothScroll.js"
-    # - "bower_components/foundation-sites/dist/js/plugins/foundation.sticky.js"
-    # - "bower_components/foundation-sites/dist/js/plugins/foundation.tabs.js"
-    # - "bower_components/foundation-sites/dist/js/plugins/foundation.toggler.js"
-    # - "bower_components/foundation-sites/dist/js/plugins/foundation.tooltip.js"
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.sticky.js" # triggers / mediaQuery
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.tabs.js" # keyboard / imageLoader
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.toggler.js" # motion / triggers
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.tooltip.js" # box / mediaQuery / triggers
 
     # Main JS file (imports everything above)
     - "js/app-min.js"
