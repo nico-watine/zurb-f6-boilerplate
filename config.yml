@@ -56,6 +56,7 @@ PATHS:
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.dropdownMenu.js" # box / keyboard / nest
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.equalizer.js" # imageLoader / mediaQuery
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.interchange.js" # mediaQuery
+    # - "bower_components/foundation-sites/dist/js/plugins/foundation.smoothScroll.js"
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.magellan.js" # smoothScroll
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.offcanvas.js" # keyboard / mediaQuery / triggers
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.orbit.js" # imageLoader / keyboard / motion / timer / touch
@@ -64,7 +65,6 @@ PATHS:
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.responsiveToggle.js" # mediaQuery / motion
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.reveal.js" # keyboard / mediaQuery / motion / triggers
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.slider.js" # keyboard / motion / touch / triggers
-    # - "bower_components/foundation-sites/dist/js/plugins/foundation.smoothScroll.js"
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.sticky.js" # mediaQuery / triggers
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.tabs.js" # imageLoader / keyboard
     # - "bower_components/foundation-sites/dist/js/plugins/foundation.toggler.js" # motion / triggers
