@@ -1,14 +1,8 @@
 // -------------------------------------------------------------
 // |            CDN VARIABLE USAGE (IF USING A CDN)            |
 // -------------------------------------------------------------
-// USAGE NOTES
-// 1. Insert below variable at the beginning of any "url('')" within your SASS files
 // #{$url}
-// 2. Swap between the two below variables during development/production modes
-// Use "null" during development
 $url: null;
-// Comment-out "null" and uncomment below line to use proper CDN url during production
-// $url:'http://cdn.url.com';
 
 
 
@@ -16,11 +10,6 @@ $url: null;
 // ---------------------------------------------------------------------------------------------------
 // |            GOOGLE "MATERIAL DESIGN" BOX-SHADOW VARIABLES (TAKEN FROM "PAPER SHADOW")            |
 // ---------------------------------------------------------------------------------------------------
-// USAGE NOTES
-// EXAMPLE:
-// .class {
-// 	box-shadow: $z-1;
-// }
 $z-1: 0 rem-calc(1) rem-calc(4) 0 rgba(0,0,0,.37);
 $z-2: 0 rem-calc(2) rem-calc(2) 0 rgba(0,0,0,.20), 0 rem-calc(6) rem-calc(10) 0 rgba(0,0,0,.30);
 $z-3: 0 rem-calc(11) rem-calc(7) 0 rgba(0,0,0,.19), 0 rem-calc(13) rem-calc(25) 0 rgba(0,0,0,.30);
