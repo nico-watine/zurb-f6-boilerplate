@@ -18,7 +18,7 @@ body-class: index
 
 <div class="grid-container">
 	<div class="grid-x">
-		<div class="cell callout">
+		<div class="cell callout" style="border-radius: 4px;">
 			<div class="grid-x grid-padding-x">
 				<div class="cell">
 					<h3>We&rsquo;re stoked you want to try Foundation!</h3>
@@ -102,7 +102,7 @@ body-class: index
 	<div class="large-9 columns text-center">
 		<div class="row">
 			<div class="medium-4 columns">
-				<div class="py-16" style="border: 1px solid #e6e6e6;">
+				<div class="py-16" style="border-radius: 4px; border: 1px solid #e6e6e6;">
 					<p style="margin-bottom: 12px;"><small><code>border</code></small> added for display</p>
 					<code>box-shadow: 0;</code>
 				</div>
@@ -110,7 +110,7 @@ body-class: index
 				<br>
 			</div>
 			<div class="medium-4 columns">
-				<div class="box-shadow-1 py-16" style="border: 1px solid #e6e6e6;">
+				<div class="box-shadow-1 py-16" style="border-radius: 4px; border: 1px solid #e6e6e6;">
 					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-1</code></small></p>
 					<code>box-shadow: $z-1;</code>
 				</div>
@@ -118,7 +118,7 @@ body-class: index
 				<br>
 			</div>
 			<div class="medium-4 columns">
-				<div class="box-shadow-2 py-16" style="border: 1px solid #e6e6e6;">
+				<div class="box-shadow-2 py-16" style="border-radius: 4px; border: 1px solid #e6e6e6;">
 					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-2</code></small></p>
 					<code>box-shadow: $z-2;</code>
 				</div>
@@ -128,7 +128,7 @@ body-class: index
 		</div>
 		<div class="row">
 			<div class="medium-4 columns">
-				<div class="box-shadow-3 py-16" style="border: 1px solid #e6e6e6;">
+				<div class="box-shadow-3 py-16" style="border-radius: 4px; border: 1px solid #e6e6e6;">
 					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-3</code></small></p>
 					<code>box-shadow: $z-3;</code>
 				</div>
@@ -136,7 +136,7 @@ body-class: index
 				<br>
 			</div>
 			<div class="medium-4 columns">
-				<div class="box-shadow-4 py-16" style="border: 1px solid #e6e6e6;">
+				<div class="box-shadow-4 py-16" style="border-radius: 4px; border: 1px solid #e6e6e6;">
 					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-4</code></small></p>
 					<code>box-shadow: $z-4;</code>
 				</div>
@@ -144,7 +144,7 @@ body-class: index
 				<br>
 			</div>
 			<div class="medium-4 columns">
-				<div class="box-shadow-5 py-16" style="border: 1px solid #e6e6e6;">
+				<div class="box-shadow-5 py-16" style="border-radius: 4px; border: 1px solid #e6e6e6;">
 					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-5</code></small></p>
 					<code>box-shadow: $z-5;</code>
 				</div>
@@ -332,7 +332,7 @@ body-class: index
 		<a href="#" class="medium success button">Success Btn</a><br/>
 		<a href="#" class="medium alert button">Alert Btn</a><br/>
 		<a href="#" class="medium secondary button">Secondary Btn</a></p>
-		<div class="callout">
+		<div class="callout" style="border-radius: 4px;">
 			<h5>So many components, girl!</h5>
 			<p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
 			<a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>
