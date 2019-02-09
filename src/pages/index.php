@@ -8,6 +8,8 @@ og-image:
 body-id: index
 body-class: index
 ---
+<br>
+
 <div class="row">
 	<div class="columns">
 		<h1>Welcome to Foundation for Sites</h1>
