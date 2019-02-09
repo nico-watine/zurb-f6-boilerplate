@@ -864,7 +864,7 @@ $xy-grid: true;
 $grid-container: $global-width;
 $grid-columns: 12;
 $grid-margin-gutters: (
-	small: 20px, // +4
+	small: 16px, // +8
 	medium: 24px, // +8
 	large: 32px
 	// Only specify below gutters if using a $global-width of more than the standard 1200px
@@ -874,4 +874,3 @@ $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;
 $grid-container-max: $global-width;
 $xy-block-grid-max: 8;
-
