@@ -224,36 +224,36 @@ body-class: index
 <div class="row">
 	<div class="columns">
 		<div class="primary callout">
-			<p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
+			<p><strong>This is a twelve column section in a row</strong> (<code>.row &gt; .columns</code>)<strong>.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
 		</div>
 	</div>
 </div>
 <div class="row">
 	<div class="medium-6 columns">
 		<div class="primary callout">
-			<p>Six columns</p>
+			<p>Six columns (<code>.medium-6.columns</code>)</p>
 		</div>
 	</div>
 	<div class="medium-6 columns">
 		<div class="primary callout">
-			<p>Six columns</p>
+			<p>Six columns (<code>.medium-6.columns</code>)</p>
 		</div>
 	</div>
 </div>
 <div class="row">
 	<div class="small-4 columns">
 		<div class="primary callout">
-			<p>Four columns</p>
+			<p>Four columns (<code>.small-4.columns</code>)</p>
 		</div>
 	</div>
 	<div class="small-4 columns">
 		<div class="primary callout">
-			<p>Four columns</p>
+			<p>Four columns (<code>.small-4.columns</code>)</p>
 		</div>
 	</div>
 	<div class="small-4 columns">
 		<div class="primary callout">
-			<p>Four columns</p>
+			<p>Four columns (<code>.small-4.columns</code>)</p>
 		</div>
 	</div>
 </div>
