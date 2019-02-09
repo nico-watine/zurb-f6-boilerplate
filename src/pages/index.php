@@ -161,6 +161,60 @@ body-class: index
 
 <div class="row">
 	<div class="columns">
+		<h1><strong>XY Grid</strong> Layout Example</h1>
+		<h5>Here&rsquo;s your basic grid:</h5>
+		<br>
+	</div>
+</div>
+
+<div class="grid-container">
+	<div class="grid-x grid-padding-x">
+		<div class="cell">
+			<div class="grid-x grid-padding-x">
+				<div class="cell">
+					<div class="primary callout">
+						<p><strong>This is a twelve cell section in a grid-x.</strong> (<code>.grid-x &gt; .cell</code>) Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-x grid-padding-x">
+				<div class="medium-6 cell">
+					<div class="primary callout">
+						<p>Six cell (<code>.medium-6.cell</code>)</p>
+					</div>
+				</div>
+				<div class="medium-6 cell">
+					<div class="primary callout">
+						<p>Six cell (<code>.medium-6.cell</code>)</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-x grid-padding-x">
+				<div class="small-4 cell">
+					<div class="primary callout">
+						<p>Four cell (<code>.small-4.cell</code>)</p>
+					</div>
+				</div>
+				<div class="small-4 cell">
+					<div class="primary callout">
+						<p>Four cell (<code>.small-4.cell</code>)</p>
+					</div>
+				</div>
+				<div class="small-4 cell">
+					<div class="primary callout">
+						<p>Four cell (<code>.small-4.cell</code>)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<br>
+<hr>
+
+<div class="row">
+	<div class="columns">
 		<h1><strong>Float Grid</strong> Layout Example <small>(Legacy)</small></h1>
 		<h5>Here&rsquo;s your basic grid:</h5>
 	</div>
