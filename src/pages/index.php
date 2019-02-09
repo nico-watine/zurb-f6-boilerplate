@@ -173,7 +173,7 @@ body-class: index
 			<div class="grid-x grid-padding-x">
 				<div class="cell">
 					<div class="primary callout">
-						<p><strong>This is a twelve cell section in a grid-x.</strong> (<code>.grid-x &gt; .cell</code>) Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
+						<p><strong>This is a twelve cell section in a grid-x</strong> (<code>.grid-x &gt; .cell</code>)<strong>.</strong> Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
 					</div>
 				</div>
 			</div>
@@ -217,10 +217,9 @@ body-class: index
 	<div class="columns">
 		<h1><strong>Float Grid</strong> Layout Example <small>(Legacy)</small></h1>
 		<h5>Here&rsquo;s your basic grid:</h5>
+		<br>
 	</div>
 </div>
-
-<hr>
 
 <div class="row">
 	<div class="columns">
