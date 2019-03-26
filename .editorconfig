@@ -25,6 +25,6 @@ trim_trailing_whitespace = false
 indent_size = 2
 insert_final_newline = ignore
 
-[**-min.js]
+[{**-min.js,*.svg}]
 indent_style = ignore
 insert_final_newline = ignore
