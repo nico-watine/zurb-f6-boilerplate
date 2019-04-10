@@ -9,14 +9,6 @@
 	],
 "creatorBuild": "29156",
 "files": {
-	"/.babelrc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/.babelrc",
-		"oF": 0
-		},
 	"/.editorconfig": {
 		"cB": 0,
 		"ft": 8192,
@@ -6161,12 +6153,6 @@
 		"oAP": "/css/app-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"/dist": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/dist",
-		"oF": 0
 		},
 	"/gulpfile.babel.js": {
 		"bF": 0,
