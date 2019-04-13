@@ -1,2 +1,14 @@
-@import 'typography/_typography.scss';
 @import 'typography/_fonts.scss';
+
+
+.p {
+	font-size: $p;
+}
+
+a:not(.button) {
+	text-decoration: underline;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
