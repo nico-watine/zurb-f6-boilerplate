@@ -7883,9 +7883,6 @@ ol.list-upper-roman {
 .long-delay {
   animation-delay: 700ms !important; }
 
-.p {
-  font-size: 1rem; }
-
 a:not(.button) {
   text-decoration: underline; }
   a:not(.button):hover {
