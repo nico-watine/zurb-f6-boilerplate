@@ -7903,6 +7903,15 @@ a:not(.button) {
 .box-shadow-5 {
   box-shadow: 0 1.0625rem 1.0625rem 0 rgba(0, 0, 0, 0.15), 0 1.6875rem 3.4375rem 0 rgba(0, 0, 0, 0.3); }
 
+.cf::before, .cf::after {
+  display: table;
+  content: ' ';
+  flex-basis: 0;
+  order: 1; }
+
+.cf::after {
+  clear: both; }
+
 @media screen and (min-width: 40em) and (max-width: 63.99875em) {
   .medium-only-align-center {
     justify-content: center; } }
