@@ -12,7 +12,7 @@ body-class: index
 
 <div class="row">
 	<div class="columns">
-		<h1>Welcome to Foundation for Sites</h1>
+		<h1 style="text-shadow: 2px 2px 4px #000;" >Welcome to Foundation for Sites</h1>
 	</div>
 </div>
 
