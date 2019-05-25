@@ -6442,7 +6442,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/components/utilities/_sizing.scss": {
+	"/scss/components/utilities/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -6450,7 +6450,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/components/css/_sizing.css",
+		"oAP": "/scss/components/css/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
