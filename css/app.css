@@ -7903,15 +7903,6 @@ a:not(.button) {
 .box-shadow-5 {
   box-shadow: 0 1.0625rem 1.0625rem 0 rgba(0, 0, 0, 0.15), 0 1.6875rem 3.4375rem 0 rgba(0, 0, 0, 0.3); }
 
-.cf::before, .cf::after {
-  display: table;
-  content: ' ';
-  flex-basis: 0;
-  order: 1; }
-
-.cf::after {
-  clear: both; }
-
 @media screen and (min-width: 40em) and (max-width: 63.99875em) {
   .medium-only-align-center {
     justify-content: center; } }
@@ -7967,6 +7958,31 @@ a:not(.button) {
 ::selection {
   background: #b3d4fc;
   text-shadow: none; }
+
+.cf::before, .cf::after {
+  display: table;
+  content: ' ';
+  flex-basis: 0;
+  order: 1; }
+
+.cf::after {
+  clear: both; }
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.horizontal-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 .p-0 {
   padding: 0 !important !important; }
