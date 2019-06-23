@@ -188,12 +188,12 @@ img {
 textarea {
   height: auto;
   min-height: 50px;
-  border-radius: 0.25rem; }
+  border-radius: 0.1875rem; }
 
 select {
   box-sizing: border-box;
   width: 100%;
-  border-radius: 0.25rem; }
+  border-radius: 0.1875rem; }
 
 .map_canvas img,
 .map_canvas embed,
@@ -207,7 +207,7 @@ button {
   padding: 0;
   appearance: none;
   border: 0;
-  border-radius: 0.25rem;
+  border-radius: 0.1875rem;
   background: transparent;
   line-height: 1;
   cursor: auto; }
@@ -426,7 +426,7 @@ kbd {
   background-color: #e6e6e6;
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   color: #0a0a0a;
-  border-radius: 0.25rem; }
+  border-radius: 0.1875rem; }
 
 .subheader {
   margin-top: 0.2rem;
@@ -3058,7 +3058,7 @@ textarea {
   margin: 0 0 1rem;
   padding: 0.5rem;
   border: 1px solid #cacaca;
-  border-radius: 0.25rem;
+  border-radius: 0.1875rem;
   background-color: #fefefe;
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
   font-family: inherit;
@@ -3090,7 +3090,7 @@ textarea[readonly] {
 [type='submit'],
 [type='button'] {
   appearance: none;
-  border-radius: 0.25rem; }
+  border-radius: 0.1875rem; }
 
 input[type='search'] {
   box-sizing: border-box; }
@@ -3144,9 +3144,9 @@ label {
   margin-bottom: 1rem;
   align-items: stretch; }
   .input-group > :first-child, .input-group > :first-child.input-group-button > * {
-    border-radius: 0.25rem 0 0 0.25rem; }
+    border-radius: 0.1875rem 0 0 0.1875rem; }
   .input-group > :last-child, .input-group > :last-child.input-group-button > * {
-    border-radius: 0 0.25rem 0.25rem 0; }
+    border-radius: 0 0.1875rem 0.1875rem 0; }
 
 .input-group-label, .input-group-field, .input-group-button, .input-group-button a,
 .input-group-button input,
@@ -3215,7 +3215,7 @@ select {
   padding: 0.5rem;
   appearance: none;
   border: 1px solid #cacaca;
-  border-radius: 0.25rem;
+  border-radius: 0.1875rem;
   background-color: #fefefe;
   font-family: inherit;
   font-size: 1rem;
@@ -3272,7 +3272,7 @@ select {
   margin: 0 0 1rem 0;
   padding: 0.85em 1em;
   border: 1px solid transparent;
-  border-radius: 0.25rem;
+  border-radius: 0.1875rem;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   font-family: inherit;
   font-size: 0.9rem;
@@ -3534,10 +3534,10 @@ a.button:hover, a.button:focus {
     cursor: not-allowed; }
 
 .accordion-item:first-child > :first-child {
-  border-radius: 0.25rem 0.25rem 0 0; }
+  border-radius: 0.1875rem 0.1875rem 0 0; }
 
 .accordion-item:last-child > :last-child {
-  border-radius: 0 0 0.25rem 0.25rem; }
+  border-radius: 0 0 0.1875rem 0.1875rem; }
 
 .accordion-title {
   position: relative;
@@ -3550,7 +3550,7 @@ a.button:hover, a.button:focus {
   color: #1779ba; }
   :last-child:not(.is-active) > .accordion-title {
     border-bottom: 1px solid #e6e6e6;
-    border-radius: 0 0 0.25rem 0.25rem; }
+    border-radius: 0 0 0.1875rem 0.1875rem; }
   .accordion-title:hover, .accordion-title:focus {
     background-color: #e6e6e6; }
   .accordion-title::before {
@@ -3804,7 +3804,7 @@ a.button:hover, a.button:focus {
   margin: 0 0 1rem 0;
   padding: 1rem;
   border: 1px solid rgba(10, 10, 10, 0.25);
-  border-radius: 0.25rem;
+  border-radius: 0.1875rem;
   background-color: white;
   color: #0a0a0a; }
   .callout > :first-child {
@@ -3843,7 +3843,7 @@ a.button:hover, a.button:focus {
   flex-grow: 1;
   margin-bottom: 1rem;
   border: 1px solid #e6e6e6;
-  border-radius: 0.25rem;
+  border-radius: 0.1875rem;
   background: #fefefe;
   box-shadow: none;
   overflow: hidden;
@@ -4162,7 +4162,7 @@ a.button:hover, a.button:focus {
   padding: 1rem;
   visibility: hidden;
   border: 1px solid #cacaca;
-  border-radius: 0.25rem;
+  border-radius: 0.1875rem;
   background-color: #fefefe;
   font-size: 1rem; }
   .dropdown-pane.is-opening {
@@ -4468,7 +4468,7 @@ a.button:hover, a.button:focus {
 .label {
   display: inline-block;
   padding: 0.33333rem 0.5rem;
-  border-radius: 0.25rem;
+  border-radius: 0.1875rem;
   font-size: 0.8rem;
   line-height: 1;
   white-space: nowrap;
@@ -4881,7 +4881,7 @@ a.button:hover, a.button:focus {
     clear: both; }
   .pagination li {
     margin-right: 0.0625rem;
-    border-radius: 0.25rem;
+    border-radius: 0.1875rem;
     font-size: 0.875rem;
     display: none; }
     .pagination li:last-child, .pagination li:first-child {
@@ -4893,7 +4893,7 @@ a.button:hover, a.button:focus {
   .pagination button {
     display: block;
     padding: 0.1875rem 0.625rem;
-    border-radius: 0.25rem;
+    border-radius: 0.1875rem;
     color: #0a0a0a; }
     .pagination a:hover,
     .pagination button:hover {
@@ -4929,7 +4929,7 @@ a.button:hover, a.button:focus {
 .progress {
   height: 1rem;
   margin-bottom: 1rem;
-  border-radius: 0.25rem;
+  border-radius: 0.1875rem;
   background-color: #cacaca; }
   .progress.primary .progress-meter {
     background-color: #1779ba; }
@@ -4948,7 +4948,7 @@ a.button:hover, a.button:focus {
   width: 0%;
   height: 100%;
   background-color: #1779ba;
-  border-radius: 0.25rem; }
+  border-radius: 0.1875rem; }
 
 .progress-meter-text {
   position: absolute;
@@ -4960,7 +4960,7 @@ a.button:hover, a.button:focus {
   font-weight: bold;
   color: #fefefe;
   white-space: nowrap;
-  border-radius: 0.25rem; }
+  border-radius: 0.1875rem; }
 
 .slider {
   position: relative;
@@ -4993,7 +4993,7 @@ a.button:hover, a.button:focus {
   display: inline-block;
   width: 1.4rem;
   height: 1.4rem;
-  border-radius: 0.25rem;
+  border-radius: 0.1875rem;
   background-color: #1779ba;
   transition: all 0.2s ease-in-out;
   touch-action: manipulation; }
@@ -5077,7 +5077,7 @@ html.is-reveal-open {
   display: none;
   padding: 1rem;
   border: 1px solid #cacaca;
-  border-radius: 0.25rem;
+  border-radius: 0.1875rem;
   background-color: #fefefe;
   position: relative;
   top: 100px;
@@ -5159,7 +5159,7 @@ html.is-reveal-open {
   display: block;
   width: 4rem;
   height: 2rem;
-  border-radius: 0.25rem;
+  border-radius: 0.1875rem;
   background: #cacaca;
   transition: all 0.25s ease-out;
   font-weight: inherit;
@@ -5175,7 +5175,7 @@ html.is-reveal-open {
     width: 1.5rem;
     height: 1.5rem;
     transform: translate3d(0, 0, 0);
-    border-radius: 0.25rem;
+    border-radius: 0.1875rem;
     background: #fefefe;
     transition: all 0.25s ease-out;
     content: ''; }
@@ -5248,7 +5248,7 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 1rem;
-  border-radius: 0.25rem; }
+  border-radius: 0.1875rem; }
   thead,
   tbody,
   tfoot {
@@ -5387,7 +5387,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   max-width: 100%;
   margin-bottom: 1rem;
   border: 4px solid #fefefe;
-  border-radius: 0.25rem;
+  border-radius: 0.1875rem;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0; }
 
@@ -5434,7 +5434,7 @@ a.thumbnail {
   z-index: 1200;
   max-width: 10rem;
   padding: 0.75rem;
-  border-radius: 0.25rem;
+  border-radius: 0.1875rem;
   background-color: #0a0a0a;
   font-size: 80%;
   color: #fefefe; }
