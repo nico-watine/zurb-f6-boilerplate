@@ -64,7 +64,7 @@ body-class: index
 <div class="row">
 	<div class="columns">
 		<h1>h1 - An Equal Amount Of Text</h1>
-		<code><span class="show-for-small-only">32px/1.4 +8</span><span class="show-for-medium">50px/1.4 +8</span></code>
+		<code><span class="show-for-small-only">32px</span><span class="show-for-medium">50px</span>/1.4 +8</code>
 		<br>
 		<br>
 		<h2>h2 - An Equal Amount Of Text</h2>
