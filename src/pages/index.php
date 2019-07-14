@@ -63,25 +63,25 @@ body-class: index
 
 <div class="row">
 	<div class="columns">
-		<h1 class="inline-block" style="padding-right: 16px;">h1 - An Equal Amount Of Text</h1><code><span class="show-for-small-only">32px/1.4 +8</span><span class="show-for-medium">50px/1.4 +8</span></code>
+		<h1>h1 - An Equal Amount Of Text</h1><code><span class="show-for-small-only">32px/1.4 +8</span><span class="show-for-medium">50px/1.4 +8</span></code>
 		<br>
 		<br>
-		<h2 class="inline-block" style="padding-right: 16px;">h2 - An Equal Amount Of Text</h2><code><span class="show-for-small-only">26px/1.4 +8</span><span class="show-for-medium">38px/1.4 +8</span></code>
+		<h2>h2 - An Equal Amount Of Text</h2><code><span class="show-for-small-only">26px/1.4 +8</span><span class="show-for-medium">38px/1.4 +8</span></code>
 		<br>
 		<br>
-		<h3 class="inline-block" style="padding-right: 16px;">h3 - An Equal Amount Of Text</h3><code><span class="show-for-small-only">22px/1.4 +8</span><span class="show-for-medium">28px/1.4 +8</span></code>
+		<h3>h3 - An Equal Amount Of Text</h3><code><span class="show-for-small-only">22px/1.4 +8</span><span class="show-for-medium">28px/1.4 +8</span></code>
 		<br>
 		<br>
-		<h4 class="inline-block" style="padding-right: 16px;">h4 - An Equal Amount Of Text</h4><code><span class="show-for-small-only">18px/1.4 +8</span><span class="show-for-medium">21px/1.4 +8</span></code>
+		<h4>h4 - An Equal Amount Of Text</h4><code><span class="show-for-small-only">18px/1.4 +8</span><span class="show-for-medium">21px/1.4 +8</span></code>
 		<br>
 		<br>
-		<h5 class="inline-block" style="padding-right: 16px;">h5 - An Equal Amount Of Text</h5><code><span class="show-for-small-only">16px/1.4 +8</span><span class="show-for-medium">16px/1.4 +8</span></code>
+		<h5>h5 - An Equal Amount Of Text</h5><code><span class="show-for-small-only">16px/1.4 +8</span><span class="show-for-medium">16px/1.4 +8</span></code>
 		<br>
 		<br>
-		<h6 class="inline-block" style="padding-right: 16px;">h6 - An Equal Amount Of Text</h6><code><span class="show-for-small-only">14px/1.4 +8</span><span class="show-for-medium">14px/1.4 +8</span></code>
+		<h6>h6 - An Equal Amount Of Text</h6><code><span class="show-for-small-only">14px/1.4 +8</span><span class="show-for-medium">14px/1.4 +8</span></code>
 		<br>
 		<br>
-		<p class="inline-block" style="padding-right: 16px;">p - An Equal Amount Of Text</p><code>16px/1.6 +16</code>
+		<p>p - An Equal Amount Of Text</p><code>16px/1.6 +16</code>
 	</div>
 </div>
 
