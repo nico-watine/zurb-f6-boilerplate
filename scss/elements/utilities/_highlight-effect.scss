@@ -1,0 +1,14 @@
+// -------------------------------------------------------------------
+// |            Remove text-shadow when highlighting text            |
+// -------------------------------------------------------------------
+// Can also specify a custom highlight color ------------------------|
+
+::-moz-selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+::selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}

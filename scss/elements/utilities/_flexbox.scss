@@ -1,0 +1,133 @@
+// -------------------------------------------------
+// |            Horizontal Align-Center            |
+// -------------------------------------------------
+
+// Medium ONLY
+@mixin medium-only-align-center() {
+	@include breakpoint(medium only) {
+		@include flex-align(center);
+	}
+}
+.medium-only-align-center {
+	@include medium-only-align-center();
+}
+
+// Medium +
+@mixin medium-align-center() {
+	@include breakpoint(medium) {
+		@include flex-align(center);
+	}
+}
+.medium-align-center {
+	@include medium-align-center();
+}
+
+// Large ONLY
+@mixin large-only-align-center() {
+	@include breakpoint(large only) {
+		@include flex-align(center);
+	}
+}
+.large-only-align-center {
+	@include large-only-align-center();
+}
+
+// Large +
+@mixin large-align-center() {
+	@include breakpoint(large) {
+		@include flex-align(center);
+	}
+}
+.large-align-center {
+	@include large-align-center();
+}
+
+
+// -----------------------------------------------
+// |            Horizontal Align-Left            |
+// -----------------------------------------------
+
+// Medium ONLY
+@mixin medium-only-align-left() {
+	@include breakpoint(medium only) {
+		@include flex-align(left);
+	}
+}
+.medium-only-align-left {
+	@include medium-only-align-left();
+}
+
+// Medium +
+@mixin medium-align-left() {
+	@include breakpoint(medium) {
+		@include flex-align(left);
+	}
+}
+.medium-align-left {
+	@include medium-align-left();
+}
+
+// Large ONLY
+@mixin large-only-align-left() {
+	@include breakpoint(large only) {
+		@include flex-align(left);
+	}
+}
+.large-only-align-left {
+	@include large-only-align-left();
+}
+
+// Large +
+@mixin large-align-left() {
+	@include breakpoint(large) {
+		@include flex-align(left);
+	}
+}
+.large-align-left {
+	@include large-align-left();
+}
+
+
+// -----------------------------------------------
+// |            Horizontal Align-Right            |
+// -----------------------------------------------
+
+// Medium ONLY
+@mixin medium-only-align-right() {
+	@include breakpoint(medium only) {
+		@include flex-align(right);
+	}
+}
+.medium-only-align-right {
+	@include medium-only-align-right();
+}
+
+// Medium +
+@mixin medium-align-right() {
+	@include breakpoint(medium) {
+		@include flex-align(right);
+	}
+}
+.medium-align-right {
+	@include medium-align-right();
+}
+
+// Large ONLY
+@mixin large-only-align-right() {
+	@include breakpoint(large only) {
+		@include flex-align(right);
+	}
+}
+.large-only-align-right {
+	@include large-only-align-right();
+}
+
+// Large +
+@mixin large-align-right() {
+	@include breakpoint(large) {
+		@include flex-align(right);
+	}
+}
+.large-align-right {
+	@include large-align-right();
+}

@@ -1,0 +1,11 @@
+.vertical-center {
+	@include vertical-center;
+}
+
+.horizontal-center {
+	@include horizontal-center;
+}
+
+.absolute-center {
+	@include absolute-center;
+}
