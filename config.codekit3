@@ -6499,32 +6499,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/elements/typography/_text-transform.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/elements/css/_text-transform.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/elements/typography/_text-visibility.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/elements/css/_text-visibility.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/elements/utilities/_border-radius.scss": {
 		"aP": 0,
 		"bl": 0,

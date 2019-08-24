@@ -8001,22 +8001,6 @@ small {
 .text-decoration-none {
   text-decoration: none !important; }
 
-.text-lowercase {
-  text-transform: lowercase !important; }
-
-.text-uppercase {
-  text-transform: uppercase !important; }
-
-.text-capitalize {
-  text-transform: capitalize !important; }
-
-.text-hide {
-  font: 0/0 a !important;
-  color: transparent !important;
-  text-shadow: none !important;
-  background-color: transparent !important;
-  border: 0 !important; }
-
 .border-radius-0 {
   border-radius: 0 !important; }
 
