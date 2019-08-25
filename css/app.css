@@ -7940,27 +7940,6 @@ a:not(.button) {
 .text-white-50 {
   color: rgba(255, 255, 255, 0.5) !important; }
 
-.text-truncate {
-  max-width: 100% !important;
-  overflow: hidden !important;
-  text-overflow: ellipsis;
-  white-space: nowrap !important; }
-
-.text-nowrap {
-  white-space: nowrap !important; }
-
-.text-wrap {
-  word-wrap: break-word !important; }
-
-.text-overline {
-  text-decoration: overline !important; }
-
-.text-underline {
-  text-decoration: underline !important; }
-
-.text-line-through {
-  text-decoration: line-through !important; }
-
 .text-decoration-none {
   text-decoration: none !important; }
 
