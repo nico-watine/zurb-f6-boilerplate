@@ -1,0 +1,39 @@
+.border-radius-0 {
+	border-radius: 0 !important;
+}
+
+.border-radius-2 {
+	border-radius: rem-calc(2) !important;
+}
+
+.border-radius-4 {
+	border-radius: rem-calc(4) !important;
+}
+
+.border-radius-6 {
+	border-radius: rem-calc(6) !important;
+}
+
+.border-radius-8 {
+	border-radius: rem-calc(8) !important;
+}
+
+.border-radius-10 {
+	border-radius: rem-calc(10) !important;
+}
+
+.border-radius-12 {
+	border-radius: rem-calc(12) !important;
+}
+
+.border-radius-14 {
+	border-radius: rem-calc(14) !important;
+}
+
+.border-radius-16 {
+	border-radius: rem-calc(16) !important;
+}
+
+.border-rounded {
+	@include border-rounded;
+}
