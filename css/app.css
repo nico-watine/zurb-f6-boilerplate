@@ -7940,20 +7940,6 @@ a:not(.button) {
 .text-white-50 {
   color: rgba(255, 255, 255, 0.5) !important; }
 
-em,
-i {
-  font-style: italic;
-  line-height: inherit; }
-
-strong,
-b {
-  font-weight: bold;
-  line-height: inherit; }
-
-small {
-  font-size: 80%;
-  line-height: inherit; }
-
 .text-truncate {
   max-width: 100% !important;
   overflow: hidden !important;
