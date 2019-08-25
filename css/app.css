@@ -8005,8 +8005,8 @@ small {
 .border-radius-16 {
   border-radius: 1rem !important; }
 
-.border-radius-100 {
-  border-radius: 100% !important; }
+.border-rounded {
+  border-radius: 5000px !important; }
 
 .border-1-black {
   border: 0.0625rem solid #000 !important; }
