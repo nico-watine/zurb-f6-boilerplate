@@ -57,11 +57,8 @@
 
 @import '_var.scss';
 
-// #1 Typography
-@import 'components/_typography.scss';
+// #1 Elements
+@import 'elements/_elements.scss';
 
-// #2 Components
-@import 'components/_utilities.scss';
-
-// #3 Page styles
-@import 'pages/index/_index.scss';
+// #2 Pages
+@import 'pages/_pages.scss';
