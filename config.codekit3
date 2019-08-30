@@ -21,9 +21,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/.gitignore",
-		"oF": 0
+		"oF": 1
 		},
 	"/_ignores/codekit-icon.png": {
 		"ft": 32768,
