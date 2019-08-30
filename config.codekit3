@@ -96,7 +96,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/assets/php/autoVer.php",
 		"oF": 0
 		},
@@ -6746,7 +6746,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/src/pages/index.php",
 		"oF": 0
 		},
@@ -8843,6 +8843,17 @@
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
+		{
+			"autoOutputAction": 1,
+			"autoOutputPathFilenamePattern": "*.php",
+			"autoOutputPathRelativePath": "",
+			"autoOutputPathReplace1": "",
+			"autoOutputPathReplace2": "",
+			"autoOutputPathStyle": 0,
+			"fileExtension": "php",
+			"shouldRunCacheBuster": 0,
+			"shouldRunHTMLMinifier": 0
+			}
 		],
 	"npmAbbreviatedPath": "",
 	"npmCreatePackageLock": 1,
