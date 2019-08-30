@@ -72,7 +72,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/assets/403.html",
 		"oF": 0
 		},
@@ -80,7 +80,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/assets/404.html",
 		"oF": 0
 		},
@@ -6722,7 +6722,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/src/layouts-production/default.html",
 		"oF": 0
 		},
@@ -6738,7 +6738,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/src/layouts/default.html",
 		"oF": 0
 		},
@@ -6762,7 +6762,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/src/partials/google-tracking-id.html",
 		"oF": 0
 		},
@@ -6770,7 +6770,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/src/partials/scripts-tag.html",
 		"oF": 0
 		},
@@ -8843,6 +8843,17 @@
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
+		{
+			"autoOutputAction": 1,
+			"autoOutputPathFilenamePattern": "*.html",
+			"autoOutputPathRelativePath": "",
+			"autoOutputPathReplace1": "",
+			"autoOutputPathReplace2": "",
+			"autoOutputPathStyle": 0,
+			"fileExtension": "html",
+			"shouldRunCacheBuster": 0,
+			"shouldRunHTMLMinifier": 0
+			},
 		{
 			"autoOutputAction": 1,
 			"autoOutputPathFilenamePattern": "*.php",
