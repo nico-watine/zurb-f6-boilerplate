@@ -6162,9 +6162,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/config.yml",
-		"oF": 0
+		"oF": 1
 		},
 	"/css/app.css": {
 		"aP": 0,
