@@ -13,17 +13,17 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/.editorconfig",
-		"oF": 0
+		"oF": 1
 		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/.gitignore",
-		"oF": 0
+		"oF": 1
 		},
 	"/_ignores/codekit-icon.png": {
 		"ft": 32768,
@@ -60,52 +60,10 @@
 		"oAP": "/_ignores/zurb-f6-boilerplate.sublime-workspace",
 		"oF": 0
 		},
-	"/assets/.htaccess": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/assets/.htaccess",
-		"oF": 0
-		},
-	"/assets/403.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/403.html",
-		"oF": 0
-		},
-	"/assets/404.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/404.html",
-		"oF": 0
-		},
-	"/assets/humans.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/assets/humans.txt",
-		"oF": 0
-		},
-	"/assets/php/autoVer.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/php/autoVer.php",
-		"oF": 0
-		},
-	"/assets/robots.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/assets/robots.txt",
+	"/assets": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/assets",
 		"oF": 0
 		},
 	"/bower.json": {
@@ -6162,9 +6120,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/config.yml",
-		"oF": 0
+		"oF": 1
 		},
 	"/css/app.css": {
 		"aP": 0,
@@ -6694,84 +6652,10 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/src/data/_notes.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+	"/src": {
+		"ft": 65536,
 		"oA": 1,
-		"oAP": "/src/data/_notes.txt",
-		"oF": 0
-		},
-	"/src/data/cdn.yml": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/src/data/cdn.yml",
-		"oF": 0
-		},
-	"/src/helpers/_notes.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/src/helpers/_notes.txt",
-		"oF": 0
-		},
-	"/src/layouts-production/default.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/src/layouts-production/default.html",
-		"oF": 0
-		},
-	"/src/layouts/_notes.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/src/layouts/_notes.txt",
-		"oF": 0
-		},
-	"/src/layouts/default.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/src/layouts/default.html",
-		"oF": 0
-		},
-	"/src/pages/index.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/src/pages/index.php",
-		"oF": 0
-		},
-	"/src/partials/_notes.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/src/partials/_notes.txt",
-		"oF": 0
-		},
-	"/src/partials/google-tracking-id.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/src/partials/google-tracking-id.html",
-		"oF": 0
-		},
-	"/src/partials/scripts-tag.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/src/partials/scripts-tag.html",
+		"oAP": "/build/src",
 		"oF": 0
 		},
 	"/TODO": {
@@ -8851,7 +8735,7 @@
 	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules, /dist, /js/vendor",
+	"skippedFoldersString": "_cache,cache,/dist,/js/vendor,log,_logs,logs,node_modules,/src,/storage/framework/sessions,/assets",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
