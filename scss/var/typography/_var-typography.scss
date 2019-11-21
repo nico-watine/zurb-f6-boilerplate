@@ -1,19 +1,11 @@
 // ----------------------------------------------
-// |            typography Variables            |
+// |            Typography Variables            |
 // ----------------------------------------------
-$global-font-size: 100% !default;
-$p-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$h-font-family: $p-font-family;
 
+$p: rem-calc(16);
 
-// Functions import necessary for rem-calc(X) usage:
-@import '../functions/_functions.scss';
-
-
-// ------------------------------------------------
-// |            Mobile-First font-size            |
-// ------------------------------------------------
-// Inspired by http://typecast.com/blog/a-more-modern-scale-for-web-typography
+// Heading sizes
+// (min-width=0)
 $h1: rem-calc(32);
 $h2: rem-calc(26);
 $h3: rem-calc(22);
@@ -21,25 +13,9 @@ $h4: rem-calc(18);
 $h5: rem-calc(16);
 $h6: rem-calc(14);
 
-
-// ------------------------------------------------------
-// |            Size-Progressive Type-Scales            |
-// ------------------------------------------------------
-// Import one for more responsive typography ------------
-
-// Modular Scale ratios: https://type-scale.com ---------
-// ------------------------------------------------------
-// @import 'type-scales/_minor-second.scss';
-// @import 'type-scales/_major-second.scss';
-// @import 'type-scales/_minor-third.scss';
-// @import 'type-scales/_major-third.scss';
-// @import 'type-scales/_perfect-fourth.scss';
-// @import 'type-scales/_augmented-fourth.scss';
-// @import 'type-scales/_perfect-fifth.scss';
-// @import 'type-scales/_golden-ratio.scss';
-
-// Common Framework Typography Sizing -------------------
-// ------------------------------------------------------
-// @import 'type-scales/_bootstrap-3.scss';
-// @import 'type-scales/_bootstrap-4.scss';
-@import 'type-scales/_zurb-f6-boilerplate.scss';
+// Heading sizes @medium+
+// (min-width=640px)
+$h1-medium: rem-calc(50);
+$h2-medium: rem-calc(38);
+$h3-medium: rem-calc(28);
+$h4-medium: rem-calc(21);
