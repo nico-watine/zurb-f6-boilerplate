@@ -55,7 +55,7 @@
 // |            IMPORT CUSTOM SASS FILES (IN ORDER OF LOAD PRIORITY)            |
 // ------------------------------------------------------------------------------
 
-@import '_var.scss';
+@import 'var/_var.scss';
 
 // #1 Elements
 @import 'elements/_elements.scss';
