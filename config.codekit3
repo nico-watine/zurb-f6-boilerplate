@@ -6760,7 +6760,7 @@
 	"displayValue": "zurb-f6-boilerplate",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/_ignores/codekit-icon.png",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 1
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
