@@ -8132,17 +8132,6 @@ a:not(.button) {
   .large-align-right {
     justify-content: flex-end; } }
 
-.float-left {
-  float: left !important; }
-
-.float-right {
-  float: right !important; }
-
-.float-center {
-  display: block;
-  margin-right: auto;
-  margin-left: auto; }
-
 .float-none {
   float: none !important; }
 
