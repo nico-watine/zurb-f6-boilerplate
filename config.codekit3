@@ -6346,32 +6346,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/elements/_typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/css/_typography.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/elements/_utilities.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/css/_utilities.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/elements/typography/_font-face.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -6446,6 +6420,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_text-decoration.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/elements/typography/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/css/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -6628,6 +6615,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/elements/css/_position.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/elements/utilities/_utilities.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/css/_utilities.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
