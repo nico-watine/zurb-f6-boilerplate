@@ -30,18 +30,18 @@ body-class: index
 			</div>
 			<div class="grid-x grid-padding-x">
 				<div class="cell medium-4">
-					<p><a target="_blank" href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
+					<p><a target="_blank" href="https://get.foundation/sites/docs/">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
 				</div>
 				<div class="cell medium-4">
-					<p><a target="_blank" href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
+					<p><a target="_blank" href="https://get.foundation/building-blocks/">Foundation Building Blocks</a><br />A Library of Foundation UI Components. These HTML, CSS and JS snippets can be plugged into any Foundation project to build faster. Enjoy!</p>
 				</div>
 				<div class="cell medium-4">
-					<p><a target="_blank" href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
+					<p><a target="_blank" href="https://foundation.discourse.group/">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
 				</div>
 			</div>
 			<div class="grid-x grid-padding-x align-center">
 				<div class="cell medium-4">
-					<p><a target="_blank" href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
+					<p><a target="_blank" href="https://github.com/foundation/foundation-sites">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
 				</div>
 				<div class="cell medium-4">
 					<p><a target="_blank" href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
@@ -344,7 +344,7 @@ body-class: index
 		<div class="callout">
 			<h5>So many components, girl!</h5>
 			<p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-			<a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>
+			<a target="_blank" href="https://get.foundation/sites/docs/" class="small button">Go to Foundation Docs</a>
 		</div>
 	</div>
 </div>
