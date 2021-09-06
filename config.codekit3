@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/_ignores\/autoprefixer-browser-string.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_ignores\/autoprefixer-browser-string.txt",
+      "oF" : 0
+    },
     "\/_ignores\/codekit-icon.png" : {
       "ft" : 32768,
       "iS" : 492119,
@@ -60,6 +68,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/.gitignore",
+      "oF" : 0
+    },
+    "\/.yarnclean" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.yarnclean",
       "oF" : 0
     },
     "\/assets" : {
@@ -188,6 +204,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/bower_components\/foundation-sites\/.npmignore",
+      "oF" : 0
+    },
+    "\/bower_components\/foundation-sites\/.sonarcloud.properties" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/bower_components\/foundation-sites\/.sonarcloud.properties",
       "oF" : 0
     },
     "\/bower_components\/foundation-sites\/assets\/foundation-float.scss" : {
@@ -2479,6 +2503,14 @@
       "oAP" : "\/bower_components\/foundation-sites\/package.nuspec",
       "oF" : 0
     },
+    "\/bower_components\/foundation-sites\/patches\/browserstack-runner+0.9.0.patch" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/bower_components\/foundation-sites\/patches\/browserstack-runner+0.9.0.patch",
+      "oF" : 0
+    },
     "\/bower_components\/foundation-sites\/README.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -3993,14 +4025,6 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/bower_components\/foundation-sites\/shrinkwrap.yaml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/foundation-sites\/shrinkwrap.yaml",
-      "oF" : 0
-    },
     "\/bower_components\/jquery\/.bower.json" : {
       "ft" : 524288,
       "oA" : 2,
@@ -4024,17 +4048,6 @@
       "oF" : 0,
       "oO" : 0,
       "oS" : 1
-    },
-    "\/bower_components\/jquery\/dist\/core.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/jquery\/dist\/core.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
     },
     "\/bower_components\/jquery\/dist\/jquery.js" : {
       "bF" : 0,
@@ -4161,14 +4174,6 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/bower_components\/jquery\/src\/.eslintrc.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/bower_components\/jquery\/src\/.eslintrc.json",
-      "oF" : 0,
-      "oO" : 0,
-      "oS" : 1
-    },
     "\/bower_components\/jquery\/src\/ajax.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -4198,17 +4203,6 @@
       "mi" : 1,
       "oA" : 2,
       "oAP" : "\/bower_components\/jquery\/src\/ajax\/load.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/bower_components\/jquery\/src\/ajax\/parseXML.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/jquery\/src\/ajax\/parseXML.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -4429,6 +4423,17 @@
       "mi" : 1,
       "oA" : 2,
       "oAP" : "\/bower_components\/jquery\/src\/core\/parseHTML.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/bower_components\/jquery\/src\/core\/parseXML.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/bower_components\/jquery\/src\/core\/parseXML.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -4752,6 +4757,28 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/bower_components\/jquery\/src\/deprecated\/ajax-event-alias.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/bower_components\/jquery\/src\/deprecated\/ajax-event-alias.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/bower_components\/jquery\/src\/deprecated\/event.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/bower_components\/jquery\/src\/deprecated\/event.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/bower_components\/jquery\/src\/dimensions.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -4803,28 +4830,6 @@
       "mi" : 1,
       "oA" : 2,
       "oAP" : "\/bower_components\/jquery\/src\/event.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/bower_components\/jquery\/src\/event\/ajax.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/jquery\/src\/event\/ajax.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/bower_components\/jquery\/src\/event\/alias.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/jquery\/src\/event\/alias.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -5148,17 +5153,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/bower_components\/jquery\/src\/var\/concat.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/jquery\/src\/var\/concat.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/bower_components\/jquery\/src\/var\/document.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -5177,6 +5171,17 @@
       "mi" : 1,
       "oA" : 2,
       "oAP" : "\/bower_components\/jquery\/src\/var\/documentElement.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/bower_components\/jquery\/src\/var\/flat.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/bower_components\/jquery\/src\/var\/flat.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -6126,14 +6131,6 @@
       "oAP" : "\/bower_components\/what-input\/.stylelintrc",
       "oF" : 0
     },
-    "\/bower_components\/what-input\/dist\/maps\/what-input.min.js.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/what-input\/dist\/maps\/what-input.min.js.map",
-      "oF" : 0
-    },
     "\/bower_components\/what-input\/dist\/what-input.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -6155,6 +6152,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/bower_components\/what-input\/dist\/what-input.min.js.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/bower_components\/what-input\/dist\/what-input.min.js.map",
+      "oF" : 0
     },
     "\/bower_components\/what-input\/Gulpfile.js" : {
       "bF" : 0,
@@ -6219,6 +6224,20 @@
       "oA" : 2,
       "oAP" : "\/bower_components\/what-input\/src\/markup\/index.html",
       "oF" : 0
+    },
+    "\/bower_components\/what-input\/src\/scripts\/what-input.d.ts" : {
+      "cDF" : 0,
+      "ft" : 128,
+      "jxM" : 0,
+      "ma" : 0,
+      "mi" : 0,
+      "moR" : 0,
+      "moT" : 2,
+      "oA" : 2,
+      "oAP" : "\/bower_components\/what-input\/src\/scripts\/what-input.d.ts",
+      "oF" : 0,
+      "rC" : 0,
+      "tEC" : 0
     },
     "\/bower_components\/what-input\/src\/scripts\/what-input.js" : {
       "bF" : 0,
@@ -6452,14 +6471,6 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/package-lock.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/package-lock-min.json",
-      "oF" : 0,
-      "oO" : 0,
-      "oS" : 1
     },
     "\/package.json" : {
       "ft" : 524288,
@@ -6894,62 +6905,6 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/scss\/var\/box-shadow\/_var-box-shadow.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/scss\/var\/css\/_var-box-shadow.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/scss\/var\/cdn\/_var-cdn.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/scss\/var\/css\/_var-cdn.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/scss\/var\/colors\/_var-colors.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/scss\/var\/css\/_var-colors.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/scss\/var\/typography\/_var-typography.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/scss\/var\/css\/_var-typography.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
     "\/src" : {
       "ft" : 65536,
       "oA" : 1,
@@ -6963,6 +6918,14 @@
       "oA" : 1,
       "oAP" : "\/TODO",
       "oF" : 1
+    },
+    "\/yarn.lock" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/yarn.lock",
+      "oF" : 0
     }
   },
   "hooks" : [
@@ -7269,7 +7232,7 @@
     "bowerTargetDependencyListType" : 1,
     "bowerUseExactVersion" : 0,
     "browserRefreshDelay" : 0,
-    "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
+    "browserslistString" : ">0.2%, last 2 versions, ie >= 9, Android >= 2.3, ios >= 7",
     "buildEnvironment" : 0,
     "buildFolderActive" : 0,
     "buildFolderName" : "build",

@@ -1,0 +1,4 @@
+- http://tld-url.com
+
+# IMPLEMENT BY USING THIS AS VARIABLE::
+# {{ tld-url }}
