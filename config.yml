@@ -1,11 +1,4 @@
 
-# Autoprefixer will make sure your CSS works with these browsers
-COMPATIBILITY:
-  - "last 2 versions"
-  - "ie >= 9"
-  - "Android >= 2.3"
-  - "ios >= 7"
-
 # UnCSS will use these settings
 UNCSS_OPTIONS:
   html:

@@ -6503,7 +6503,7 @@
       "sct" : 1
     },
     "\/scss\/app.scss" : {
-      "aP" : 0,
+      "aP" : 1,
       "bl" : 0,
       "dP" : 10,
       "ec" : 1,
@@ -7269,7 +7269,7 @@
     "bowerTargetDependencyListType" : 1,
     "bowerUseExactVersion" : 0,
     "browserRefreshDelay" : 0,
-    "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
+    "browserslistString" : ">0.2%, last 2 versions, ie >= 9, Android >= 2.3, ios >= 7",
     "buildEnvironment" : 0,
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
