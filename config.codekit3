@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/_ignores\/autoprefixer-browser-string.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_ignores\/autoprefixer-browser-string.txt",
+      "oF" : 0
+    },
     "\/_ignores\/codekit-icon.png" : {
       "ft" : 32768,
       "iS" : 492119,
