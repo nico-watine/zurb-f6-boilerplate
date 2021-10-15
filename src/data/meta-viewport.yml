@@ -1,6 +1,7 @@
-- width=device-width, initial-scale=1
-# - width=device-width, initial-scale=1, shrink-to-fit=no
 # - width=device-width, initial-scale=1
+- width=device-width, initial-scale=1, shrink-to-fit=no
+# - width=device-width, initial-scale=1, viewport-fit=cover
+# - width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover
 
 # IMPLEMENTED BY USING THIS AS VARIABLE::
 # {{ meta-viewport }}
