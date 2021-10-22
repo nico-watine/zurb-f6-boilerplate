@@ -1,12 +1,15 @@
 ------------------
 For use in Codekit
 ------------------
+This is with motion-ui disabled
+------------------
+
 
 >0.2%, last 2 versions, ie >= 9, Android >= 2.3, ios >= 7
-239,133
+250,133
 
 >0.2%, last 2 versions, Firefox ESR, not dead
-239,133
+220,232
 
 >0.2%, last 2 versions, ie >= 9, Android >= 4.4, ios >= 7
-239,133
+250,039
