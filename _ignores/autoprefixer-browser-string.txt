@@ -3,10 +3,10 @@ For use in Codekit
 ------------------
 
 >0.2%, last 2 versions, ie >= 9, Android >= 2.3, ios >= 7
-239,133
+305,588
 
 >0.2%, last 2 versions, Firefox ESR, not dead
 239,133
 
 >0.2%, last 2 versions, ie >= 9, Android >= 4.4, ios >= 7
-239,133
+305,494
