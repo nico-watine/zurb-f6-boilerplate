@@ -74,6 +74,9 @@ function resetPages(done) {
 // In production, compress CSS and append Autoprefixer
 function sass() {
   return gulp.src('css/*.css')
+	.pipe($.autoprefixer({
+		browsers: COMPATIBILITY
+	}))
 	.pipe($.if(PRODUCTION, $.uncss(UNCSS_OPTIONS)))
 	.pipe($.if(PRODUCTION, $.cssnano()))
 	.pipe(gulp.dest(PATHS.dist + '/css'));

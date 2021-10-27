@@ -1,3 +1,9 @@
+# Autoprefixer will make sure your CSS works with these browsers
+COMPATIBILITY:
+  - ">0.2%"
+  - "last 2 versions"
+  - "Firefox ESR"
+
 # UnCSS will use these settings
 UNCSS_OPTIONS:
   html:
