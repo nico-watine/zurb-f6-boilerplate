@@ -6522,12 +6522,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/dist" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/dist",
-      "oF" : 0
-    },
     "\/gulpfile.babel.js" : {
       "bF" : 0,
       "ft" : 64,
