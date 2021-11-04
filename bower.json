@@ -11,9 +11,9 @@
     "bower_components"
   ],
   "dependencies": {
-    "foundation-sites": "6.7.3",
-    "jquery": ">=2.2.0",
-    "motion-ui": "^2.0.2",
-    "what-input": ">=4.1.0"
+    "foundation-sites": "6.7.4",
+    "jquery": ">=3.6.0",
+    "motion-ui": "latest",
+    "what-input": ">=5.2.10"
   }
 }
