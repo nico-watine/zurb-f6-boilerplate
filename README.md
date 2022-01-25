@@ -19,7 +19,7 @@ In order:
 
 * Clone the repo: `git clone https://github.com/nico-watine/zurb-f6-boilerplate.git`
 
-* `npm install`
+* `yarn`
 
 * `bower install`
 

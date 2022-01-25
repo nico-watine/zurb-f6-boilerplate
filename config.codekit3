@@ -7,7 +7,7 @@
       "uuidString" : "472B7510-C306-426F-AF80-FB25224303CF"
     }
   ],
-  "creatorBuild" : "34214",
+  "creatorBuild" : "34264",
   "files" : {
     "\/_ignores\/autoprefixer-browser-string.txt" : {
       "cB" : 0,
@@ -8273,6 +8273,9 @@
       },
       "no-unused-labels" : {
         "active" : 1
+      },
+      "no-unused-private-class-members" : {
+        "active" : 0
       },
       "no-unused-vars" : {
         "active" : 1,
