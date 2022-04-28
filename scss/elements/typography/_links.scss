@@ -1,7 +1,10 @@
-a:not(.button) {
-	text-decoration: underline;
+// Style every link (apart from buttons) to be underlined,
+// and remove the underline upon :hover
 
-	&:hover {
-		text-decoration: none;
-	}
-}
+// a:not(.button) {
+// 	text-decoration: underline;
+
+// 	&:hover {
+// 		text-decoration: none;
+// 	}
+// }
