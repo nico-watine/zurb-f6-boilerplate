@@ -7122,6 +7122,11 @@ ol.list-upper-roman {
 .font-weight-black {
   font-weight: 900 !important; }
 
+a[href^="tel"],
+a[href^="mailto"] {
+  color: inherit;
+  text-decoration: none; }
+
 .text-black {
   color: #000 !important; }
 

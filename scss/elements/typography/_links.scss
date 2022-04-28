@@ -1,6 +1,5 @@
 // Style every link (apart from buttons) to be underlined,
 // and remove the underline upon :hover
-
 // a:not(.button) {
 // 	text-decoration: underline;
 
@@ -8,3 +7,12 @@
 // 		text-decoration: none;
 // 	}
 // }
+
+
+// Style all tel: and mailto: links
+// to match the site's default link styles
+a[href^="tel"],
+a[href^="mailto"] {
+	color: inherit; // Inherit text color of parent element
+	text-decoration: none; // Remove underline.
+}
