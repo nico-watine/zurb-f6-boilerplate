@@ -54,8 +54,6 @@ function pages() {
 	.pipe(panini({
 		root: 'src/pages/',
 		layouts: 'src/layouts/',
-		// UNCOMMENT FOR PRODUCTION ::
-		// layouts: 'src/layouts-production/',
 		partials: 'src/partials/',
 		data: 'src/data/',
 		helpers: 'src/helpers/'
