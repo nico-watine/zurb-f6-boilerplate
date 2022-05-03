@@ -12,6 +12,15 @@
 	<link href="{{ tld-url }}{{ url }}" rel="canonical">
 	<link href="/humans.txt" rel="author">
 
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="{{ og-title }}">
+	<meta property="og:description" content="{{ og-description }}">
+	<meta property="og:url" content="{{ tld-url }}{{ url }}">
+	<meta property="og:site_name" content="">
+	<meta property="og:image" content="{{ tld-url }}{{ og-image}}">
+	<!-- <meta property="fb:app_id" content=""> -->
+
 	<link href="{{ cdn }}<?php autoVer('/css/app.css'); ?>" rel="stylesheet">
 
 </head>
