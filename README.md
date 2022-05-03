@@ -10,8 +10,6 @@ This is a macOS-optimized [foundation-zurb-template](https://github.com/zurb/fou
 
 * Easy SASS and JS compilation tools with a nice GUI ([Codekit App](https://incident57.com/codekit/index.html))
 
-* Optimized Google Analytics tracking code ([CREDIT](https://github.com/h5bp/html5-boilerplate/pull/1660#issuecomment-89815017))
-
 ## Setup
 In order:
 
