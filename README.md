@@ -1,14 +1,12 @@
 # zurb-f6-boilerplate
 
-This is a macOS-optimized [foundation-zurb-template](https://github.com/zurb/foundation-zurb-template) workflow. The build requires the programs [Codekit 3](https://incident57.com/codekit/index.html) and [MAMP](https://www.mamp.info/en/). You can use your text editor of choice.
+This is a macOS-optimized [foundation-zurb-template](https://github.com/zurb/foundation-zurb-template) workflow. The build requires the programs [Codekit 3](https://incident57.com/codekit/index.html) and [MAMP](https://www.mamp.info/en/).
 
 ## Features
 
 * [Foundation 6](https://get.foundation/sites/docs/) Framework – ([v6.7.4](https://github.com/foundation/foundation-sites/releases/tag/v6.7.4))
 
 * Cache-busting auto-versioning for CSS and JS [(CREDIT)](http://www.particletree.com/notebook/automatically-version-your-css-and-javascript-files/)
-
-* Easy SASS and JS compilation tools with a nice GUI ([Codekit App](https://codekitapp.com))
 
 ## Setup
 In order:
