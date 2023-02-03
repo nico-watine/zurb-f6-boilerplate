@@ -11,15 +11,15 @@ This is a macOS-optimized [foundation-zurb-template](https://github.com/zurb/fou
 ## Setup
 In order:
 
-* `cd` Terminal into your install directory
+- `cd` Terminal into your install directory
 
-* Clone the repo: `git clone https://github.com/nico-watine/zurb-f6-boilerplate.git`
+- Clone the repo: `git clone https://github.com/nico-watine/zurb-f6-boilerplate.git`
 
-* `yarn`
+- `yarn`
 
-* `bower install`
+- `bower install`
 
-* Ensure 'External Server Address' is correct in 'config.codekit' file
+- Ensure 'External Server Address' is correct in 'config.codekit' file
 
 ### Notes
 There is an invisible `.htaccess` file located in `/assets`. This `.htaccess` file **cannot** be deleted. It is auto imported into `/dist` and is necessary for autoversioning to function correctly
