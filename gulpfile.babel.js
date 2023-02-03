@@ -16,7 +16,7 @@ const $ = plugins();
 const PRODUCTION = !!(yargs.argv.production);
 
 
-// Load settings from settings.yml
+// Load settings from config.yml
 const { COMPATIBILITY, UNCSS_OPTIONS, PATHS } = loadConfig();
 
 function loadConfig() {
