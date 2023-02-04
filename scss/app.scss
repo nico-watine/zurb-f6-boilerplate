@@ -60,9 +60,9 @@
 @include foundation-prototype-classes;
 
 // Motion-UI
-// @import 'motion-ui';
-// @include motion-ui-transitions; // requires @import 'motion-ui'
-// @include motion-ui-animations; // requires @import 'motion-ui'
+@import 'motion-ui';
+@include motion-ui-transitions; // requires @import 'motion-ui'
+@include motion-ui-animations; // requires @import 'motion-ui'
 
 
 // ------------------------------------------------------------------------------
