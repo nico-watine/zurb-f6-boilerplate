@@ -61,8 +61,8 @@
 
 // Motion-UI
 // @import 'motion-ui';
-// @include motion-ui-transitions;
-// @include motion-ui-animations;
+// @include motion-ui-transitions; // requires @import 'motion-ui'
+// @include motion-ui-animations; // requires @import 'motion-ui'
 
 
 // ------------------------------------------------------------------------------
