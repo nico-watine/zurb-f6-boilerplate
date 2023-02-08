@@ -6602,12 +6602,6 @@
       "sC" : 0,
       "tS" : 0
     },
-    "\/js\/vendor" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/js\/vendor",
-      "oF" : 0
-    },
     "\/node_modules" : {
       "ft" : 65536,
       "oA" : 2,

@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Removed
 - `default.html` - Removed both `<script>` lines regarding the use of the Google jQuery CDN
+- `/js/vendor/` - Deleted directory which contained local fallback jQuery file
 
 ## [2.1.0]
 
