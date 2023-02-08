@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [3.0.0]
+
+### Changed
+- `config.yml` - Begin importing jquery via `bower_components`. The discontinued use of Google's jQuery CDN is what merits a major version bump
+
+### Removed
+- `default.html` - Removed both `<script>` lines regarding the use of the Google jQuery CDN
+- `/js/vendor/` - Deleted directory which contained local fallback jQuery file
+
 ## [2.1.0]
 
 ### Changed
