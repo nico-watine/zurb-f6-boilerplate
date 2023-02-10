@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [3.1.0]
+- `_settings.scss` - Changed main `font-family` stack to Arial for consistency across OSs. By removing Helvetica, it makes designing in Sketch more accurately reflect what most visitors will see
+
 ## [3.0.0]
 
 ### Changed
