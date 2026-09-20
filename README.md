@@ -21,5 +21,12 @@ In order:
 
 - Ensure 'External Server Address' is correct in 'config.codekit' file
 
+## Build
+To dev:
+- `yarn start`
+
+To build:
+- `yarn build`
+
 ### Notes
 There is an invisible `.htaccess` file located in `/assets`. This `.htaccess` file **cannot** be deleted. It is auto imported into `/dist` and is necessary for autoversioning to function correctly

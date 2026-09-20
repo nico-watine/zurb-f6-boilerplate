@@ -2,8 +2,8 @@
   "name": "zurb-f6-boilerplate",
   "description": "macOS-optimized boilerplate using ZURB's 'Advanced' Foundation 6 framework",
   "scripts": {
-    "start": "gulp",
-    "build": "gulp build --production"
+    "start": "yarn start",
+    "build": "yarn build"
   },
   "author": "Nico Watine <nico@studioncreations.com> (https://nicowatine.me/)",
   "license": "MIT",
