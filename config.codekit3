@@ -7,7 +7,7 @@
       "uuidString" : "472B7510-C306-426F-AF80-FB25224303CF"
     }
   ],
-  "creatorBuild" : "34418",
+  "creatorBuild" : "34472",
   "files" : {
     "\/_ignores\/autoprefixer-browser-string.txt" : {
       "cB" : 0,
@@ -4247,44 +4247,6 @@
       "oAP" : "\/bower_components\/jquery\/dist\/jquery.slim.min.map",
       "oF" : 0
     },
-    "\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.map",
-      "oF" : 0
-    },
-    "\/bower_components\/jquery\/external\/sizzle\/LICENSE.txt" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/jquery\/external\/sizzle\/LICENSE.txt",
-      "oF" : 0
-    },
     "\/bower_components\/jquery\/LICENSE.txt" : {
       "cB" : 0,
       "ft" : 8192,
@@ -4642,6 +4604,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/bower_components\/jquery\/src\/core\/var\/rhtml.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/bower_components\/jquery\/src\/core\/var\/rhtml.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/bower_components\/jquery\/src\/core\/var\/rsingleTag.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -4983,28 +4956,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/bower_components\/jquery\/src\/event\/focusin.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/jquery\/src\/event\/focusin.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/bower_components\/jquery\/src\/event\/support.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/jquery\/src\/event\/support.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/bower_components\/jquery\/src\/event\/trigger.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -5192,17 +5143,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/bower_components\/jquery\/src\/selector-sizzle.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/jquery\/src\/selector-sizzle.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/bower_components\/jquery\/src\/selector.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -5210,6 +5150,28 @@
       "mi" : 1,
       "oA" : 2,
       "oAP" : "\/bower_components\/jquery\/src\/selector.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/bower_components\/jquery\/src\/selector\/contains.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/bower_components\/jquery\/src\/selector\/contains.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/bower_components\/jquery\/src\/selector\/escapeSelector.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/bower_components\/jquery\/src\/selector\/escapeSelector.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -5423,6 +5385,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/bower_components\/jquery\/src\/var\/pop.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/bower_components\/jquery\/src\/var\/pop.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/bower_components\/jquery\/src\/var\/push.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -5485,6 +5458,28 @@
       "mi" : 1,
       "oA" : 2,
       "oAP" : "\/bower_components\/jquery\/src\/var\/slice.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/bower_components\/jquery\/src\/var\/sort.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/bower_components\/jquery\/src\/var\/sort.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/bower_components\/jquery\/src\/var\/splice.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/bower_components\/jquery\/src\/var\/splice.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -7620,6 +7615,10 @@
         "active" : 0,
         "optionString" : "'always', {exceptAfterSingleLine: false}"
       },
+      "logical-assignment-operators" : {
+        "active" : 0,
+        "optionString" : "'always',  {'enforceForIfStatements': false}"
+      },
       "max-classes-per-file" : {
         "active" : 0,
         "optionString" : "1"
@@ -7780,6 +7779,9 @@
       "no-empty-pattern" : {
         "active" : 1
       },
+      "no-empty-static-block" : {
+        "active" : 0
+      },
       "no-eq-null" : {
         "active" : 0
       },
@@ -7811,7 +7813,8 @@
         "active" : 1
       },
       "no-fallthrough" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-floating-decimal" : {
         "active" : 0
@@ -7917,6 +7920,9 @@
         "active" : 0
       },
       "no-new-func" : {
+        "active" : 0
+      },
+      "no-new-native-nonconstructor" : {
         "active" : 0
       },
       "no-new-object" : {
@@ -8659,6 +8665,7 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
+    "rollupTreeshakingModuleSideEffects" : 1,
     "skippedFoldersString" : "_cache,cache,\/dist,\/js\/vendor,log,_logs,logs,node_modules,\/src,\/storage\/framework\/sessions,\/assets",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
@@ -8733,7 +8740,7 @@
       },
       "comments" : {
         "active" : 0,
-        "flagValue" : -1
+        "flagValue" : 1
       },
       "comparisons" : {
         "active" : 1,
